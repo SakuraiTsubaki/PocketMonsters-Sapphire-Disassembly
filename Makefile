@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: help check-no-rom identify analyze-startup analyze-early-main analyze-early-sprite
+.PHONY: help check-no-rom identify analyze-startup analyze-early-main analyze-early-sprite analyze-sprite-resources
 
 help:
 	@echo "PocketMonsters-Sapphire-Disassembly reconstruction targets"
@@ -9,6 +9,7 @@ help:
 	@echo "  make analyze-startup ROM=path       Decode Init/IntrMain and localization metadata"
 	@echo "  make analyze-early-main ROM=path    Fingerprint early main.c function boundaries"
 	@echo "  make analyze-early-sprite ROM=path  Fingerprint first 21 sprite.c functions"
+	@echo "  make analyze-sprite-resources ROM=path  Fingerprint next 13 sprite.c resource functions"
 	@echo ""
 	@echo "Full ROM build targets will be added as reconstruction coverage grows."
 
@@ -35,3 +36,7 @@ analyze-early-main:
 analyze-early-sprite:
 	@test -n "$(ROM)" || (echo "Usage: make analyze-early-sprite ROM=/path/to/file.gba" && exit 2)
 	$(PYTHON) tools/analyze_early_sprite.py "$(ROM)"
+
+analyze-sprite-resources:
+	@test -n "$(ROM)" || (echo "Usage: make analyze-sprite-resources ROM=/path/to/file.gba" && exit 2)
+	$(PYTHON) tools/analyze_sprite_resources.py "$(ROM)"
