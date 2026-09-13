@@ -65,11 +65,13 @@ Reconstruction is proceeding linearly from the ROM entry point into linked sourc
 - The linker transition from `main.c` to `sprite.c` is confirmed.
 - The first 21 `sprite.c` functions, `ResetSpriteData` through `CalcCenterToCornerVec`, are mapped across all nine targets with independent SHA-256 verification files.
 - The next 13 `sprite.c` resource-management functions, `AllocSpriteTiles` through `DestroySpriteAndFreeResources`, are mapped across all nine targets with 117 per-function SHA-256 fingerprints.
-- The following sprite animation-loop block is mapped through `JumpToTopOfAnimLoop`, with per-target verification under `verification/sprite_animation/`.
+- The sprite animation-loop block is mapped through `JumpToTopOfAnimLoop`, with per-target verification under `verification/sprite_animation/`.
 - The Japanese retail sequence omits the international `DrawPartyMenuMonText` body between `DestroySpriteAndFreeResources` and `AnimateSprite`, creating a real source-layout split rather than a simple address relocation.
-- `EUR-AXPE-v1` = `USA-EUR-AXPE-v2`, French Rev 0 = Rev 1, and Italian Rev 0 = Rev 1 remain byte-identical throughout the newly mapped animation block.
-- Japanese `sprite.c` code continues to use an independent boundary map; DE/FR/IT retain international function sizes with the established `+0x134` pre-code displacement through the completed animation block.
+- The first affine-animation core block, `BeginAffineAnim` through `DecrementAffineAnimDelayCounter`, is mapped as 19 functions across all nine targets. Seventeen of those functions are raw-byte identical across every analyzed ROM.
+- `ContinueAffineAnim` retains build-dependent branch/call encodings, while `CopyOamMatrix` is the only other affine-core function whose JP raw bytes differ from the international builds.
+- `EUR-AXPE-v1` = `USA-EUR-AXPE-v2`, French Rev 0 = Rev 1, and Italian Rev 0 = Rev 1 remain byte-identical throughout both the animation-loop and affine-core passes.
+- Japanese `sprite.c` code uses an independent boundary map at AXPE `-0xE4` through the completed affine core; DE/FR/IT retain international function sizes at AXPE `+0x134`.
 
-See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), [`docs/SPRITE_RESOURCE_FUNCTIONS.md`](docs/SPRITE_RESOURCE_FUNCTIONS.md), [`docs/SPRITE_ANIMATION_FUNCTIONS.md`](docs/SPRITE_ANIMATION_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
+See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), [`docs/SPRITE_RESOURCE_FUNCTIONS.md`](docs/SPRITE_RESOURCE_FUNCTIONS.md), [`docs/SPRITE_ANIMATION_FUNCTIONS.md`](docs/SPRITE_ANIMATION_FUNCTIONS.md), [`docs/SPRITE_AFFINE_CORE_FUNCTIONS.md`](docs/SPRITE_AFFINE_CORE_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
 
-The active next boundary is `BeginAffineAnim`: `0x08001868` JP, `0x0800194C` AXPE, and `0x08001A80` DE/FR/IT. The next pass continues through affine-animation command and state helpers while preserving the independent JP layout map.
+The active next boundary is `ApplyAffineAnimFrameRelativeAndUpdateMatrix`: `0x08001D18` JP, `0x08001DFC` AXPE, and `0x08001F30` DE/FR/IT. The next pass continues through affine frame application and the public sprite-animation control APIs.
