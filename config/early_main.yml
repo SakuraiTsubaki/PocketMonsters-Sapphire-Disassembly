@@ -1,0 +1,78 @@
+schema_version: 1
+source_unit: src/main.c
+rom_base: 0x08000000
+families:
+  jp:
+    targets: [JPN-AXPJ-v0]
+    functions:
+      UpdateLinkAndCallCallbacks: {address: 0x08000348, size: 0x48}
+      InitMainCallbacks:          {address: 0x08000390, size: 0x20}
+      CallCallbacks:              {address: 0x080003B0, size: 0x24}
+      SetMainCallback2:           {address: 0x080003D4, size: 0x14}
+      SeedRngWithRtc:             {address: 0x080003E8, size: 0x1C}
+      InitKeys:                   {address: 0x08000404, size: 0x28}
+      ReadKeys:                   {address: 0x0800042C, size: 0x9C}
+      InitIntrHandlers:           {address: 0x080004C8, size: 0x7C}
+      SetVBlankCallback:          {address: 0x08000544, size: 0x0C}
+      SetHBlankCallback:          {address: 0x08000550, size: 0x0C}
+      SetVCountCallback:          {address: 0x0800055C, size: 0x0C}
+      SetSerialCallback:          {address: 0x08000568, size: 0x0C}
+      VBlankIntr:                 {address: 0x08000574, size: 0x7C}
+      InitFlashTimer:             {address: 0x080005F0, size: 0x14}
+      HBlankIntr:                 {address: 0x08000604, size: 0x30}
+      VCountIntr:                 {address: 0x08000634, size: 0x30}
+      SerialIntr:                 {address: 0x08000664, size: 0x30}
+      IntrDummy:                  {address: 0x08000694, size: 0x04}
+      WaitForVBlank:              {address: 0x08000698, size: 0x20}
+      DoSoftReset:                {address: 0x080006B8, size: 0x70}
+      ClearPokemonCrySongs:       {address: 0x08000728, size: 0x24}
+
+  axpe:
+    targets: [USA-AXPE-v0, EUR-AXPE-v1, USA-EUR-AXPE-v2]
+    functions:
+      UpdateLinkAndCallCallbacks: {address: 0x08000340, size: 0x48}
+      InitMainCallbacks:          {address: 0x08000388, size: 0x20}
+      CallCallbacks:              {address: 0x080003A8, size: 0x24}
+      SetMainCallback2:           {address: 0x080003CC, size: 0x18}
+      SeedRngWithRtc:             {address: 0x080003E4, size: 0x1C}
+      InitKeys:                   {address: 0x08000400, size: 0x28}
+      ReadKeys:                   {address: 0x08000428, size: 0x9C}
+      InitIntrHandlers:           {address: 0x080004C4, size: 0x7C}
+      SetVBlankCallback:          {address: 0x08000540, size: 0x0C}
+      SetHBlankCallback:          {address: 0x0800054C, size: 0x0C}
+      SetVCountCallback:          {address: 0x08000558, size: 0x0C}
+      SetSerialCallback:          {address: 0x08000564, size: 0x0C}
+      VBlankIntr:                 {address: 0x08000570, size: 0x7C}
+      InitFlashTimer:             {address: 0x080005EC, size: 0x14}
+      HBlankIntr:                 {address: 0x08000600, size: 0x30}
+      VCountIntr:                 {address: 0x08000630, size: 0x30}
+      SerialIntr:                 {address: 0x08000660, size: 0x30}
+      IntrDummy:                  {address: 0x08000690, size: 0x04}
+      WaitForVBlank:              {address: 0x08000694, size: 0x20}
+      DoSoftReset:                {address: 0x080006B4, size: 0x70}
+      ClearPokemonCrySongs:       {address: 0x08000724, size: 0x24}
+
+  extended_european:
+    targets: [DEU-AXPD-v1, FRA-AXPF-v0, FRA-AXPF-v1, ITA-AXPI-v0, ITA-AXPI-v1]
+    functions:
+      UpdateLinkAndCallCallbacks: {address: 0x08000474, size: 0x48}
+      InitMainCallbacks:          {address: 0x080004BC, size: 0x20}
+      CallCallbacks:              {address: 0x080004DC, size: 0x24}
+      SetMainCallback2:           {address: 0x08000500, size: 0x18}
+      SeedRngWithRtc:             {address: 0x08000518, size: 0x1C}
+      InitKeys:                   {address: 0x08000534, size: 0x28}
+      ReadKeys:                   {address: 0x0800055C, size: 0x9C}
+      InitIntrHandlers:           {address: 0x080005F8, size: 0x7C}
+      SetVBlankCallback:          {address: 0x08000674, size: 0x0C}
+      SetHBlankCallback:          {address: 0x08000680, size: 0x0C}
+      SetVCountCallback:          {address: 0x0800068C, size: 0x0C}
+      SetSerialCallback:          {address: 0x08000698, size: 0x0C}
+      VBlankIntr:                 {address: 0x080006A4, size: 0x7C}
+      InitFlashTimer:             {address: 0x08000720, size: 0x14}
+      HBlankIntr:                 {address: 0x08000734, size: 0x30}
+      VCountIntr:                 {address: 0x08000764, size: 0x30}
+      SerialIntr:                 {address: 0x08000794, size: 0x30}
+      IntrDummy:                  {address: 0x080007C4, size: 0x04}
+      WaitForVBlank:              {address: 0x080007C8, size: 0x20}
+      DoSoftReset:                {address: 0x080007E8, size: 0x70}
+      ClearPokemonCrySongs:       {address: 0x08000858, size: 0x24}
