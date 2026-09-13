@@ -1,0 +1,48 @@
+schema_version: 1
+region_families:
+  jp:
+    targets: [JPN-AXPJ-v0]
+    init: 0x080000D0
+    agb_main: 0x0800024C
+    agb_main_size: 0xFC
+    update_link_and_call_callbacks: 0x08000348
+    init_main_callbacks: 0x08000390
+    seed_rng_with_rtc: 0x080003E8
+    init_keys: 0x08000404
+    init_intr_handlers: 0x080004C8
+    g_intr_table: 0x03001B30
+
+  axpe:
+    targets: [USA-AXPE-v0, EUR-AXPE-v1, USA-EUR-AXPE-v2]
+    init: 0x080000D0
+    agb_main: 0x0800024C
+    agb_main_size: 0xF4
+    update_link_and_call_callbacks: 0x08000340
+    init_main_callbacks: 0x08000388
+    seed_rng_with_rtc: 0x080003E4
+    init_keys: 0x08000400
+    init_intr_handlers: 0x080004C4
+    g_intr_table: 0x03001BC0
+
+  extended_european:
+    targets: [DEU-AXPD-v1, FRA-AXPF-v0, FRA-AXPF-v1, ITA-AXPI-v0, ITA-AXPI-v1]
+    init: 0x08000204
+    agb_main: 0x08000380
+    agb_main_size: 0xF4
+    update_link_and_call_callbacks: 0x08000474
+    init_main_callbacks: 0x080004BC
+    seed_rng_with_rtc: 0x08000518
+    init_keys: 0x08000534
+    init_intr_handlers: 0x080005F8
+    g_intr_table: 0x03001BC0
+
+agb_main_initial_calls:
+  - RegisterRamReset
+  - InitKeys
+  - InitIntrHandlers
+  - m4aSoundInit
+  - RtcInit
+  - CheckForFlashMemory
+  - InitMainCallbacks
+  - InitMapMusic
+  - SeedRngWithRtc
