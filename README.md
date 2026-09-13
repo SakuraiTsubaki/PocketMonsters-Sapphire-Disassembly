@@ -57,15 +57,16 @@ build/          reproducible build/intermediate artifacts; ROM images excluded
 
 Reconstruction is proceeding linearly from the ROM entry point into linked source units.
 
-- Nine reference ROM identities and hashes are recorded.
+- Nine reference ROM identities and hashes are recorded and were revalidated before the latest sprite pass.
 - GBA header differences are mapped and validated.
 - German/French/Italian extended metadata at `0xD0–0x203` is reconstructed as assembler source and reproduces the retail bytes exactly.
 - Shared ARM `Init`/`IntrMain` is reconstructed in [`src/startup.s`](src/startup.s); **all 9 reference ROMs reproduce the complete `0x17C`-byte startup block exactly** with target-specific literal values.
 - `AgbMain` and the following 21 early `main.c` functions are mapped per target family with per-function verification fingerprints.
 - The linker transition from `main.c` to `sprite.c` is confirmed.
 - The first 21 `sprite.c` functions, `ResetSpriteData` through `CalcCenterToCornerVec`, are mapped across all nine targets with independent SHA-256 verification files.
-- Japanese `sprite.c` code is tracked with independent function boundaries because compiler/layout differences change function sizes; DE/FR/IT retain the international sizes with their `+0x134` pre-code displacement.
+- The next 13 `sprite.c` resource-management functions, `AllocSpriteTiles` through `DestroySpriteAndFreeResources`, are now mapped across all nine targets with 117 per-function SHA-256 fingerprints.
+- Japanese `sprite.c` code is tracked with independent function boundaries: `ResetAllSprites` is four bytes shorter than the international build, changing the JP displacement from `-0x10` to `-0x14` after that point. DE/FR/IT retain the international sizes with their `+0x134` pre-code displacement through the completed resource block.
 
-See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
+See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), [`docs/SPRITE_RESOURCE_FUNCTIONS.md`](docs/SPRITE_RESOURCE_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
 
-The active next boundary is `AllocSpriteTiles` (`0x08001074` JP, `0x08001084` AXPE, `0x080011B8` DE/FR/IT), continuing through the remaining sprite allocation, animation, affine-animation, and palette code.
+The active next boundary is the function following `DestroySpriteAndFreeResources`, corresponding to `DrawPartyMenuMonText` in current source order: `0x08001418` JP, `0x0800142C` AXPE, and `0x08001560` DE/FR/IT. The Japanese body diverges structurally here, so the next pass confirms each family independently before continuing into sprite animation code.
