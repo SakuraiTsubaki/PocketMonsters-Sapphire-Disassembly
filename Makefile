@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: help check-no-rom identify analyze-startup analyze-early-main analyze-early-sprite analyze-sprite-resources analyze-sprite-animation analyze-sprite-affine-core
+.PHONY: help check-no-rom identify analyze-startup analyze-early-main analyze-early-sprite analyze-sprite-resources analyze-sprite-animation analyze-sprite-affine-core analyze-sprite-affine-api
 
 help:
 	@echo "PocketMonsters-Sapphire-Disassembly reconstruction targets"
@@ -12,6 +12,7 @@ help:
 	@echo "  make analyze-sprite-resources ROM=path  Fingerprint next 13 sprite.c resource functions"
 	@echo "  make analyze-sprite-animation ROM=path  Fingerprint sprite animation-loop functions"
 	@echo "  make analyze-sprite-affine-core ROM=path  Fingerprint first 19 affine-animation helpers"
+	@echo "  make analyze-sprite-affine-api ROM=path   Fingerprint affine frame/public animation APIs"
 	@echo ""
 	@echo "Full ROM build targets will be added as reconstruction coverage grows."
 
@@ -50,3 +51,7 @@ analyze-sprite-animation:
 analyze-sprite-affine-core:
 	@test -n "$(ROM)" || (echo "Usage: make analyze-sprite-affine-core ROM=/path/to/file.gba" && exit 2)
 	$(PYTHON) tools/analyze_sprite_affine_core.py "$(ROM)"
+
+analyze-sprite-affine-api:
+	@test -n "$(ROM)" || (echo "Usage: make analyze-sprite-affine-api ROM=/path/to/file.gba" && exit 2)
+	$(PYTHON) tools/analyze_sprite_affine_api.py "$(ROM)"
