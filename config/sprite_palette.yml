@@ -1,0 +1,51 @@
+schema_version: 1
+source_unit: src/sprite.c
+rom_base: 0x08000000
+scope: FreeAllSpritePalettes_through_FreeSpritePaletteByTag
+reference_basis:
+  current_source: pret/pokeruby src/sprite.c
+  historical_asm_commit: 4af578c1865e4b620f4c64401e0a16ccbd9efc8d
+  historical_asm_path: asm/rom1.s
+  retail_rom_bytes: authoritative
+families:
+  jp:
+    targets: [JPN-AXPJ-v0]
+    address_delta_from_axpe: -0xE4
+    functions:
+      FreeAllSpritePalettes: {address: 0x080024E4, size: 0x38}
+      LoadSpritePalette: {address: 0x0800251C, size: 0x4C}
+      LoadSpritePalettes: {address: 0x08002568, size: 0x2C}
+      DoLoadSpritePalette: {address: 0x08002594, size: 0x18}
+      AllocSpritePalette: {address: 0x080025AC, size: 0x30}
+      IndexOfSpritePaletteTag: {address: 0x080025DC, size: 0x38}
+      GetSpritePaletteTagByPaletteNum: {address: 0x08002614, size: 0x10}
+      FreeSpritePaletteByTag: {address: 0x08002624, size: 0x28}
+    next_boundary: 0x0800264C
+    next_function: SetSubspriteTables
+  axpe:
+    targets: [USA-AXPE-v0, EUR-AXPE-v1, USA-EUR-AXPE-v2]
+    functions:
+      FreeAllSpritePalettes: {address: 0x080025C8, size: 0x38}
+      LoadSpritePalette: {address: 0x08002600, size: 0x4C}
+      LoadSpritePalettes: {address: 0x0800264C, size: 0x2C}
+      DoLoadSpritePalette: {address: 0x08002678, size: 0x18}
+      AllocSpritePalette: {address: 0x08002690, size: 0x30}
+      IndexOfSpritePaletteTag: {address: 0x080026C0, size: 0x38}
+      GetSpritePaletteTagByPaletteNum: {address: 0x080026F8, size: 0x10}
+      FreeSpritePaletteByTag: {address: 0x08002708, size: 0x28}
+    next_boundary: 0x08002730
+    next_function: SetSubspriteTables
+  extended_european:
+    targets: [DEU-AXPD-v1, FRA-AXPF-v0, FRA-AXPF-v1, ITA-AXPI-v0, ITA-AXPI-v1]
+    address_delta_from_axpe: 0x134
+    functions:
+      FreeAllSpritePalettes: {address: 0x080026FC, size: 0x38}
+      LoadSpritePalette: {address: 0x08002734, size: 0x4C}
+      LoadSpritePalettes: {address: 0x08002780, size: 0x2C}
+      DoLoadSpritePalette: {address: 0x080027AC, size: 0x18}
+      AllocSpritePalette: {address: 0x080027C4, size: 0x30}
+      IndexOfSpritePaletteTag: {address: 0x080027F4, size: 0x38}
+      GetSpritePaletteTagByPaletteNum: {address: 0x0800282C, size: 0x10}
+      FreeSpritePaletteByTag: {address: 0x0800283C, size: 0x28}
+    next_boundary: 0x08002864
+    next_function: SetSubspriteTables
