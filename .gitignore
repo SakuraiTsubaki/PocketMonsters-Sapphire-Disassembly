@@ -1,0 +1,42 @@
+# ROM images and save data
+*.gba
+*.agb
+*.bin.rom
+*.sav
+*.sa1
+*.sa2
+*.sa3
+*.sgm
+
+# Build outputs
+build/
+*.elf
+*.o
+*.a
+*.map
+*.sym
+*.dump
+*.lst
+
+# Generated/intermediate asset formats
+*.4bpp
+*.8bpp
+*.gbapal
+*.lz
+*.rl
+*.pcm
+
+# Local-only reference inputs
+baserom*.gba
+reference_roms/
+local_roms/
+
+# Tool/editor noise
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
