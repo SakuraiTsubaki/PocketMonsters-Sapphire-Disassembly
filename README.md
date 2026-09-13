@@ -60,7 +60,7 @@ Reconstruction has started from the ROM entry point and is proceeding linearly i
 - Nine reference ROM identities and hashes are recorded.
 - GBA header differences are mapped and validated.
 - German/French/Italian extended metadata at `0xD0–0x203` is reconstructed as assembler source and reproduces the retail bytes exactly.
-- Shared ARM `Init`/`IntrMain` is reconstructed in [`src/startup.s`](src/startup.s); the `0x17C`-byte block has been byte-identical in tested target configurations.
+- Shared ARM `Init`/`IntrMain` is reconstructed in [`src/startup.s`](src/startup.s); **all 9 reference ROMs reproduce the complete `0x17C`-byte startup block exactly** with target-specific literal values.
 - `AgbMain` Thumb entry points, function sizes, early internal symbols, and first initialization calls are mapped by target family.
 
 See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
