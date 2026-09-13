@@ -47,7 +47,7 @@ Thirteen function bodies are byte-identical across every analyzed non-Japanese t
 
 `tools/analyze_early_sprite.py` fingerprints these 21 boundaries directly from a local read-only retail ROM. Per-target SHA-256 records are kept under `verification/early_sprite/` so future reconstruction changes can be checked independently for every supported release.
 
-## Next boundary
+## Continuation
 
 The next function is `AllocSpriteTiles`:
 
@@ -55,4 +55,4 @@ The next function is `AllocSpriteTiles`:
 - AXPE: `0x08001084`
 - DE/FR/IT: `0x080011B8`
 
-The next reconstruction pass continues through sprite tile allocation, animation setup, affine animation, palette loading, and the remaining `sprite.c` functions.
+That continuation is now mapped through `DestroySpriteAndFreeResources`. See `docs/SPRITE_RESOURCE_FUNCTIONS.md`, `config/sprite_resources.yml`, and `verification/sprite_resources/` for the next 13 functions and their 117 per-target fingerprints.
