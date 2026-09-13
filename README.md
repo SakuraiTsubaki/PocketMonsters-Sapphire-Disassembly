@@ -10,7 +10,7 @@ The long-term goal is to rebuild supported retail ROM revisions from repository 
 - Preserve version-specific behavior across Japanese, English/European, German, French, and Italian releases and revisions.
 - Rebuild each supported target from repository sources.
 - Verify rebuilt outputs against known retail hashes.
-- Keep ROM binaries (`*.gba`) out of Git history.
+- Keep ROM binaries (`*.gba`, `*.agb`, `*.rom`) out of Git history.
 
 ## Reference set
 
@@ -32,9 +32,9 @@ Full SHA-256 values and header metadata live in [`config/versions.yml`](config/v
 
 ## Repository policy
 
-**ROM binaries are the only project artifacts intentionally excluded from Git.** Reconstructed source material, extracted/recreated editable assets, tooling, manifests, tests, documentation, comparison data, and verification metadata belong in the repository.
+**ROM binaries are the only project artifacts intentionally excluded from Git.** Reconstructed source material, extracted/recreated editable assets, tooling, manifests, tests, documentation, comparison data, build/intermediate data useful for reproducibility, and verification metadata belong in the repository.
 
-Generated ROMs are build outputs only and remain ignored by Git.
+Generated ROM images remain outside Git because they are ROM binaries. Other project outputs are retained unless they are ordinary workstation/cache noise.
 
 ## Planned source layout
 
@@ -50,11 +50,19 @@ include/        headers and constants
 tools/          extraction, conversion, validation, and build tooling
 verification/   expected hashes and reproducibility checks
 docs/           reconstruction notes, ROM maps, and research logs
-build/          generated outputs (ignored)
+build/          reproducible build/intermediate artifacts; ROM images excluded
 ```
 
 ## Current status
 
-**Bootstrap phase.** Reference ROM identities and repository policy are established. Reconstruction will proceed from ROM structure mapping into code/data/assets, with byte-identical verification added per target as coverage grows.
+Reconstruction has started from the ROM entry point and is proceeding linearly into early boot code.
 
-See [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md) for the working plan.
+- Nine reference ROM identities and hashes are recorded.
+- GBA header differences are mapped and validated.
+- German/French/Italian extended metadata at `0xD0–0x203` is reconstructed as assembler source and reproduces the retail bytes exactly.
+- Shared ARM `Init`/`IntrMain` is reconstructed in [`src/startup.s`](src/startup.s); the `0x17C`-byte block has been byte-identical in tested target configurations.
+- `AgbMain` Thumb entry points, function sizes, early internal symbols, and first initialization calls are mapped by target family.
+
+See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
+
+The active next step is version-aware Thumb reconstruction beginning at `AgbMain`, followed by the adjacent main-loop/input/interrupt functions.
