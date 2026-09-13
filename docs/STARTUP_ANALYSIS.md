@@ -69,13 +69,15 @@ Each locale source has been independently assembled and compared against the cor
 
 ## Byte-identical startup source
 
-`src/startup.s` reconstructs `Init`, `IntrMain`, the stack literals, and the startup literal pool. The code was assembled as ARMv4T and compared to the retail ROM bytes.
+`src/startup.s` reconstructs `Init`, `IntrMain`, the stack literals, and the startup literal pool. It was assembled as ARMv4T with target-specific literal overrides and compared against every reference ROM.
 
-Verified configurations:
+**Result: 9/9 reference ROMs reproduce the complete `0x17C`-byte startup block exactly.**
 
-- default literals (`AXPE`): exact `0x17C`-byte match
-- Japanese literal override (`G_INTR_TABLE_PTR=0x03001B30`): exact `0x17C`-byte match
-- extended-localization literal override (`AGB_MAIN_PTR=0x08000381`): exact `0x17C`-byte match
+Target-specific assembler values are limited to:
+
+- Japanese: `G_INTR_TABLE_PTR=0x03001B30`
+- German/French/Italian: `AGB_MAIN_PTR=0x08000381`
+- AXPE targets use the source defaults (`0x0800024D`, `0x03001BC0`)
 
 The next executable reconstruction boundary is `AgbMain` in Thumb code, followed by function-by-function mapping of early boot initialization.
 
