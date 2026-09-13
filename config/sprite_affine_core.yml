@@ -1,0 +1,84 @@
+schema_version: 1
+source_unit: src/sprite.c
+rom_base: 0x08000000
+scope: BeginAffineAnim_through_DecrementAffineAnimDelayCounter
+reference_basis:
+  current_source: pret/pokeruby src/sprite.c
+  retail_rom_bytes: authoritative
+families:
+  jp:
+    targets: [JPN-AXPJ-v0]
+    address_delta_from_axpe: -0xE4
+    functions:
+      BeginAffineAnim: {address: 0x08001868, size: 0x7C}
+      ContinueAffineAnim: {address: 0x080018E4, size: 0x98}
+      AffineAnimDelay: {address: 0x0800197C, size: 0x34}
+      AffineAnimCmd_loop: {address: 0x080019B0, size: 0x34}
+      BeginAffineAnimLoop: {address: 0x080019E4, size: 0x3C}
+      ContinueAffineAnimLoop: {address: 0x08001A20, size: 0x30}
+      JumpToTopOfAffineAnimLoop: {address: 0x08001A50, size: 0x6C}
+      AffineAnimCmd_jump: {address: 0x08001ABC, size: 0x4C}
+      AffineAnimCmd_end: {address: 0x08001B08, size: 0x3C}
+      AffineAnimCmd_frame: {address: 0x08001B44, size: 0x38}
+      CopyOamMatrix: {address: 0x08001B7C, size: 0x20}
+      GetSpriteMatrixNum: {address: 0x08001B9C, size: 0x20}
+      SetSpriteOamFlipBits: {address: 0x08001BBC, size: 0x74}
+      AffineAnimStateRestartAnim: {address: 0x08001C30, size: 0x1C}
+      AffineAnimStateStartAnim: {address: 0x08001C4C, size: 0x28}
+      AffineAnimStateReset: {address: 0x08001C74, size: 0x28}
+      ApplyAffineAnimFrameAbsolute: {address: 0x08001C9C, size: 0x24}
+      DecrementAnimDelayCounter: {address: 0x08001CC0, size: 0x28}
+      DecrementAffineAnimDelayCounter: {address: 0x08001CE8, size: 0x30}
+    next_boundary: 0x08001D18
+    next_function: ApplyAffineAnimFrameRelativeAndUpdateMatrix
+
+  axpe:
+    targets: [USA-AXPE-v0, EUR-AXPE-v1, USA-EUR-AXPE-v2]
+    functions:
+      BeginAffineAnim: {address: 0x0800194C, size: 0x7C}
+      ContinueAffineAnim: {address: 0x080019C8, size: 0x98}
+      AffineAnimDelay: {address: 0x08001A60, size: 0x34}
+      AffineAnimCmd_loop: {address: 0x08001A94, size: 0x34}
+      BeginAffineAnimLoop: {address: 0x08001AC8, size: 0x3C}
+      ContinueAffineAnimLoop: {address: 0x08001B04, size: 0x30}
+      JumpToTopOfAffineAnimLoop: {address: 0x08001B34, size: 0x6C}
+      AffineAnimCmd_jump: {address: 0x08001BA0, size: 0x4C}
+      AffineAnimCmd_end: {address: 0x08001BEC, size: 0x3C}
+      AffineAnimCmd_frame: {address: 0x08001C28, size: 0x38}
+      CopyOamMatrix: {address: 0x08001C60, size: 0x20}
+      GetSpriteMatrixNum: {address: 0x08001C80, size: 0x20}
+      SetSpriteOamFlipBits: {address: 0x08001CA0, size: 0x74}
+      AffineAnimStateRestartAnim: {address: 0x08001D14, size: 0x1C}
+      AffineAnimStateStartAnim: {address: 0x08001D30, size: 0x28}
+      AffineAnimStateReset: {address: 0x08001D58, size: 0x28}
+      ApplyAffineAnimFrameAbsolute: {address: 0x08001D80, size: 0x24}
+      DecrementAnimDelayCounter: {address: 0x08001DA4, size: 0x28}
+      DecrementAffineAnimDelayCounter: {address: 0x08001DCC, size: 0x30}
+    next_boundary: 0x08001DFC
+    next_function: ApplyAffineAnimFrameRelativeAndUpdateMatrix
+
+  extended_european:
+    targets: [DEU-AXPD-v1, FRA-AXPF-v0, FRA-AXPF-v1, ITA-AXPI-v0, ITA-AXPI-v1]
+    address_delta_from_axpe: 0x134
+    functions:
+      BeginAffineAnim: {address: 0x08001A80, size: 0x7C}
+      ContinueAffineAnim: {address: 0x08001AFC, size: 0x98}
+      AffineAnimDelay: {address: 0x08001B94, size: 0x34}
+      AffineAnimCmd_loop: {address: 0x08001BC8, size: 0x34}
+      BeginAffineAnimLoop: {address: 0x08001BFC, size: 0x3C}
+      ContinueAffineAnimLoop: {address: 0x08001C38, size: 0x30}
+      JumpToTopOfAffineAnimLoop: {address: 0x08001C68, size: 0x6C}
+      AffineAnimCmd_jump: {address: 0x08001CD4, size: 0x4C}
+      AffineAnimCmd_end: {address: 0x08001D20, size: 0x3C}
+      AffineAnimCmd_frame: {address: 0x08001D5C, size: 0x38}
+      CopyOamMatrix: {address: 0x08001D94, size: 0x20}
+      GetSpriteMatrixNum: {address: 0x08001DB4, size: 0x20}
+      SetSpriteOamFlipBits: {address: 0x08001DD4, size: 0x74}
+      AffineAnimStateRestartAnim: {address: 0x08001E48, size: 0x1C}
+      AffineAnimStateStartAnim: {address: 0x08001E64, size: 0x28}
+      AffineAnimStateReset: {address: 0x08001E8C, size: 0x28}
+      ApplyAffineAnimFrameAbsolute: {address: 0x08001EB4, size: 0x24}
+      DecrementAnimDelayCounter: {address: 0x08001ED8, size: 0x28}
+      DecrementAffineAnimDelayCounter: {address: 0x08001F00, size: 0x30}
+    next_boundary: 0x08001F30
+    next_function: ApplyAffineAnimFrameRelativeAndUpdateMatrix
