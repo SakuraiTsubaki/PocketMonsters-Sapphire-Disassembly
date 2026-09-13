@@ -1,0 +1,59 @@
+schema_version: 1
+source_unit: src/sprite.c
+rom_base: 0x08000000
+scope: DrawPartyMenuMonText_or_AnimateSprite_through_JumpToTopOfAnimLoop
+reference_basis:
+  current_source: pret/pokeruby src/sprite.c
+  retail_rom_bytes: authoritative
+families:
+  jp:
+    targets: [JPN-AXPJ-v0]
+    omitted_in_this_sequence: [DrawPartyMenuMonText]
+    functions:
+      AnimateSprite:          {address: 0x08001418, size: 0x48}
+      BeginAnim:              {address: 0x08001460, size: 0xF0}
+      ContinueAnim:           {address: 0x08001550, size: 0xA0}
+      AnimCmd_frame:          {address: 0x080015F0, size: 0xAC}
+      AnimCmd_end:            {address: 0x0800169C, size: 0x18}
+      AnimCmd_jump:           {address: 0x080016B4, size: 0xC8}
+      AnimCmd_loop:           {address: 0x0800177C, size: 0x20}
+      BeginAnimLoop:          {address: 0x0800179C, size: 0x38}
+      ContinueAnimLoop:       {address: 0x080017D4, size: 0x20}
+      JumpToTopOfAnimLoop:    {address: 0x080017F4, size: 0x74}
+    next_boundary: 0x08001868
+    next_function: BeginAffineAnim
+
+  axpe:
+    targets: [USA-AXPE-v0, EUR-AXPE-v1, USA-EUR-AXPE-v2]
+    functions:
+      DrawPartyMenuMonText:   {address: 0x0800142C, size: 0xD0}
+      AnimateSprite:          {address: 0x080014FC, size: 0x48}
+      BeginAnim:              {address: 0x08001544, size: 0xF0}
+      ContinueAnim:           {address: 0x08001634, size: 0xA0}
+      AnimCmd_frame:          {address: 0x080016D4, size: 0xAC}
+      AnimCmd_end:            {address: 0x08001780, size: 0x18}
+      AnimCmd_jump:           {address: 0x08001798, size: 0xC8}
+      AnimCmd_loop:           {address: 0x08001860, size: 0x20}
+      BeginAnimLoop:          {address: 0x08001880, size: 0x38}
+      ContinueAnimLoop:       {address: 0x080018B8, size: 0x20}
+      JumpToTopOfAnimLoop:    {address: 0x080018D8, size: 0x74}
+    next_boundary: 0x0800194C
+    next_function: BeginAffineAnim
+
+  extended_european:
+    targets: [DEU-AXPD-v1, FRA-AXPF-v0, FRA-AXPF-v1, ITA-AXPI-v0, ITA-AXPI-v1]
+    address_delta_from_axpe: 0x134
+    functions:
+      DrawPartyMenuMonText:   {address: 0x08001560, size: 0xD0}
+      AnimateSprite:          {address: 0x08001630, size: 0x48}
+      BeginAnim:              {address: 0x08001678, size: 0xF0}
+      ContinueAnim:           {address: 0x08001768, size: 0xA0}
+      AnimCmd_frame:          {address: 0x08001808, size: 0xAC}
+      AnimCmd_end:            {address: 0x080018B4, size: 0x18}
+      AnimCmd_jump:           {address: 0x080018CC, size: 0xC8}
+      AnimCmd_loop:           {address: 0x08001994, size: 0x20}
+      BeginAnimLoop:          {address: 0x080019B4, size: 0x38}
+      ContinueAnimLoop:       {address: 0x080019EC, size: 0x20}
+      JumpToTopOfAnimLoop:    {address: 0x08001A0C, size: 0x74}
+    next_boundary: 0x08001A80
+    next_function: BeginAffineAnim
