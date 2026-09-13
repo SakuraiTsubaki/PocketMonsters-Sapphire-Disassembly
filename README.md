@@ -55,14 +55,17 @@ build/          reproducible build/intermediate artifacts; ROM images excluded
 
 ## Current status
 
-Reconstruction has started from the ROM entry point and is proceeding linearly into early boot code.
+Reconstruction is proceeding linearly from the ROM entry point into linked source units.
 
 - Nine reference ROM identities and hashes are recorded.
 - GBA header differences are mapped and validated.
 - German/French/Italian extended metadata at `0xD0–0x203` is reconstructed as assembler source and reproduces the retail bytes exactly.
 - Shared ARM `Init`/`IntrMain` is reconstructed in [`src/startup.s`](src/startup.s); **all 9 reference ROMs reproduce the complete `0x17C`-byte startup block exactly** with target-specific literal values.
-- `AgbMain` Thumb entry points, function sizes, early internal symbols, and first initialization calls are mapped by target family.
+- `AgbMain` and the following 21 early `main.c` functions are mapped per target family with per-function verification fingerprints.
+- The linker transition from `main.c` to `sprite.c` is confirmed.
+- The first 21 `sprite.c` functions, `ResetSpriteData` through `CalcCenterToCornerVec`, are mapped across all nine targets with independent SHA-256 verification files.
+- Japanese `sprite.c` code is tracked with independent function boundaries because compiler/layout differences change function sizes; DE/FR/IT retain the international sizes with their `+0x134` pre-code displacement.
 
-See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
+See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
 
-The active next step is version-aware Thumb reconstruction beginning at `AgbMain`, followed by the adjacent main-loop/input/interrupt functions.
+The active next boundary is `AllocSpriteTiles` (`0x08001074` JP, `0x08001084` AXPE, `0x080011B8` DE/FR/IT), continuing through the remaining sprite allocation, animation, affine-animation, and palette code.
