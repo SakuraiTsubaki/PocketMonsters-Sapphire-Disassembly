@@ -78,3 +78,16 @@ Reconstruction is proceeding linearly from the ROM entry point into linked sourc
 See [`docs/STARTUP_ANALYSIS.md`](docs/STARTUP_ANALYSIS.md), [`docs/AGBMAIN_ANALYSIS.md`](docs/AGBMAIN_ANALYSIS.md), [`docs/MAIN_EARLY_FUNCTIONS.md`](docs/MAIN_EARLY_FUNCTIONS.md), [`docs/SPRITE_EARLY_FUNCTIONS.md`](docs/SPRITE_EARLY_FUNCTIONS.md), [`docs/SPRITE_RESOURCE_FUNCTIONS.md`](docs/SPRITE_RESOURCE_FUNCTIONS.md), [`docs/SPRITE_ANIMATION_FUNCTIONS.md`](docs/SPRITE_ANIMATION_FUNCTIONS.md), [`docs/SPRITE_AFFINE_CORE_FUNCTIONS.md`](docs/SPRITE_AFFINE_CORE_FUNCTIONS.md), [`docs/SPRITE_AFFINE_API_FUNCTIONS.md`](docs/SPRITE_AFFINE_API_FUNCTIONS.md), [`docs/SPRITE_SHEET_TILE_FUNCTIONS.md`](docs/SPRITE_SHEET_TILE_FUNCTIONS.md), [`docs/SPRITE_PALETTE_FUNCTIONS.md`](docs/SPRITE_PALETTE_FUNCTIONS.md), and [`docs/RECONSTRUCTION.md`](docs/RECONSTRUCTION.md).
 
 The active next boundary is `SetSubspriteTables`: `0x0800264C` JP, `0x08002730` AXPE, and `0x08002864` DE/FR/IT. The next pass continues into sprite/subsprite OAM-buffer construction.
+
+## 📚 Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Documentation Hub](docs/README.md) | Central entry point for project documentation |
+| [Project Status](docs/PROJECT_STATUS.md) | Reconstruction and matching status |
+| [Version Coverage](docs/VERSIONS.md) | Supported releases, revisions, sizes, and hashes |
+| [Disassembly Standards](docs/DISASSEMBLY_STANDARDS.md) | Source reconstruction and provenance standards |
+| [Build and Matching](docs/BUILD_AND_MATCHING.md) | Reproducible build and exact-match workflow |
+| [Verification](docs/VERIFICATION.md) | Evidence levels and matching criteria |
+| [Asset Workflow](docs/ASSET_WORKFLOW.md) | Graphics, sprites, deduplication, manifests, and review batches |
+| [Contributing](CONTRIBUTING.md) | Contribution and pull-request guidance |
