@@ -1,5 +1,9 @@
 # PocketMonsters-Sapphire-Disassembly
 
+![Status](https://img.shields.io/badge/status-in_progress-yellow)
+![Project](https://img.shields.io/badge/project-disassembly-blue)
+![ROMs](https://img.shields.io/badge/ROM_binaries-not_included-success)
+
 Multi-region, multi-revision source reconstruction and disassembly of **Pokémon Sapphire**.
 
 The long-term goal is to rebuild supported retail ROM revisions from repository sources **without requiring a local base ROM**. ROM binaries themselves are never committed.
@@ -87,7 +91,9 @@ The active next boundary is `SetSubspriteTables`: `0x0800264C` JP, `0x08002730` 
 | [Project Status](docs/PROJECT_STATUS.md) | Reconstruction and matching status |
 | [Version Coverage](docs/VERSIONS.md) | Supported releases, revisions, sizes, and hashes |
 | [Disassembly Standards](docs/DISASSEMBLY_STANDARDS.md) | Source reconstruction and provenance standards |
+| [Project Standards](docs/PROJECT_STANDARDS.md) | Naming, assets, manifests, provenance, and repository-wide conventions |
 | [Build and Matching](docs/BUILD_AND_MATCHING.md) | Reproducible build and exact-match workflow |
 | [Verification](docs/VERIFICATION.md) | Evidence levels and matching criteria |
 | [Asset Workflow](docs/ASSET_WORKFLOW.md) | Graphics, sprites, deduplication, manifests, and review batches |
+| [Manifest Guide](manifests/README.md) | Manifest conventions and reusable asset-manifest example |
 | [Contributing](CONTRIBUTING.md) | Contribution and pull-request guidance |
