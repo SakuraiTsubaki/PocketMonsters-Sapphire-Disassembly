@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "batch": "pokemon-sprites-003-venusaur",
+  "source": {
+    "file": "Pokemon - Saphir-Edition (Germany) (Rev 1).wba",
+    "size": 16777216,
+    "game_title": "POKEMON SAPP",
+    "game_code": "AXPD",
+    "revision": 1,
+    "sha1": "7e6e034f9cdca6d2c4a270fdb50a94def5883d17",
+    "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead"
+  },
+  "table_offsets": {
+    "front_table": "0x1F5264",
+    "back_table": "0x1F6704",
+    "normal_palette_table": "0x1F74C4",
+    "shiny_palette_table": "0x1F8284",
+    "icon_table": "0x3C7B9C",
+    "icon_palette_indices": "0x3C827C",
+    "icon_palette_table": "0x3C8434"
+  },
+  "dedupe_policy": "one canonical extracted asset per byte-identical sprite/palette; per-ROM occurrences are recorded as references",
+  "species": [
+    {
+      "species_id": 3,
+      "name": "venusaur",
+      "table_entry": {
+        "front_size": 2048,
+        "front_tag": 3,
+        "back_size": 2048,
+        "back_tag": 3,
+        "normal_palette_tag": 3,
+        "shiny_palette_tag": 503
+      },
+      "canonical_offsets": {
+        "front": "0xD3134C",
+        "back": "0xD31900",
+        "palette_normal": "0xD318D8",
+        "palette_shiny": "0xD31DD0"
+      },
+      "decoded_sha256": {
+        "front": "d8f61fe0cea734198539c4853c0c2be397d5ac2d7f2b8bbaf096d8df9712f047",
+        "back": "29d0d9a3659c25662cb2b1383c826fc64a896991cde24c8b226710d6a983adbf",
+        "palette_normal": "23aa64d4fa2e65fdb822f0fc06efb5dd2f535deec6db540cc66e9caaeeb00fa3",
+        "palette_shiny": "b6953a4e1c9688e3baa04d2b4ad8c3ba663015b08117e1ca52c881070d3db409"
+      },
+      "compressed_sha256": {
+        "front": "3b81ec295af0ac26a31a34dfe73b9f9384d758698c85dc9673cae7818fba2ea1",
+        "back": "1d97153d23e835100bb6027474d0c2764c1ff81342df9a6aaae78b40d02071b8",
+        "palette_normal": "9b449e34905632086cdb2ee4e954cd4e99f6b0e46469dad43e6a7b5c28f0fe64",
+        "palette_shiny": "0c2d5fd9abc92b7488c8ce85996a9ad9019e3b4e27c4ac750968e3d2b4cb9e99"
+      },
+      "compressed_size": {
+        "front": 1420,
+        "back": 1231,
+        "palette_normal": 40,
+        "palette_shiny": 40
+      },
+      "occurrences": [
+        {
+          "rom": {
+            "file": "Pokemon - Saphir-Edition (Germany) (Rev 1).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPD",
+            "revision": 1,
+            "sha1": "7e6e034f9cdca6d2c4a270fdb50a94def5883d17",
+            "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead"
+          },
+          "offsets": {
+            "front": "0xD3134C",
+            "back": "0xD31900",
+            "palette_normal": "0xD318D8",
+            "palette_shiny": "0xD31DD0"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pocket Monsters - Sapphire (Japan).gba",
+            "size": 8388608,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPJ",
+            "revision": 0,
+            "sha1": "3233342c2f3087e6ffe6c1791cd5867db07df842",
+            "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+          },
+          "offsets": {
+            "front": "0x6AE0B8",
+            "back": "0x6AE66C",
+            "palette_normal": "0x6AE644",
+            "palette_shiny": "0x6AEB3C"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Sapphire Version (Europe) (Rev 1).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPE",
+            "revision": 1,
+            "sha1": "4722efb8cd45772ca32555b98fd3b9719f8e60a9",
+            "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+          },
+          "offsets": {
+            "front": "0xD312B4",
+            "back": "0xD31868",
+            "palette_normal": "0xD31840",
+            "palette_shiny": "0xD31D38"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Sapphire Version (USA).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPE",
+            "revision": 0,
+            "sha1": "3ccbbd45f8553c36463f13b938e833f652b793e4",
+            "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"
+          },
+          "offsets": {
+            "front": "0xD312B4",
+            "back": "0xD31868",
+            "palette_normal": "0xD31840",
+            "palette_shiny": "0xD31D38"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPE",
+            "revision": 2,
+            "sha1": "89b45fb172e6b55d51fc0e61989775187f6fe63c",
+            "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+          },
+          "offsets": {
+            "front": "0xD312B4",
+            "back": "0xD31868",
+            "palette_normal": "0xD31840",
+            "palette_shiny": "0xD31D38"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Version Saphir (France) (Rev 1).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPF",
+            "revision": 1,
+            "sha1": "860e93f5ea44f4278132f6c1ee5650d07b852fd8",
+            "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+          },
+          "offsets": {
+            "front": "0xD31368",
+            "back": "0xD3191C",
+            "palette_normal": "0xD318F4",
+            "palette_shiny": "0xD31DEC"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Version Saphir (France).gba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPF",
+            "revision": 0,
+            "sha1": "c269b5692b2d0e5800ba1ddf117fda95ac648634",
+            "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+          },
+          "offsets": {
+            "front": "0xD31368",
+            "back": "0xD3191C",
+            "palette_normal": "0xD318F4",
+            "palette_shiny": "0xD31DEC"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Versione Zaffiro (Italy) (Rev 1).wba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPI",
+            "revision": 1,
+            "sha1": "73edf67b9b82ff12795622dca412733755d2c0fe",
+            "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+          },
+          "offsets": {
+            "front": "0xD31398",
+            "back": "0xD3194C",
+            "palette_normal": "0xD31924",
+            "palette_shiny": "0xD31E1C"
+          }
+        },
+        {
+          "rom": {
+            "file": "Pokemon - Versione Zaffiro (Italy).wba",
+            "size": 16777216,
+            "game_title": "POKEMON SAPP",
+            "game_code": "AXPI",
+            "revision": 0,
+            "sha1": "f729dd571fb2c09e72c5c1d68fe0a21e72713d34",
+            "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0"
+          },
+          "offsets": {
+            "front": "0xD31398",
+            "back": "0xD3194C",
+            "palette_normal": "0xD31924",
+            "palette_shiny": "0xD31E1C"
+          }
+        }
+      ]
+    }
+  ]
+}
