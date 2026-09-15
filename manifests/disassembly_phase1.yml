@@ -1,0 +1,32 @@
+project: Pocket Monsters Sapphire Disassembly
+platform: Game Boy Advance
+cpu: ARM7TDMI
+workflow: verification-first
+status: active
+phase: 1
+phase_name: target inventory and architecture mapping
+rom_binaries_committed: false
+target_identity:
+  region: pending
+  language: pending
+  revision: pending
+  sha1: pending
+  sha256: pending
+mapping:
+  rom_ranges: in_progress
+  arm_code: pending
+  thumb_code: pending
+  data: pending
+  scripts: pending
+  graphics: pending
+  audio: pending
+  maps: pending
+verification:
+  byte_preserving_baseline: pending
+  matching_build: pending
+next:
+  - lock first verified retail target
+  - record cartridge header and cryptographic hashes
+  - classify ROM ranges without guessing unknown data
+  - establish byte-preserving reconstruction baseline
+  - replace verified ranges incrementally with labeled source
