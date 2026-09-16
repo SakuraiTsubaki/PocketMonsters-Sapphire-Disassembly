@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json",
+  "schema_version": 1,
+  "id": "sapphire",
+  "repository": "SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly",
+  "title": "Pokémon Sapphire",
+  "platform": "Game Boy Advance",
+  "cpu": "ARM7TDMI (ARMv4T)",
+  "architecture": "gba-arm7tdmi",
+  "family": "generation-iii",
+  "status": "foundation",
+  "releases": []
+}

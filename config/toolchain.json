@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "architecture": "gba-arm7tdmi",
+  "assembler": "arm-none-eabi-as",
+  "linker": "arm-none-eabi-ld",
+  "objcopy": "arm-none-eabi-objcopy",
+  "version": null,
+  "pinned": false,
+  "notes": "Pin exact GNU Arm Embedded tool versions only after a verified baseline can be reproduced."
+}
