@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "game_code_prefix": "AXP",
+  "observed_files": 12,
+  "unique_identities": 12,
+  "language_priority": [
+    "Japanese",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "releases": [
+    {
+      "id": "axp-j-rev0-retail",
+      "market": "Japan",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 8388608,
+      "sha1": "3233342c2f3087e6ffe6c1791cd5867db07df842",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "observed_filenames": [
+        "Pocket Monsters - Sapphire (Japan).gba"
+      ],
+      "header": {
+        "entry_point": "320000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPJ",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 80
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 80
+      }
+    },
+    {
+      "id": "axp-e-rev0-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "3ccbbd45f8553c36463f13b938e833f652b793e4",
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657",
+      "observed_filenames": [
+        "Pokemon - Sapphire Version (USA).gba"
+      ],
+      "header": {
+        "entry_point": "320000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 85
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 85
+      }
+    },
+    {
+      "id": "axp-e-rev1-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "4722efb8cd45772ca32555b98fd3b9719f8e60a9",
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+      "observed_filenames": [
+        "Pokemon - Sapphire Version (Europe) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "320000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 84
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 84
+      }
+    },
+    {
+      "id": "axp-e-rev2-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "89b45fb172e6b55d51fc0e61989775187f6fe63c",
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+      "observed_filenames": [
+        "Pokemon - Sapphire Version (USA, Europe) (Rev 2).gba"
+      ],
+      "header": {
+        "entry_point": "320000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 2,
+        "header_checksum": 83
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 83
+      }
+    },
+    {
+      "id": "axp-d-rev0-retail",
+      "market": "Germany",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "5a087835009d552d4c5c1f96be3be3206e378153",
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+      "observed_filenames": [
+        "Pokemon - Saphir-Edition (Germany).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPD",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 86
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 86
+      }
+    },
+    {
+      "id": "axp-d-rev1-retail",
+      "market": "Germany",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "7e6e034f9cdca6d2c4a270fdb50a94def5883d17",
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead",
+      "observed_filenames": [
+        "Pokemon - Saphir-Edition (Germany) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPD",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 85
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 85
+      }
+    },
+    {
+      "id": "axp-f-rev0-retail",
+      "market": "France",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "c269b5692b2d0e5800ba1ddf117fda95ac648634",
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+      "observed_filenames": [
+        "Pokemon - Version Saphir (France).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPF",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 84
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 84
+      }
+    },
+    {
+      "id": "axp-f-rev1-retail",
+      "market": "France",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "860e93f5ea44f4278132f6c1ee5650d07b852fd8",
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+      "observed_filenames": [
+        "Pokemon - Version Saphir (France) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPF",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 83
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 83
+      }
+    },
+    {
+      "id": "axp-i-rev0-retail",
+      "market": "Italy",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "f729dd571fb2c09e72c5c1d68fe0a21e72713d34",
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0",
+      "observed_filenames": [
+        "Pokemon - Versione Zaffiro (Italy).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPI",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 81
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 81
+      }
+    },
+    {
+      "id": "axp-i-rev1-retail",
+      "market": "Italy",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "73edf67b9b82ff12795622dca412733755d2c0fe",
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+      "observed_filenames": [
+        "Pokemon - Versione Zaffiro (Italy) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPI",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 80
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 80
+      }
+    },
+    {
+      "id": "axp-s-rev0-retail",
+      "market": "Spain",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "3a6489189e581c4b29914071b79207883b8c16d8",
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+      "observed_filenames": [
+        "Pokemon - Edicion Zafiro (Spain).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPS",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 71
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 71
+      }
+    },
+    {
+      "id": "axp-s-rev1-retail",
+      "market": "Spain",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "0fe9ad1e602e2fafa090aee25e43d6980625173c",
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+      "observed_filenames": [
+        "Pokemon - Edicion Zafiro (Spain) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON SAPP",
+        "game_code": "AXPS",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 70
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 70
+      }
+    }
+  ]
+}
