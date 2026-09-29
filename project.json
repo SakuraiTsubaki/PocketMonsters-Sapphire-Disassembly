@@ -1,13 +1,5 @@
-{
-  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json",
-  "schema_version": 1,
-  "id": "sapphire",
-  "repository": "SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly",
-  "title": "Pokémon Sapphire",
-  "platform": "Game Boy Advance",
-  "cpu": "ARM7TDMI (ARMv4T)",
-  "architecture": "gba-arm7tdmi",
-  "family": "generation-iii",
-  "status": "foundation",
-  "releases": []
-}
+{"$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json","schema_version":1,"id":"sapphire","repository":"SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly","title":"Pokémon Sapphire","platform":"Game Boy Advance","cpu":"ARM7TDMI (ARMv4T)","architecture":"gba-arm7tdmi","family":"generation-iii","status":"foundation","releases":[
+{"id":"sapphire-jp-rev0","region":"Japan","language":"Japanese","revision":"0","status":"candidate","size":8388608,"sha1":"3233342c2f3087e6ffe6c1791cd5867db07df842","sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},
+{"id":"sapphire-en-rev0","region":"USA","language":"English","revision":"0","status":"candidate","size":16777216,"sha1":"3ccbbd45f8553c36463f13b938e833f652b793e4","sha256":"c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"},
+{"id":"sapphire-en-rev1","region":"Europe","language":"English","revision":"1","status":"candidate","size":16777216,"sha1":"4722efb8cd45772ca32555b98fd3b9719f8e60a9","sha256":"2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"},
+{"id":"sapphire-en-rev2","region":"USA/Europe","language":"English","revision":"2","status":"candidate","size":16777216,"sha1":"89b45fb172e6b55d51fc0e61989775187f6fe63c","sha256":"02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"}]}

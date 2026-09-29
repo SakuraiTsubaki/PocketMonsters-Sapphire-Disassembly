@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"sapphire-jp-rev0-thumb-cfg","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","start_address":"0x0800024c"}],"outputs":[{"path":"analysis/sapphire-jp-rev0-thumb-cfg.json","sha256":"e34c51429e0d595816645616bf8ad6604c586adaad2d8b327c9ffe3184815696"},{"path":"src/thumb_entry_reachable.s","sha256":"bc9383e6dda0ed1ecbe3e092d6107c2a62e2f669368309f425b226d2790104d5"}]}
+

@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"sapphire-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","offset":0,"length":4}],"outputs":[{"path":"analysis/sapphire-jp-rev0-entrypoint.json","sha256":"c1b89727ad29c6487e850e99eac43fb7445756039d6fa8514bec3461c05b6624"},{"path":"src/rom_entry.s","sha256":"9fbd38b66604762a346799dd7210947ffab8f00350b9f525a2173696e2fe6acb"}]}
+

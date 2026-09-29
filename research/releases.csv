@@ -1,1 +1,5 @@
 id,region,language,revision,status,size,sha1,sha256,notes
+sapphire-jp-rev0,Japan,Japanese,0,candidate,8388608,3233342c2f3087e6ffe6c1791cd5867db07df842,6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9,"Title POKEMON SAPP; game code AXPJ; maker 01; checksum 0x50"
+sapphire-en-rev0,USA,English,0,candidate,16777216,3ccbbd45f8553c36463f13b938e833f652b793e4,c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x55"
+sapphire-en-rev1,Europe,English,1,candidate,16777216,4722efb8cd45772ca32555b98fd3b9719f8e60a9,2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x54"
+sapphire-en-rev2,USA/Europe,English,2,candidate,16777216,89b45fb172e6b55d51fc0e61989775187f6fe63c,02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x53"
