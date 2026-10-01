@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "asset_id": "sapphire-jp-rev0-title-kyogre-dark",
+  "release_id": "sapphire-jp-rev0",
+  "release_status": "candidate",
+  "source": {
+    "rom_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+    "offset": "0x36F250",
+    "compression": "GBA BIOS LZ77",
+    "compressed_length": 1540,
+    "compressed_sha256": "8537f3db1bd6b09e07b85c4c5ece6abfeee6c364e2fd2be786e11d878a1d6467"
+  },
+  "decoded": {
+    "format": "GBA 4bpp tiles",
+    "length": 8192,
+    "tile_count": 256,
+    "sha256": "8459431a41689af67a8e6607b7b7e91969e519e94d93c2d65afa332b937cf9f6"
+  },
+  "reference": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "graphics/title_screen/kyogre.png",
+    "git_blob_sha1": "81dc829c8e77aa00e1d8d380d1e6da224cfa7c29",
+    "png_sha256": "2122808677b1afc70b9a3359ba80a98a5b1d30d22884c74183302dbb7d6032a0",
+    "relationship": "indexed PNG converted in 8x8 tile order exactly matches decoded ROM bytes"
+  },
+  "outputs": [
+    {"path": "graphics/title/kyogre-dark.png", "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"},
+    {"path": "graphics/title/kyogre-dark.pal", "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54"},
+    {"path": "analysis/sapphire-jp-rev0-title-kyogre.json"}
+  ],
+  "raw_rom_bytes_included": false
+}
