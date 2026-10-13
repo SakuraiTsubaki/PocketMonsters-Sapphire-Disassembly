@@ -1,5 +1,13 @@
 id,region,language,revision,status,size,sha1,sha256,notes
-sapphire-jp-rev0,Japan,Japanese,0,candidate,8388608,3233342c2f3087e6ffe6c1791cd5867db07df842,6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9,"Title POKEMON SAPP; game code AXPJ; maker 01; checksum 0x50"
-sapphire-en-rev0,USA,English,0,candidate,16777216,3ccbbd45f8553c36463f13b938e833f652b793e4,c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x55"
-sapphire-en-rev1,Europe,English,1,candidate,16777216,4722efb8cd45772ca32555b98fd3b9719f8e60a9,2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x54"
-sapphire-en-rev2,USA/Europe,English,2,candidate,16777216,89b45fb172e6b55d51fc0e61989775187f6fe63c,02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb,"Title POKEMON SAPP; game code AXPE; maker 01; checksum 0x53"
+sapphire-jp-rev0,Japan,Japanese,0,candidate,8388608,3233342c2f3087e6ffe6c1791cd5867db07df842,6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9,Title POKEMON SAPP; game code AXPJ; checksum 0x50
+sapphire-en-rev0,USA,English,0,candidate,16777216,3ccbbd45f8553c36463f13b938e833f652b793e4,c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657,Title POKEMON SAPP; game code AXPE; checksum 0x55
+sapphire-en-rev1,Europe,English,1,candidate,16777216,4722efb8cd45772ca32555b98fd3b9719f8e60a9,2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac,Title POKEMON SAPP; game code AXPE; checksum 0x54
+sapphire-en-rev2,USA/Europe,English,2,candidate,16777216,89b45fb172e6b55d51fc0e61989775187f6fe63c,02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb,Title POKEMON SAPP; game code AXPE; checksum 0x53
+sapphire-de-rev0,Germany,German,0,candidate,16777216,5a087835009d552d4c5c1f96be3be3206e378153,93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d,Title POKEMON SAPP; game code AXPD; checksum 0x56
+sapphire-de-rev1,Germany,German,1,candidate,16777216,7e6e034f9cdca6d2c4a270fdb50a94def5883d17,c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead,Title POKEMON SAPP; game code AXPD; checksum 0x55
+sapphire-fr-rev0,France,French,0,candidate,16777216,c269b5692b2d0e5800ba1ddf117fda95ac648634,687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e,Title POKEMON SAPP; game code AXPF; checksum 0x54
+sapphire-fr-rev1,France,French,1,candidate,16777216,860e93f5ea44f4278132f6c1ee5650d07b852fd8,476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04,Title POKEMON SAPP; game code AXPF; checksum 0x53
+sapphire-it-rev0,Italy,Italian,0,candidate,16777216,f729dd571fb2c09e72c5c1d68fe0a21e72713d34,74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0,Title POKEMON SAPP; game code AXPI; checksum 0x51
+sapphire-it-rev1,Italy,Italian,1,candidate,16777216,73edf67b9b82ff12795622dca412733755d2c0fe,e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898,Title POKEMON SAPP; game code AXPI; checksum 0x50
+sapphire-es-rev0,Spain,Spanish,0,candidate,16777216,3a6489189e581c4b29914071b79207883b8c16d8,23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9,Title POKEMON SAPP; game code AXPS; checksum 0x47
+sapphire-es-rev1,Spain,Spanish,1,candidate,16777216,0fe9ad1e602e2fafa090aee25e43d6980625173c,6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a,Title POKEMON SAPP; game code AXPS; checksum 0x46

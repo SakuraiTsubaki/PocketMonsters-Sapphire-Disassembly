@@ -1,5 +1,134 @@
-{"$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json","schema_version":1,"id":"sapphire","repository":"SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly","title":"Pokémon Sapphire","platform":"Game Boy Advance","cpu":"ARM7TDMI (ARMv4T)","architecture":"gba-arm7tdmi","family":"generation-iii","status":"foundation","releases":[
-{"id":"sapphire-jp-rev0","region":"Japan","language":"Japanese","revision":"0","status":"candidate","size":8388608,"sha1":"3233342c2f3087e6ffe6c1791cd5867db07df842","sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},
-{"id":"sapphire-en-rev0","region":"USA","language":"English","revision":"0","status":"candidate","size":16777216,"sha1":"3ccbbd45f8553c36463f13b938e833f652b793e4","sha256":"c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"},
-{"id":"sapphire-en-rev1","region":"Europe","language":"English","revision":"1","status":"candidate","size":16777216,"sha1":"4722efb8cd45772ca32555b98fd3b9719f8e60a9","sha256":"2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"},
-{"id":"sapphire-en-rev2","region":"USA/Europe","language":"English","revision":"2","status":"candidate","size":16777216,"sha1":"89b45fb172e6b55d51fc0e61989775187f6fe63c","sha256":"02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"}]}
+{
+  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/project.schema.json",
+  "schema_version": 1,
+  "id": "sapphire",
+  "repository": "SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly",
+  "title": "Pokémon Sapphire",
+  "platform": "Game Boy Advance",
+  "cpu": "ARM7TDMI (ARMv4T)",
+  "architecture": "gba-arm7tdmi",
+  "family": "generation-iii",
+  "status": "foundation",
+  "releases": [
+    {
+      "id": "sapphire-jp-rev0",
+      "region": "Japan",
+      "language": "Japanese",
+      "revision": "0",
+      "status": "candidate",
+      "size": 8388608,
+      "sha1": "3233342c2f3087e6ffe6c1791cd5867db07df842",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+    },
+    {
+      "id": "sapphire-en-rev0",
+      "region": "USA",
+      "language": "English",
+      "revision": "0",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "3ccbbd45f8553c36463f13b938e833f652b793e4",
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"
+    },
+    {
+      "id": "sapphire-en-rev1",
+      "region": "Europe",
+      "language": "English",
+      "revision": "1",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "4722efb8cd45772ca32555b98fd3b9719f8e60a9",
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+    },
+    {
+      "id": "sapphire-en-rev2",
+      "region": "USA/Europe",
+      "language": "English",
+      "revision": "2",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "89b45fb172e6b55d51fc0e61989775187f6fe63c",
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+    },
+    {
+      "id": "sapphire-de-rev0",
+      "region": "Germany",
+      "language": "German",
+      "revision": "0",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "5a087835009d552d4c5c1f96be3be3206e378153",
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d"
+    },
+    {
+      "id": "sapphire-de-rev1",
+      "region": "Germany",
+      "language": "German",
+      "revision": "1",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "7e6e034f9cdca6d2c4a270fdb50a94def5883d17",
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead"
+    },
+    {
+      "id": "sapphire-fr-rev0",
+      "region": "France",
+      "language": "French",
+      "revision": "0",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "c269b5692b2d0e5800ba1ddf117fda95ac648634",
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+    },
+    {
+      "id": "sapphire-fr-rev1",
+      "region": "France",
+      "language": "French",
+      "revision": "1",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "860e93f5ea44f4278132f6c1ee5650d07b852fd8",
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+    },
+    {
+      "id": "sapphire-it-rev0",
+      "region": "Italy",
+      "language": "Italian",
+      "revision": "0",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "f729dd571fb2c09e72c5c1d68fe0a21e72713d34",
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0"
+    },
+    {
+      "id": "sapphire-it-rev1",
+      "region": "Italy",
+      "language": "Italian",
+      "revision": "1",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "73edf67b9b82ff12795622dca412733755d2c0fe",
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+    },
+    {
+      "id": "sapphire-es-rev0",
+      "region": "Spain",
+      "language": "Spanish",
+      "revision": "0",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "3a6489189e581c4b29914071b79207883b8c16d8",
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9"
+    },
+    {
+      "id": "sapphire-es-rev1",
+      "region": "Spain",
+      "language": "Spanish",
+      "revision": "1",
+      "status": "candidate",
+      "size": 16777216,
+      "sha1": "0fe9ad1e602e2fafa090aee25e43d6980625173c",
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a"
+    }
+  ]
+}

@@ -1,2 +1,69 @@
-{"$schema":"https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json","schema_version":1,"id":"sapphire-release-header-report","targets":["SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly"],"generator":{"name":"SakuraiTsubaki/Disassembly tools/inspect_gba_rom.py","version":"1.0.0"},"command":"python tools/inspect_gba_rom.py path/to/legally-obtained-input --require-valid","inputs":[
-{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"},{"size":16777216,"sha256":"c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"},{"size":16777216,"sha256":"2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"},{"size":16777216,"sha256":"02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"}],"outputs":[{"path":"analysis/sapphire-release-header-report.json","sha256":"7b5169998949089b18e4dc41bc8f3b42034e6959d40635f6386e26d321e7923d"}]}
+{
+  "$schema": "https://raw.githubusercontent.com/SakuraiTsubaki/Disassembly/main/schemas/analysis-manifest.schema.json",
+  "schema_version": 1,
+  "id": "sapphire-release-header-report",
+  "targets": [
+    "SakuraiTsubaki/PocketMonsters-Sapphire-Disassembly"
+  ],
+  "generator": {
+    "name": "SakuraiTsubaki/Disassembly tools/inspect_gba_rom.py",
+    "version": "1.0.0"
+  },
+  "command": "python tools/inspect_gba_rom.py path/to/legally-obtained-input --require-valid",
+  "inputs": [
+    {
+      "size": 8388608,
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+    },
+    {
+      "size": 16777216,
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657"
+    },
+    {
+      "size": 16777216,
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+    },
+    {
+      "size": 16777216,
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+    },
+    {
+      "size": 16777216,
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d"
+    },
+    {
+      "size": 16777216,
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead"
+    },
+    {
+      "size": 16777216,
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+    },
+    {
+      "size": 16777216,
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+    },
+    {
+      "size": 16777216,
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0"
+    },
+    {
+      "size": 16777216,
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+    },
+    {
+      "size": 16777216,
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9"
+    },
+    {
+      "size": 16777216,
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/sapphire-release-header-report.json",
+      "sha256": "619e5757d8bb0f4387dd2c7434ec267bc94e16a343f2df6440ebb85d4a34f44f"
+    }
+  ]
+}
