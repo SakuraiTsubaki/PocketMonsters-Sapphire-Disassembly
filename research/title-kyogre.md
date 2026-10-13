@@ -18,3 +18,13 @@ The common `SakuraiTsubaki/Disassembly` GBA LZ77 4bpp extractor reproduces
 the image using offset `0x36F250`, 16 tiles per row, and the ROM SHA-256 gate
 recorded above. This asset match does not promote the release candidate to
 `verified`.
+
+## Whole-ROM discovery evidence
+
+A bounded scan of the complete 8 MiB Japanese ROM found 54 valid BIOS-LZ77
+streams with an 8,192-byte decoded length, all with distinct decoded hashes.
+The equivalent Ruby scan also found 54. Exactly 53 decoded hashes are shared;
+Sapphire's sole unmatched stream is the Kyogre stream at `0x36F250`, and
+Ruby's sole unmatched stream is the independently identified Groudon stream.
+`analysis/sapphire-jp-rev0-lz77-8192-scan.json` preserves the offsets, lengths,
+and hashes for reproduction without publishing ROM bytes.

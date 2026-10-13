@@ -16,6 +16,16 @@
     "tile_count": 256,
     "sha256": "8459431a41689af67a8e6607b7b7e91969e519e94d93c2d65afa332b937cf9f6"
   },
+  "discovery": {
+    "tool": "SakuraiTsubaki/Disassembly tools/scan_gba_lz77.py",
+    "scan_start": "0x000000",
+    "scan_end_exclusive": "0x800000",
+    "decoded_length_filter": 8192,
+    "candidate_count": 54,
+    "unique_decoded_hashes": 54,
+    "ruby_sapphire_shared_decoded_hashes": 53,
+    "counterpart_unique_decoded_sha256": "93c1ec4ecac6e99d33dbc47fb84a2350b11a01d578066744f79d506cc48ca862"
+  },
   "reference": {
     "repository": "pret/pokeruby",
     "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
@@ -27,7 +37,8 @@
   "outputs": [
     {"path": "graphics/title/kyogre-dark.png", "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"},
     {"path": "graphics/title/kyogre-dark.pal", "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54"},
-    {"path": "analysis/sapphire-jp-rev0-title-kyogre.json"}
+    {"path": "analysis/sapphire-jp-rev0-title-kyogre.json"},
+    {"path": "analysis/sapphire-jp-rev0-lz77-8192-scan.json", "sha256": "6f7115e20ac750dcc773d46ff33e7648fbdc4cc9c732831b23302cd2f8b1211a"}
   ],
   "raw_rom_bytes_included": false
 }
