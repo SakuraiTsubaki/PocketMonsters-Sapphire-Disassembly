@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "source_offset": 3749584,
+    "source_pointer": 137967312,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    509528
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 509406,
+      "literal_offset": 509528,
+      "destination_register": 0,
+      "destination_literal_offset": 509532,
+      "destination": 100696064,
+      "call_offset": 509410,
+      "call_target": 136193036,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "41f722d0804bb12440298204d56cdba946134b50612ad16b5ae04d447efddee4"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0",
+  "asset_report": "analysis/sapphire-it-rev0-title-kyogre.json"
+}

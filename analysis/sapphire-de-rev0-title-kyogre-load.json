@@ -1,0 +1,28 @@
+{
+  "asset": {
+    "source_offset": 3795404,
+    "source_pointer": 138013132,
+    "decompressed_length": 8192
+  },
+  "pointer_locations": [
+    509624
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 509502,
+      "literal_offset": 509624,
+      "destination_register": 0,
+      "destination_literal_offset": 509628,
+      "destination": 100696064,
+      "call_offset": 509506,
+      "call_target": 136238832,
+      "loader_sequence_length": 8,
+      "loader_sequence_sha256": "5aca1031401d24c9b577fb77c559ce0d99017ff35c43e3a40528418b20edca0a"
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+  "asset_report": "analysis/sapphire-de-rev0-title-kyogre.json"
+}
