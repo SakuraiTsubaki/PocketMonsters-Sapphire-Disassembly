@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "asset": "title-screen Kyogre later revisions",
+  "releases": ["en-rev1", "en-rev2", "de-rev1", "fr-rev1", "it-rev1", "es-rev1"],
+  "decoded_sha256": "8459431a41689af67a8e6607b7b7e91969e519e94d93c2d65afa332b937cf9f6",
+  "compressed_sha256": "8537f3db1bd6b09e07b85c4c5ece6abfeee6c364e2fd2be786e11d878a1d6467",
+  "png_sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+  "outputs": [
+    {"path":"analysis/sapphire-en-rev1-title-kyogre.json","sha256":"7322734d798321bbf04a1682b0c788867291cf191d8aa887d3f418555e41c27c"},
+    {"path":"analysis/sapphire-en-rev1-title-kyogre-load.json","sha256":"50f8070990911ff69fc4ba3213fcc1ff313adacb2d3d3a45c2731c3a1cecb2c5"},
+    {"path":"analysis/sapphire-en-rev2-title-kyogre.json","sha256":"d9c812059847f611de6d7a18a0c7182929d322ea0deec22513259ecff164a3de"},
+    {"path":"analysis/sapphire-en-rev2-title-kyogre-load.json","sha256":"53476a18e316ac8c214b778551d8d88bebdfde83369c45833871398ea6ad9791"},
+    {"path":"analysis/sapphire-de-rev1-title-kyogre.json","sha256":"c0651e30cf721bf6a0ea015602593fa631dd90d2ba3dfe888db35996e5fcd026"},
+    {"path":"analysis/sapphire-de-rev1-title-kyogre-load.json","sha256":"a6679593adacc7e1b8ebc405d522a00b04ad05f39508409bac7ae7da66d47f35"},
+    {"path":"analysis/sapphire-fr-rev1-title-kyogre.json","sha256":"2bef1e2e887b3f72970c8fca589fab460f797aca478459a912a42246f40811e4"},
+    {"path":"analysis/sapphire-fr-rev1-title-kyogre-load.json","sha256":"cf1097b2feb68ff8d3f858e58a3731e3bdfb731ba695225a5d104baaf8bbe432"},
+    {"path":"analysis/sapphire-it-rev1-title-kyogre.json","sha256":"9ddd4fbf6293b1dc02376902da4dae684deacecddac01e4a17384819eb111973"},
+    {"path":"analysis/sapphire-it-rev1-title-kyogre-load.json","sha256":"fa25fcd55000fcfd27d8cdec8bd625863a76a4e843e8fa3da65119c6f70f748d"},
+    {"path":"analysis/sapphire-es-rev1-title-kyogre.json","sha256":"b088e8349ce68db9fb4f2ab612baeda365f83bd12b53deb659d6019025557a29"},
+    {"path":"analysis/sapphire-es-rev1-title-kyogre-load.json","sha256":"a469b53d0f23e4a2ba809d13be0d7abe5b9e39ad0e3f19e1cb66b79130d59bf6"}
+  ],
+  "raw_rom_bytes_included": false
+}

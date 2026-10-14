@@ -21,7 +21,7 @@ class TitleLegendaryLoaderTests(unittest.TestCase):
         self.source = (ROOT / "src/title_legendary_loader.asm").read_text()
 
     def test_every_asset_has_one_runtime_load(self):
-        self.assertEqual(len(self.asset_reports), 6)
+        self.assertEqual(len(self.asset_reports), 12)
         for asset_path in self.asset_reports:
             asset = json.loads(asset_path.read_text())
             load_path = asset_path.with_name(asset_path.stem + "-load.json")

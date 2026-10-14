@@ -43,7 +43,7 @@
     },
     {
       "path": "tests/test_title_legendary_loader.py",
-      "sha256": "17a149b5e210856d69b611b052ce95cbfbdc4d7036cf5c7cf12f22f7aaadab45"
+      "sha256": "0e3a9d5dbaa883b56e3160bb8558a66f2d3d02e5935a4010c0af918e3550bded"
     },
     {
       "path": "analysis/sapphire-de-rev0-title-kyogre-load.json",
