@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "releases": [
+    "sapphire-jp-rev0",
+    "sapphire-en-rev0",
+    "sapphire-en-rev1",
+    "sapphire-en-rev2",
+    "sapphire-de-rev0",
+    "sapphire-de-rev1",
+    "sapphire-fr-rev0",
+    "sapphire-fr-rev1",
+    "sapphire-it-rev0",
+    "sapphire-it-rev1",
+    "sapphire-es-rev0",
+    "sapphire-es-rev1"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_rng.py",
+    "tool_sha256": "e3dbe698aefd7acbe469fae096361c2d965d677c6ef927dbfb08c9b230b43309"
+  },
+  "outputs": [
+    {
+      "path": "src/random.asm",
+      "sha256": "cc7ce324c224f5842157acd3ef3abc4f55d4bfff09f41c656e646533fed1b93c"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-rng.json",
+      "sha256": "4393b7ffb36bd7cb4f01c938934f1ed530b2fb75a8c4d50a8ec93d533e35d34e"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-rng.json",
+      "sha256": "686bfd055b496034c632ac5d8d6ca7fac5159693e8b4476f57008b8d8d1934d7"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-rng.json",
+      "sha256": "95d5b2a028b811aeb254be6a49a0a10f4dd75a7c774d112fd01b729bdbb3a114"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-rng.json",
+      "sha256": "25820fc466e5bced2a0ac859ffd31e17a467089f7eccdcf9fe83a40c2234485d"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-rng.json",
+      "sha256": "c799cb7eda15a8cff5d579b35331144fd18c8b12b36908c3274e5778597bfbe8"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-rng.json",
+      "sha256": "06c2d5fe8f21ccc64540613f4f2e154403a13de1d7fe35c25b896e7649e59b8d"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-rng.json",
+      "sha256": "37114f54d4f7ee871d058edce3d2cb403d7b00abd1c2be58c612edf04f10156a"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-rng.json",
+      "sha256": "de6e42e0aaa7467e91932d300fa725ce24dedd8c24d03e49280efff0042350df"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-rng.json",
+      "sha256": "cf4905285744dcfd648c21d56c75b982ba2d08e0cc186c8f508a06cc7ea67ff4"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-rng.json",
+      "sha256": "a9a52443080577fc14f7355bf5f420cb0e019975eb12455a4d0d13226b15363c"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-rng.json",
+      "sha256": "f5bbcb956cb953c12dd47b6054525753dae0a350a20b0ad988906c094f2a90e2"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-rng.json",
+      "sha256": "a06958c76b7ee24c60e4ac94794ecda282f6db57eff0917dab4923b894557140"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "60cd978aa53c490fa2e3d17962ad1bdb3498d3bbfe2e80e05e6a938af58059fe"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "b116f255035006366772e3bc2f705bc7d8be177fbfa4cd1df98e67c29734e2fe"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
