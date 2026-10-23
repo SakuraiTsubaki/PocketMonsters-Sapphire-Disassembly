@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev1-retail",
+    "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+  },
+  "variant": "rs",
+  "source": "src/trainer_id_helpers.s",
+  "source_sha256": "2bb114886c905119c0a68fb97bd0c6c1b44bbdbf440a81c3b15dfbba32dcade9",
+  "byte_order": "little-endian",
+  "trainer_id_length": 4,
+  "functions": [
+    {
+      "name": "write_word_to_mem",
+      "address": "0x0805312C",
+      "range_end_exclusive": "0x0805313C",
+      "rom_code_range": {
+        "start_offset": 340268,
+        "end_offset_exclusive": 340284,
+        "length": 16,
+        "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/axp-f-rev1-retail-write-word-to-mem-cfg.json",
+      "edge_count": 0,
+      "return_count": 1
+    },
+    {
+      "name": "copy_word_to_mem",
+      "address": "0x0805313C",
+      "range_end_exclusive": "0x08053158",
+      "rom_code_range": {
+        "start_offset": 340284,
+        "end_offset_exclusive": 340312,
+        "length": 28,
+        "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/axp-f-rev1-retail-copy-word-to-mem-cfg.json",
+      "edge_count": 2,
+      "return_count": 1
+    }
+  ],
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/new_game.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

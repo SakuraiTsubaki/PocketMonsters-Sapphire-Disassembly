@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "axis": "Disassembly",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_trainer_id_helpers.py",
+    "tool_sha256": "3946d9310df307e516f899fea1854eedadaf85aaab839c5e5fa74edcedf40e0c"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id_helpers.s",
+      "sha256": "2bb114886c905119c0a68fb97bd0c6c1b44bbdbf440a81c3b15dfbba32dcade9"
+    },
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "c832419954746a015b465471c86c2dfd4cbed822c69c488611d640e0d2008747"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "a36ef4f096a90ca023ce8085c4ac176bd1bfdbd0013a69f57d8068f823b13cd5"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "df12a4a2c3251c443bba0c9b7a4374f4f453488511cd62489bb2cbfd6d4d8000"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "16bbd5a0ea83864088904e655eb869aaf2eba482f8833449d8425efb335d3fb4"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "c951ba343e3ee314a5687ba1b43985cf815db9536ca083b444d01d0c6dcb0d3a"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "f7bfcce1b97b30f43272c9f6747cbfb70342cdc900f345474927170ace039c2f"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "f4f60a8322f2064cdb693a462e153dd17bb324dc1e139452f026cf8da9a0dea9"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-write-word-to-mem-cfg.json",
+      "sha256": "0e89551a922283d5225a539430345e3839565ab5049b5e32b74d42059cfedaaf"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-copy-word-to-mem-cfg.json",
+      "sha256": "6789fa3a2d7b704b541c4581d8e49d977dcc1738f845d4e9987f2cd528e4499c"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-trainer-id-disassembly.json",
+      "sha256": "5ac9238a843b7ff0ed3e0999b0e80f280ec42f196c66a6551d15dfc702c4bf7d"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-write-word-to-mem-cfg.json",
+      "sha256": "0030b45f8df5890d25eef153abf921c3cfa6148f3cf20a0ef5faedd73dfd2231"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-copy-word-to-mem-cfg.json",
+      "sha256": "a39e56720a837666fbafacf0148f49be67787a73d27985f72890fe9d190cab59"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "746b2f09b40d60d926440dbbe9c7fb78cb7c4cf5bb2b3e235b1a34f4dec8a2f7"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "fb3272225e1994a24fc65a8c3b6a1cb978ee609eb967e2f7fa1d02198747cbaa"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "b16bf31ece7005de5e00c86ee851fb5601b3988d1f502e30422b5e43bc29f69e"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "5469dc4b001ed1c8daaa86accca8409bceff01cf8211e26cbfd81b2f1a3ef0d5"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-write-word-to-mem-cfg.json",
+      "sha256": "1610e52dbe0e46abbae1a03b42d93c9aba5e71468ff21ad0d2b5e836473fa357"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-copy-word-to-mem-cfg.json",
+      "sha256": "4d6640aa976cb94116172c32051c2b9cf6ddeb6e27c10427b45f326a1a5d65f9"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "982f87cfa0180326e8a6aec0651103703cee760ff280a05126c7823e2c657de1"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "03bf9e703672d9a2d7c2a12473c639c9bc247b152847797ed2b89bd0a2dd6b94"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "7d9494597f4da1339f40e6b25c08762a84b1ee425e130df28d867ca48bf568aa"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "9fd582f429b4d15397a734fa3c08a3fe4198503c21340ac00b74535a4687bb28"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-write-word-to-mem-cfg.json",
+      "sha256": "94e4bf539fb2440ceedf998f0a81ee91ce06d3e77661c53dfd2e917af77b4609"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-copy-word-to-mem-cfg.json",
+      "sha256": "cc67ce260711f9940fa4b4d09dc232c7bfc4c63c5ca6dc8f1dd3685adb384b9e"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "d84272e06d84965ed74399966c965d03e3c3349cfab3637a40d7330b68712ef6"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "1fc281cd5196ce8373b46a7b3ab7287f8758f1bef537d2b9d0e106eb27074bd8"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "a1f33ccc0366e449fbd9de12605ac706fa35242fdaed06b8215f01777f675742"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "0c2982bac09883254d058e8a416718b8b96665434cf43e695a992cea5fc1f057"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-write-word-to-mem-cfg.json",
+      "sha256": "0fb9cdac69f22a07a40f4362ed9a6a587ca8f7124c95f6dc322732515ea0c1ff"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-copy-word-to-mem-cfg.json",
+      "sha256": "0abd81d830458369bccf027b5ecb2efcbd653aeabfbc0a4bd9d5126393b2259f"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "9dd5b254d25ade3a36f066c2c71506b5b997a2574caafd0e15d88dbd3f7f4a26"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-write-word-to-mem-cfg.json",
+      "sha256": "e74980ccdabba1fad119222bc8fd313bce63269a5b6b5948af8d09c1194eb81c"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-copy-word-to-mem-cfg.json",
+      "sha256": "58c4c4daccd5aff183021d8aa1ea73a1f64c8069ec0b89c75975deae3642d902"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "b641b14dce81d088bf7f9a5f57f1e52b9a238e2a0b42379c056ab5c6ab02dc88"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-write-word-to-mem-cfg.json",
+      "sha256": "2b0f25a78a356ddfe17f7ebcfd1bcd4caecf64475b77ef392eb3a798ac9722fb"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-copy-word-to-mem-cfg.json",
+      "sha256": "661354f128d3b5e2194f89ed2a47a803ea5429b188a292e0642e692ba0b7a845"
+    },
+    {
+      "path": "analysis/trainer-id-disassembly-summary.json",
+      "sha256": "327b517f38edfdd71a5394aac6f50cc551b41b534c120fc888bcf5adca338a88"
+    },
+    {
+      "path": "research/trainer-id-disassembly.md",
+      "sha256": "17d916ea1715e12a63c3ac45c5251351c92a5b1f5fe8d477c53ef046770b73f3"
+    },
+    {
+      "path": "tests/test_trainer_id_disassembly.py",
+      "sha256": "f65b352f40d80c69fd678c07e56f7cf0705e1d31bf47b19cccf007647f53ca6d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
