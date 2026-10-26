@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "asset": "JASC palette swatch",
+  "language": "Japanese",
+  "origin_reference": true,
+  "source": {
+    "path": "graphics/title/kyogre-dark.pal",
+    "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54",
+    "format": "JASC-PAL 0100",
+    "color_count": 16,
+    "provenance_manifests": [
+      {
+        "path": "manifests/title-kyogre.json",
+        "sha256": "011284f43f64e53ca12360c8e2e604a1cae044d037121adc12e81d3be3ff2bd8"
+      }
+    ]
+  },
+  "output": {
+    "path": "graphics/title/kyogre-dark-swatch.png",
+    "sha256": "b6fab610c8c7b2725757b0b41d43693e13022c3c2ea93149f8049e9c0383ffad",
+    "format": "PNG RGB8",
+    "width": 256,
+    "height": 16,
+    "columns": 16,
+    "cell_size": 16
+  },
+  "raw_rom_bytes_included": false
+}

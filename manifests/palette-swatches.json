@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "asset": "JASC palette swatches",
+  "palette_count": 1,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/render_jasc_palette_catalog.py",
+    "tool_sha256": "69b37972c873fd5b07c26ed0a2282ec5df9dfddc3dd0b77b712e62f67004e306"
+  },
+  "outputs": [
+    {
+      "path": "graphics/title/kyogre-dark.pal",
+      "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-swatch.png",
+      "sha256": "b6fab610c8c7b2725757b0b41d43693e13022c3c2ea93149f8049e9c0383ffad"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-kyogre-dark.json",
+      "sha256": "f21d94309175cb9196970dbbdfeb39465b6fabfbe3927e6bd7bd619efc60ac24"
+    },
+    {
+      "path": "analysis/palette-swatch-catalog.json",
+      "sha256": "9056aaaf4054bfee39136eb0c6aed5caf4041372fffe0a52be1b354d80a129af"
+    },
+    {
+      "path": "research/palette-swatches.md",
+      "sha256": "9eddfa3cb92e0a8d9bfa5372d4f50b1166f3853192bad054cc6d46225ad5b439"
+    },
+    {
+      "path": "tests/test_palette_swatches.py",
+      "sha256": "bbb11226e874aa49199cdd56cbdeaf391b8169ee35767ba572672a01d2be9114"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

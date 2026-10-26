@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon Sapphire",
+  "asset": "JASC palette swatches",
+  "palette_count": 1,
+  "official_korean_release_available": false,
+  "palettes": [
+    {
+      "language": "Japanese",
+      "origin_reference": true,
+      "source": "graphics/title/kyogre-dark.pal",
+      "source_sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54",
+      "color_count": 16,
+      "png": "graphics/title/kyogre-dark-swatch.png",
+      "png_sha256": "b6fab610c8c7b2725757b0b41d43693e13022c3c2ea93149f8049e9c0383ffad",
+      "evidence": "analysis/palette-swatches/graphics-title-kyogre-dark.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
