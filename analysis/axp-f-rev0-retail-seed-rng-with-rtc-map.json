@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "target": {
+    "release": "axp-f-rev0-retail",
+    "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+  },
+  "source": "src/seed_rng_with_rtc.s",
+  "source_sha256": "3d53c31b2e6ff30053d683917802080292cb00de580b19fa8e12ec10c8901520",
+  "function": {
+    "name": "SeedRngWithRtc",
+    "address": "0x08000518",
+    "range_end_exclusive": "0x08000530",
+    "rom_code_range": {
+      "start_offset": 1304,
+      "end_offset_exclusive": 1328,
+      "length": 24,
+      "sha256": "5c62acff21d6436df7af185b32bea093f3612d9e5525683ddb1db39c95cd8761",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/axp-f-rev0-retail-seed-rng-with-rtc-cfg.json"
+  },
+  "literal_pool": {
+    "offset": 1328,
+    "address": "0x08000530",
+    "value": "0x0000FFFF"
+  },
+  "calls": [
+    {
+      "name": "RtcGetMinuteCount",
+      "source": "0x0800051A",
+      "target": "0x08009858"
+    },
+    {
+      "name": "SeedRng",
+      "source": "0x08000528",
+      "target": "0x080412B4"
+    }
+  ],
+  "operation": "XOR upper and lower 16-bit halves of the RTC minute count, then seed the RNG",
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "Thumb instruction sequence, literal pool, and call order",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
