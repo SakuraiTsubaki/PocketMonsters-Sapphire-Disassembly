@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "raw_rom_bytes_included": false,
+  "source": "src/rom_entry.s",
+  "source_sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e",
+  "entry": {
+    "address": "0x08000000",
+    "state": "arm",
+    "operation": "b",
+    "target_address": "0x080000D0",
+    "round_trip_verified": true,
+    "rom_code_range": {
+      "start_offset": 0,
+      "end_offset_exclusive": 4,
+      "length": 4,
+      "sha256": "96af159f33088d8ac5130c767a5c6296ce269a679ea9064a5ea44074998cb8e1",
+      "raw_bytes_published": false
+    }
+  }
+}

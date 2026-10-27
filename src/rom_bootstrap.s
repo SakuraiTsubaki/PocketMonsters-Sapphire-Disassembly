@@ -2,17 +2,23 @@
 .arm
 .section .text.rom_bootstrap, "ax", %progbits
 .global rom_bootstrap
+.type rom_bootstrap, %function
+.extern irq_stack_top
+.extern system_stack_top
+.extern interrupt_vector
+.extern thumb_entry_reachable
 rom_bootstrap:
-    .word 0xe3a00012 @ 0x080000d0 other
-    .word 0xe129f000 @ 0x080000d4 other
-    .word 0xe59fd028 @ 0x080000d8 ldr-literal
-    .word 0xe3a0001f @ 0x080000dc other
-    .word 0xe129f000 @ 0x080000e0 other
-    .word 0xe59fd018 @ 0x080000e4 ldr-literal
-    .word 0xe59f1150 @ 0x080000e8 ldr-literal
-    .word 0xe28f0018 @ 0x080000ec other
-    .word 0xe5810000 @ 0x080000f0 other
-    .word 0xe59f1148 @ 0x080000f4 ldr-literal
-    .word 0xe1a0e00f @ 0x080000f8 other
-    .word 0xe12fff11 @ 0x080000fc bx
-
+    mov r0, #0x12
+    msr cpsr_c, r0
+    ldr sp, =irq_stack_top
+    mov r0, #0x1f
+    msr cpsr_c, r0
+    ldr sp, =system_stack_top
+    ldr r1, =interrupt_vector
+    adr r0, arm_interrupt_return
+    str r0, [r1]
+    ldr r1, =thumb_entry_reachable + 1
+    mov lr, pc
+    bx r1
+arm_interrupt_return:
+.size rom_bootstrap, . - rom_bootstrap

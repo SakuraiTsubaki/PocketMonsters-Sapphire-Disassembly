@@ -1,2 +1,83 @@
-{"schema_version":1,"id":"sapphire-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","offset":0,"length":4}],"outputs":[{"path":"analysis/sapphire-jp-rev0-entrypoint.json","sha256":"c1b89727ad29c6487e850e99eac43fb7445756039d6fa8514bec3461c05b6624"},{"path":"src/rom_entry.s","sha256":"9fbd38b66604762a346799dd7210947ffab8f00350b9f525a2173696e2fe6acb"}]}
-
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "b9c8079181945d738dbc2867cf941c07384018963e134554d116d235c8876b3d"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-entrypoint-map.json",
+      "sha256": "d5d7a6663b01b71fe37a5fd36e80e24ac00775534389d4ae32bdcf58cd014749"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-entrypoint-map.json",
+      "sha256": "2333e70821e95f7161e7ec8bfb5ebe60bc1abf1c06f3d39d9f6b74630fc25016"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-entrypoint-map.json",
+      "sha256": "bfd8d6021eff092b89f1c6e50d7279430d81a9b55c515f80930e7f2bcf639bcc"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-entrypoint-map.json",
+      "sha256": "6f63309557628333561d098e404ccd30f3579691ed844a9afa9f98656862e5f3"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-entrypoint-map.json",
+      "sha256": "8c9c142bbfe4d363a6d6ffc2fcd0b4b7cc194002a90f315a8466dbbfd113117c"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-entrypoint-map.json",
+      "sha256": "db24824af3720a87d768ffbfea7e116d933888681b3846230da678381be693a2"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-entrypoint-map.json",
+      "sha256": "70499a69c8634c74392132d9f9cbf4f7e82f8cdba8c070e4a1f8fcba0868d3c7"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-entrypoint-map.json",
+      "sha256": "01d2574c24767240ec1eda85e07a00c18a7cd3c82b36f4553309626f4f203802"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-entrypoint-map.json",
+      "sha256": "3269793142c62eb0fd9a5666a5365b47f75e3b0695ab56230448c98753bfffeb"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-entrypoint-map.json",
+      "sha256": "9be1c20788a0396a1bda47c5db3fd42d6924dfee0e075c080bdaecb04bf31f74"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-entrypoint-map.json",
+      "sha256": "a4a42583ba2edf597d4b44f2d809a864cfc38762bfe06eb2a770eb7f117e897c"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-entrypoint-map.json",
+      "sha256": "fd7de03937c8e9cd39a60da0ba2ece7aa34f93668b5608b042aff0b974ef8739"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "1f48bf078d59a39fb651e4a715270c9cbc52ca91bdb5a2627e87ec40563408d7"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "ef47231fd98bebad2e5825e79932fe7245c86d85a7c082841e2b6ca75fa5209a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

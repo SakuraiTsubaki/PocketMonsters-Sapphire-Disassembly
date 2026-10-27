@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "raw_rom_bytes_included": false,
+  "source": "src/rom_bootstrap.s",
+  "source_sha256": "afc1df2c94de8fcc8017e76c4c22d282d4aedaf0784b1753741eba192135c5c9",
+  "bootstrap": {
+    "address": "0x080000D0",
+    "instruction_count": 12,
+    "literal_load_count": 4,
+    "rom_code_range": {
+      "start_offset": 208,
+      "end_offset_exclusive": 256,
+      "length": 48,
+      "sha256": "f02a14383a340aceb5cab128e813451f7b6601b552ebb0f412cfc2359d11b2cc",
+      "raw_bytes_published": false
+    }
+  },
+  "transition": {
+    "instruction_address": "0x080000FC",
+    "register": 1,
+    "loaded_at": "0x080000F4",
+    "literal_address": "0x08000244",
+    "target_address": "0x0800024C",
+    "target_state": "thumb"
+  }
+}

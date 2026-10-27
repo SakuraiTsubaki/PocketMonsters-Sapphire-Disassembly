@@ -1,26 +1,79 @@
 {
   "schema_version": 1,
-  "id": "sapphire-jp-rev0-thumb-cfg",
+  "game": "Sapphire",
+  "evidence_kind": "thumb-cfg",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
-    "tool": "tools/disassemble_thumb_cfg.py",
-    "version": "1.0.0"
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
   },
-  "inputs": [
-    {
-      "size": 8388608,
-      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
-      "start_address": "0x0800024c"
-    }
-  ],
   "outputs": [
     {
-      "path": "analysis/sapphire-jp-rev0-thumb-cfg.json",
-      "sha256": "654f57838b8bd3ba78950aa29130172ca27ae9597623bb92a8b02407149a45ca"
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
     },
     {
-      "path": "src/thumb_entry_reachable.s",
-      "sha256": "bc9383e6dda0ed1ecbe3e092d6107c2a62e2f669368309f425b226d2790104d5"
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "b9c8079181945d738dbc2867cf941c07384018963e134554d116d235c8876b3d"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "5cb1fbbf5e0fdbbeddcb9f288457ee41ab3d752a6c260d0f5c7b7add2104a7a2"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "5b6c86bde092484b85cb3d9496ac99628ddf3bde3ecab24c8b1d2d6bf067c327"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "81765b079b524a99af33a393b9937453130b07b240b09b21590914fb7a2f4092"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-thumb-entry-cfg-map.json",
+      "sha256": "1716f2312102f6d493da937a6e468f5630e758ce6e6ae3e982c60145fa410283"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "a2c94960f18b5406d339a40dc649722554a172f2951cbb86e6358dec71c05b4e"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "7b6cc984b24dd188aee56c2019346e52b1be507d740015946e52d3c7fd27b83a"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "6cb054aca3236d60c13a36d69cda59c0a7fc2490a4d937a0d7e361c2b34f47b3"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "b884ad43ef15a6031a1ed1829911e9ac7d8c5d3e24d393cd62101dc6161ad452"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "df875c3b16b9af8347b760ec0517da4290b821b089fc5d73fba80bfaaa3203bc"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "2349dced9c17fa97ddf94badab1ca169e21313b3853ed89bdac1a58f958b2d70"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "7f549b71b28bf71477c6655913f4c69f6e217497561a7930495335b5c4e09e16"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "d32c547f7a57c87686e1953609a1bed8e1bd9b1fb684981b9f7f909441ac96e4"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "e1c5391b9bc79619174e8c84abc2aa18d9c016fcc40793c25f0a8a0e08e831eb"
+    },
+    {
+      "path": "tests/test_thumb_cfg.py",
+      "sha256": "f86bd065cfc68ca63cefe6bfe4bd3cd8124a28a7ea0a366e6f4e6492fa8d7fc7"
     }
-  ]
+  ],
+  "raw_rom_bytes_included": false
 }

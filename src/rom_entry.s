@@ -2,6 +2,7 @@
 .arm
 .section .text.rom_entry, "ax", %progbits
 .global rom_entry
+.type rom_entry, %function
 rom_entry:
-    .word 0xea000032 @ b 0x080000d0 when linked at 0x08000000
-
+    b rom_bootstrap
+.size rom_entry, . - rom_entry
