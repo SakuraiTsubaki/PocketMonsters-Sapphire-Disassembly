@@ -1,9 +1,12 @@
 import hashlib,json,unittest
 from pathlib import Path
-ROOT=Path(__file__).parents[1]
+R=Path(__file__).parents[1]
 class Tests(unittest.TestCase):
- def test_cfg(self):
-  c=json.loads((ROOT/'analysis/sapphire-jp-repeated-callback-cfg.json').read_text());self.assertEqual((c['start_address'],c['instruction_halfwords'],len(c['calls']),c['return_observed']),(0x08000348,78,7,True));self.assertTrue(all('halfword' not in i and 'bytes_le' not in i for i in c['instructions']))
+ def test_catalog(self):
+  s=json.loads((R/'analysis/repeated-callback-cfg-summary.json').read_text());c=json.loads(next((R/'analysis').glob('*-global-release-catalog.json')).read_text());self.assertEqual((s['axis'],s['release_count'],sum(x['origin_reference'] for x in s['releases'])),('Disassembly',len(c['releases']),1))
+  for x in s['releases']:
+   e=json.loads((R/x['evidence']).read_text());self.assertEqual((e['discovery']['repeated_direct_call_count'],e['control_flow']['return_count'],e['control_flow']['raw_halfwords_omitted']),(3,1,True));self.assertNotIn('instructions',e)
  def test_manifest(self):
-  m=json.loads((ROOT/'manifests/repeated-callback-cfg.json').read_text());self.assertEqual(hashlib.sha256((ROOT/m['output']['path']).read_bytes()).hexdigest(),m['output']['sha256'])
+  m=json.loads((R/'manifests/repeated-callback-cfg.json').read_text())
+  for x in m['outputs']:self.assertEqual(hashlib.sha256((R/x['path']).read_bytes()).hexdigest(),x['sha256'])
 if __name__=='__main__':unittest.main()

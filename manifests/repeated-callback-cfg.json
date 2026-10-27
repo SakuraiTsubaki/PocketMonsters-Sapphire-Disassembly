@@ -1,1 +1,79 @@
-{"schema_version":1,"id":"sapphire-jp-repeated-callback-cfg","input":{"release":"AXPJ-rev0","sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","start_offset":"0x348","max_span":"0x100"},"output":{"path":"analysis/sapphire-jp-repeated-callback-cfg.json","sha256":"05ababfcaf33435c53eb762cbde54461ca8b8d67c47a5b98a8bfbf8d15d1d05d"},"raw_rom_bytes_included":false}
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "evidence_kind": "repeated-callback-cfg",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_repeated_callback_cfg.py",
+    "tool_sha256": "f1dff748ed4465a847ead04997294002bf1c2b36d4321ee122885301303edeb4"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "analysis/repeated-callback-cfg-summary.json",
+      "sha256": "0855c0cea873525e4d7b89952350ac434d9b716c16c029438e1c7eae85d23ce0"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "4e93404250a5589b5da9e8a9884b699a1018549083429f8faad47cf660cb65ff"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "6f48594c756d1e2c122aeab61ab9311d70875c7036ece1b95d3c1ad896b373ac"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "01d8ace0cfdc5c2e79a77fefef56523b5596aaac9d0c3723ab4517b9d6aa9f00"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-repeated-callback-cfg-map.json",
+      "sha256": "a8f43514aa0f2e187f058e41575ffa1c1ce6600c730fbce73cc84463668c7b6a"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "d530c13cb517afea5a0a772ffd7bcff1aaebc9a5476d9ec9b33fce29b9217725"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "d8212485c6d431d2c19d0506dd792056eb4c7f09e4822eeb9c605b56e5f048fa"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "cd02b04ee483d2f1bf41b85d19fd943e36255fa4a13ef9eaa68ecd39dcc63cb2"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "bce9160a0e1763ee793b8d437b02475c132a7fc4e3c4b15182731b10d8671806"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "becc0b5feb27fc4573f0b7856cfd9a8dc8d10da6897431543dbce0bf0768cdd2"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "cb28996f39ca7dc81288d40e1234484e71c2501996c7b6d67dc83931614ff371"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "31a1172d5c36ddcc2d1a17e334fc221cedb87353245b1c015e3a52b3cd41d724"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "76c8c17cdd327b1f0b96ec8947e6ba9f0d270d221874dcf137d3b01a3496b36b"
+    },
+    {
+      "path": "research/repeated-callback-cfg.md",
+      "sha256": "58b0360aa4da91ca480ca6d124f358912b5916ba0defc2f03d2d31a5392365f4"
+    },
+    {
+      "path": "tests/test_repeated_callback_cfg.py",
+      "sha256": "56f4973c637726e48c69650cad4071cb286732e217c0f1773bbf6773ae7d3756"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

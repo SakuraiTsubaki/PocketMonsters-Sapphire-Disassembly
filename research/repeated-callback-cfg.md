@@ -1,3 +1,3 @@
-# Repeated callback CFG
+# Sapphire repeated callback CFG
 
-The repeatedly called local target at `$08000348` was traced independently from AXPJ revision zero. The conservative Thumb CFG contains 78 reachable halfwords, seven calls, an observed return, and canonical instruction hash `a419d00b…aa2`. The public report omits instruction halfwords and byte strings.
+The Japanese release `axp-j-rev0-retail` remains the origin reference. For all 12 cataloged releases (Japanese, English, German, French, Italian, Spanish), the reachable Thumb main body has exactly one direct-call target referenced three times. Each per-release map independently traces that target through its observed return and preserves addresses, structure, and hashes without publishing ROM bytes or instruction halfwords.
