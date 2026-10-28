@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "source": "src/check_flash_memory.s",
+  "releases": [
+    {
+      "id": "axp-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "origin_reference": true,
+      "address": "0x08044C9C",
+      "code_sha256": "4f66098000630edaa11054c4f7745057d0ef991634324ecf1ecf5f15e41716bd",
+      "evidence": "analysis/axp-j-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657",
+      "origin_reference": false,
+      "address": "0x080479CC",
+      "code_sha256": "c466c8dcdb737008a09519922280b9b373b019b0932794d0871fc428ff003ca6",
+      "evidence": "analysis/axp-e-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+      "origin_reference": false,
+      "address": "0x080479EC",
+      "code_sha256": "3d148419576bcff7339b531e045c10fba301389b04abb9dc356c0219c0f86878",
+      "evidence": "analysis/axp-e-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+      "origin_reference": false,
+      "address": "0x080479EC",
+      "code_sha256": "3d148419576bcff7339b531e045c10fba301389b04abb9dc356c0219c0f86878",
+      "evidence": "analysis/axp-e-rev2-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+      "origin_reference": false,
+      "address": "0x08047CF0",
+      "code_sha256": "638cf382daeee26566ca3e24facb0136afd04168473c8094712c2bc1d1349879",
+      "evidence": "analysis/axp-d-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead",
+      "origin_reference": false,
+      "address": "0x08047CF0",
+      "code_sha256": "638cf382daeee26566ca3e24facb0136afd04168473c8094712c2bc1d1349879",
+      "evidence": "analysis/axp-d-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+      "origin_reference": false,
+      "address": "0x08047DDC",
+      "code_sha256": "58bd14a4659d206941c397f4f3f1959d3bc625722965e1649bb3763120fbea00",
+      "evidence": "analysis/axp-f-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+      "origin_reference": false,
+      "address": "0x08047DDC",
+      "code_sha256": "58bd14a4659d206941c397f4f3f1959d3bc625722965e1649bb3763120fbea00",
+      "evidence": "analysis/axp-f-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0",
+      "origin_reference": false,
+      "address": "0x08047D04",
+      "code_sha256": "38f3bf8878c3edb776dcabb6ebb60a7743f0e7403584564efd1d2a133ff320e2",
+      "evidence": "analysis/axp-i-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+      "origin_reference": false,
+      "address": "0x08047D04",
+      "code_sha256": "38f3bf8878c3edb776dcabb6ebb60a7743f0e7403584564efd1d2a133ff320e2",
+      "evidence": "analysis/axp-i-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+      "origin_reference": false,
+      "address": "0x08047DEC",
+      "code_sha256": "1c34b28a464ad8849a8650a3a98583b14cb77bf27690d9187e7a5b3a4beb8d46",
+      "evidence": "analysis/axp-s-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "axp-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+      "origin_reference": false,
+      "address": "0x08047DEC",
+      "code_sha256": "1c34b28a464ad8849a8650a3a98583b14cb77bf27690d9187e7a5b3a4beb8d46",
+      "evidence": "analysis/axp-s-rev1-retail-check-flash-memory-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

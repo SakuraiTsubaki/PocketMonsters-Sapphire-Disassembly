@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "axis": "Disassembly",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_check_flash_memory.py",
+    "tool_sha256": "3da06354635e7fd9e07f22250d0980472dee306d4a5919cfb0f8e02bee4c2c22"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/check_flash_memory.s",
+      "sha256": "7a52edd3b0ab7ae239073027153a138500180e12608d83d7ed31966aa9f5c8df"
+    },
+    {
+      "path": "analysis/check-flash-memory-disassembly-summary.json",
+      "sha256": "12e67122c58bb74d63ecf84522a313cf4d97c88472eb7a346b77f49514c2f560"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "38f773946d443fe7470516e5c6596bd65eb116f8fa05614d08451586f05e7cb6"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "c851372890e228d2f681e90883c11b4ee19fff1c644e19f6b2c07efe3e5d05a8"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-check-flash-memory-disassembly.json",
+      "sha256": "672e048fbd7aace19cb94d33a2f316a5ca2bff14ed5133c16901c7f74b43be9b"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-check-flash-memory-disassembly.json",
+      "sha256": "dd1131c3ad6e6d5093a8d3b17064a7495fa698c10b8eccdc2781ccf0ea0efb6e"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "cf997ab3bc061373097209849e6f23d1d5bbde214aeca1532a768c706fd09bba"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-check-flash-memory-disassembly.json",
+      "sha256": "5e1ce666dfb4a38dbfc74131dffc6b0bf5334faff3fd6171914047f14ca59634"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "27673df711091c806258b51d58975d88adbff0324aa15ab3b97f60945a59a7db"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-check-flash-memory-disassembly.json",
+      "sha256": "34d1a33a286bf78401c6a6a3583b49a93f6ccb0fc2961a3822b2efffe4de2888"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "f174e0dd893308710f064b8585d170261b95eba76e5154e4d26608037c22037c"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-check-flash-memory-disassembly.json",
+      "sha256": "386588c17d03bd6c070510852800abfe6b3be38ac047d085eaf48f1cfd5c7c4e"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-check-flash-memory-disassembly.json",
+      "sha256": "2b50033048ff08b7d303c77a12d053bfc459c2e3ae39bf31035420153045fb25"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-check-flash-memory-disassembly.json",
+      "sha256": "d4630110cfb4ddc6466b69b98805224a8fbe7e9ca203d556aaefe75ab91d4593"
+    },
+    {
+      "path": "research/check-flash-memory-disassembly.md",
+      "sha256": "3f36cbbd51ac11d23c357f701de451ef8774f32fe1300d60a5c822234954ec9e"
+    },
+    {
+      "path": "tests/test_check_flash_memory_disassembly.py",
+      "sha256": "653729e30fe3684853ad60a8ddcdd6936dae417bd85d742f0174f84fe8c70fd2"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
