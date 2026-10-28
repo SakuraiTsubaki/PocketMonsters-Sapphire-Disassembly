@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-d-rev0-retail",
+    "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 25,
+    "name": "pikachu"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2052908,
+      "table_offset": 2052708,
+      "source_offset": 13895292,
+      "size": 2048,
+      "tag": 25
+    },
+    "back": {
+      "entry_offset": 2058188,
+      "table_offset": 2057988,
+      "source_offset": 13896052,
+      "size": 2048,
+      "tag": 25
+    },
+    "palette": {
+      "entry_offset": 2061708,
+      "table_offset": 2061508,
+      "source_offset": 13896012,
+      "tag": 25
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-de.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+        "source_offset": 13895292,
+        "compressed_length": 720,
+        "compressed_sha256": "399b26b72f47c5d519f9348909d4aa69e7f19643016e79d5947c03272310c644",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "2372c7fa6542c3475b958678a5263b37b79f8226ef4bf59be8ee084331c4c5a7",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-de.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+        "source_offset": 13896052,
+        "compressed_length": 726,
+        "compressed_sha256": "e575da7b0f1b1d9d702c7078680343ee7d0ef28cd21dcdb171e737903fea63b8",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "6019e3c33cbf9975d7361613ceb6937173ae2bf2863c04ac80f75b1058fa94dd",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-de.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+        "source_offset": 13896012,
+        "compressed_length": 38,
+        "compressed_sha256": "1d513bd323619b4d75d4a88077800d855e842d0981a62d53620b77263dcbca7a",
+        "decompressed_length": 32,
+        "decompressed_sha256": "34a219c99e5f2601f1025ebe0b83982204c68fedabac3407bf8057186e95bc62",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

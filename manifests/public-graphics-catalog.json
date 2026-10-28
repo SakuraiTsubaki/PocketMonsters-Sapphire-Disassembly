@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Sapphire",
-  "asset_count": 9,
+  "asset_count": 45,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -11,6 +11,150 @@
     {
       "path": "graphics/header/nintendo-logo-jp.png",
       "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-jp.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-jp.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-en.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-en.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev2-en.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-en.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-en.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev2-en.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-en.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-en.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev2-en.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-de.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-de.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-de.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-de.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-de.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-de.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-fr.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-fr.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-fr.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-fr.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-fr.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-it.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-it.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-it.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-it.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-it.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-it.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-es.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-es.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-es.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-es.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-es.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-es.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
       "path": "graphics/title/kyogre-dark-en.png",
@@ -48,15 +192,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "7b18330d9938ee9d38a4ff0a7a1995d00ac9ada540c9c657acb5b969ed0c151e"
+      "sha256": "575ac87518157127353be290618d743d62b2339644dcb679f6d5a45fe1f9e7a0"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "913b7210557857d0a229a0dcf072a536306c695a4dab069b11b62ec0567095f0"
+      "sha256": "9efaa5a47e5875d29481078155722549fb1a4149ea171b92a5da296773c5af67"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "06e1d63ca18966a44ab8c23be56ee84f7e0f0d771ad98ca4d8016173455ac644"
+      "sha256": "0a78e3d9c9e33da63adf2de924818c6734ecbd90a7faafc24f253d4c8a27e01e"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",
