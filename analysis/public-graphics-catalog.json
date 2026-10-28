@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "root": "graphics",
+  "asset_count": 9,
+  "png_count": 8,
+  "metadata_count": 0,
+  "palette_count": 1,
+  "official_language_priority": [
+    "Japanese",
+    "Korean",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "assets": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
+      "size": 774,
+      "format": "PNG",
+      "category": "header",
+      "language": "Japanese",
+      "origin_reference": true,
+      "provenance": [
+        {
+          "path": "manifests/header-logo-catalog.json",
+          "sha256": "dab529eecff8af0cfb25baf2f2d19204b20fb6f198cd41211334b66a617bb683"
+        },
+        {
+          "path": "analysis/axp-d-rev0-retail-header-logo.json",
+          "sha256": "b134a1eff94d08b3872d25d927918df1e42005ff3cf63829bb6e907c84c4637a"
+        },
+        {
+          "path": "analysis/axp-d-rev1-retail-header-logo.json",
+          "sha256": "d33b402f54ffd043953cfa88cb3a6e685e0a39d6fad3cce8afc59d51b47e9826"
+        },
+        {
+          "path": "analysis/axp-e-rev0-retail-header-logo.json",
+          "sha256": "7e99b9551d173246d9489130e2a5c73c76e5e4290a113b4467e6e321d2269eec"
+        },
+        {
+          "path": "analysis/axp-e-rev1-retail-header-logo.json",
+          "sha256": "1397fea4eb50076bf1adc8a604c41d719f01435de766f70b78098e068cd91581"
+        },
+        {
+          "path": "analysis/axp-e-rev2-retail-header-logo.json",
+          "sha256": "d3a3eeb75b67ed96ec9cee91c208e682f993a029ca4c983f7d39275a999f8602"
+        },
+        {
+          "path": "analysis/axp-f-rev0-retail-header-logo.json",
+          "sha256": "71d25eaa6878da915ff6d5c9d1bcb9b6ed41aee8be7938303a923d8422f412b0"
+        },
+        {
+          "path": "analysis/axp-f-rev1-retail-header-logo.json",
+          "sha256": "21f9bf81708fd3968fafed9d2942bdda1457633e99bdbe91e748804769b231fe"
+        },
+        {
+          "path": "analysis/axp-i-rev0-retail-header-logo.json",
+          "sha256": "590839007531ac96e48d726257acb7be98244f178bd8fa4617e2c150b8fdccce"
+        },
+        {
+          "path": "analysis/axp-i-rev1-retail-header-logo.json",
+          "sha256": "26f2ace733755c23880a18dfdaf3d86c913737d88eda92474ed8e49a3bc371f1"
+        },
+        {
+          "path": "analysis/axp-s-rev0-retail-header-logo.json",
+          "sha256": "7a4890a3613e72125aa82b81b60763f3f419fba2fe1a31065914c3d9a3eb06f5"
+        },
+        {
+          "path": "analysis/axp-s-rev1-retail-header-logo.json",
+          "sha256": "243f446e69af44f28289ffad4507dee745ed56d37c4677f3b8d8e76c356c13df"
+        },
+        {
+          "path": "analysis/header-logo-catalog-summary.json",
+          "sha256": "de5ae0ce0e6681cfc76ed3e63de1b471ec8c0df22200532cb5875de9a85f01f8"
+        },
+        {
+          "path": "analysis/sapphire-jp-header-logo.json",
+          "sha256": "bcf0e9071c3e455e0bf95b1e9b06cdbb124a4a1b3545b15c3cf8f98fdb295b12"
+        }
+      ],
+      "png": {
+        "width": 416,
+        "height": 64,
+        "bit_depth": 8,
+        "color_type": "truecolor-alpha",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-en.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "English",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre-global.json",
+          "sha256": "e6c912280d25ee760b67344bcec34035bde46e60639915c0dfa7bbaa0bc8000a"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-de.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "German",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre-global.json",
+          "sha256": "e6c912280d25ee760b67344bcec34035bde46e60639915c0dfa7bbaa0bc8000a"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-fr.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "French",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre-global.json",
+          "sha256": "e6c912280d25ee760b67344bcec34035bde46e60639915c0dfa7bbaa0bc8000a"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-it.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre-global.json",
+          "sha256": "e6c912280d25ee760b67344bcec34035bde46e60639915c0dfa7bbaa0bc8000a"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-es.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre-global.json",
+          "sha256": "e6c912280d25ee760b67344bcec34035bde46e60639915c0dfa7bbaa0bc8000a"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark-swatch.png",
+      "sha256": "b6fab610c8c7b2725757b0b41d43693e13022c3c2ea93149f8049e9c0383ffad",
+      "size": 173,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "469043f4dc7d0c4a7528a9665ac2ccbf3c1ff02240311136ebde226ba9397fa3"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "9056aaaf4054bfee39136eb0c6aed5caf4041372fffe0a52be1b354d80a129af"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-kyogre-dark.json",
+          "sha256": "f21d94309175cb9196970dbbdfeb39465b6fabfbe3927e6bd7bd619efc60ac24"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 16,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark.pal",
+      "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54",
+      "size": 135,
+      "format": "JASC-PAL",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/palette-swatches.json",
+          "sha256": "469043f4dc7d0c4a7528a9665ac2ccbf3c1ff02240311136ebde226ba9397fa3"
+        },
+        {
+          "path": "manifests/title-kyogre.json",
+          "sha256": "011284f43f64e53ca12360c8e2e604a1cae044d037121adc12e81d3be3ff2bd8"
+        },
+        {
+          "path": "analysis/palette-swatch-catalog.json",
+          "sha256": "9056aaaf4054bfee39136eb0c6aed5caf4041372fffe0a52be1b354d80a129af"
+        },
+        {
+          "path": "analysis/palette-swatches/graphics-title-kyogre-dark.json",
+          "sha256": "f21d94309175cb9196970dbbdfeb39465b6fabfbe3927e6bd7bd619efc60ac24"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/title/kyogre-dark.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48",
+      "size": 1452,
+      "format": "PNG",
+      "category": "title",
+      "language": "Unspecified",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/title-kyogre.json",
+          "sha256": "011284f43f64e53ca12360c8e2e604a1cae044d037121adc12e81d3be3ff2bd8"
+        }
+      ],
+      "png": {
+        "width": 256,
+        "height": 256,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

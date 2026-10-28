@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "asset_count": 9,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "0bb31b5f9c6f2127467ea25f582a2d7a59e13b36d8c1f81c8d49e740b5c86819"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-en.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-de.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-fr.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-it.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-es.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    },
+    {
+      "path": "graphics/title/kyogre-dark-swatch.png",
+      "sha256": "b6fab610c8c7b2725757b0b41d43693e13022c3c2ea93149f8049e9c0383ffad"
+    },
+    {
+      "path": "graphics/title/kyogre-dark.pal",
+      "sha256": "5d3020789d5b9ba418d707fcb5b69eb145f4814bbe6f28a45d23c77e51535a54"
+    },
+    {
+      "path": "graphics/title/kyogre-dark.png",
+      "sha256": "cd2fc5e69af5f655f85767ac493d6ca4e91070a37f1e8f770f5eb19716851c48"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "7b18330d9938ee9d38a4ff0a7a1995d00ac9ada540c9c657acb5b969ed0c151e"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "913b7210557857d0a229a0dcf072a536306c695a4dab069b11b62ec0567095f0"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "06e1d63ca18966a44ab8c23be56ee84f7e0f0d771ad98ca4d8016173455ac644"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "618cd99bb42f701d9a443fed514b25d4489710e9e16619b8b27734befb5fc30f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
