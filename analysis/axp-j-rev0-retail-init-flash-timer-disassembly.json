@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "axis": "Disassembly",
+  "source": "src/init_flash_timer.s",
+  "source_sha256": "0f60cb706881679b0c08ad9018eeba3f5cf5365006ad852844928498dfe1d120",
+  "discovery": {
+    "caller_map": "analysis/axp-j-rev0-retail-check-flash-memory-disassembly.json",
+    "caller_map_sha256": "38f773946d443fe7470516e5c6596bd65eb116f8fa05614d08451586f05e7cb6",
+    "rule": "named InitFlashTimer target from independently traced CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitFlashTimer",
+    "address": "0x080005F0",
+    "range_end_exclusive": "0x08000600",
+    "rom_code_range": {
+      "start_offset": 1520,
+      "end_offset_exclusive": 1536,
+      "length": 16,
+      "sha256": "305519b203a36c3df8eb8fa4822ab59b626bb28985a66e832109132e2e16ed8f",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetFlashTimerIntr",
+        "source": "0x080005F8",
+        "target": "0x081B0144"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 8,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "305519b203a36c3df8eb8fa4822ab59b626bb28985a66e832109132e2e16ed8f",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "timer_index": 2,
+    "handler_operand_form": "loaded-handler",
+    "handler_source": "gFlashTimerIntrFunc",
+    "interrupt_table_slot": null
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
