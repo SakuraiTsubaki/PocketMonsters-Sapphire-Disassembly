@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "axis": "Disassembly",
+  "function": "InitMainCallbacks",
+  "family_profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_main_callbacks.py",
+    "tool_sha256": "6fc93ef816e04f780ef724c37044e912bb0e925192036342ec7755622b4f8080"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/init_main_callbacks.s",
+      "sha256": "a362889e2076ae26349a0eb1f059dbcd561949c3a628bdca98e6c025ba83d6dd"
+    },
+    {
+      "path": "analysis/init-main-callbacks-disassembly-summary.json",
+      "sha256": "a56ce24757f25e87e65cb25ead6f8f6557ebfdaae31f6181027562f7b5c6a7d4"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "e8a342e0d6965bec08f0eacf2c3674435fe965adae27bd25558ac8fd9c1e7071"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "166acebbc176b540513e9abeeefc6e531351b1416608ca9a5ef21ad826b3511d"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "0094fb3ff67259e21d62b61bcd591fb56d976e57fe3ce1b188853b07d7a1ee6b"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-init-main-callbacks-disassembly.json",
+      "sha256": "2eacca95d77bdf113830a9b293001fa42853620ac56c1669d8c367d90eb6e035"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "9c721488e52c26e524a266f227c483c87566db2da919cebcd604c964685808e3"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "04669ab623354b5c38e592e2010ee1c0937d0744793e8a744cafeb0d12afd144"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "95c77d6723578d29f11561fab3aefa385ed218c0a0e8530cf7ca40de2fb06b61"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "8a9c46961ba9b3b5887c8586de44924c0a4932ca71e3ddb5e4e3c9cf93571a37"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "32cba67fedccd9c0b15b519ad0072bb800f8a3781f24b4c0f1d2f7f1d5ab5d4f"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "ec86fba5653944c98226c84ced08fca221f2242ef32393a9b1b7527a09b7f13d"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "bd3bfd1c70d1089c05b7dbfc4f57b32f076abdf1ed939cd457b0fe5f67fffe0b"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "d9ccab3339d637abc63dc41c1adc8ab31cb8d39fbe5636654369d39f5635f037"
+    },
+    {
+      "path": "research/init-main-callbacks-disassembly.md",
+      "sha256": "7a177334ca907a3a19df9651b4622b35acf6fe7818616cea4aa8aa35c6d162b5"
+    },
+    {
+      "path": "tests/test_init_main_callbacks_disassembly.py",
+      "sha256": "a74859cdb1092ab74c8e34cb9fe40d7f817959397d44d3d07e8da1a595187fdf"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev1-retail",
+    "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/init_main_callbacks.s",
+  "source_sha256": "a362889e2076ae26349a0eb1f059dbcd561949c3a628bdca98e6c025ba83d6dd",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x08000380",
+    "boot_call_source": "0x080003A8",
+    "rule": "direct boot call immediately after CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitMainCallbacks",
+    "address": "0x080004BC",
+    "range_end_exclusive": "0x080004D2",
+    "rom_code_range": {
+      "start_offset": 1212,
+      "end_offset_exclusive": 1234,
+      "length": 22,
+      "sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetMainCallback2",
+        "source": "0x080004CA",
+        "target": "0x08000500"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 11,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "4885a36152a8553a16ebfd6cea9933577ce7a2d24316712b201a523680a68aa5",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "rs-base",
+    "zeroed_state": [
+      "gMain.vblankCounter1",
+      "gMain.vblankCounter2",
+      "gMain.callback1"
+    ],
+    "initialized_pointers": [],
+    "callback2_initializer": "copyright-screen initializer"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/axp-f-rev1-retail-check-flash-memory-disassembly.json",
+    "check_flash_memory_map_sha256": "34d1a33a286bf78401c6a6a3583b49a93f6ccb0fc2961a3822b2efffe4de2888"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
