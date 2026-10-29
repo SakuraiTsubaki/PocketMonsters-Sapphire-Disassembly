@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev0-retail",
+    "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/init_map_music.s",
+  "source_sha256": "a1b10ebeb64848c765dacd1d153e55c97727a8cf19f4119611d9f08f7e3dacb0",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x08000380",
+    "boot_call_source": "0x080003AC",
+    "rule": "direct boot call immediately after InitMainCallbacks"
+  },
+  "function": {
+    "name": "InitMapMusic",
+    "address": "0x08075060",
+    "range_end_exclusive": "0x08075070",
+    "rom_code_range": {
+      "start_offset": 479328,
+      "end_offset_exclusive": 479344,
+      "length": 16,
+      "sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "ResetMapMusic",
+        "source": "0x08075068",
+        "target": "0x0807516C"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 8,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "208cc1ca4b9d4d1ab7ff55f003e775a720b1f0e2f8ac1be80107ce41c8a250be",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "clear-iwram-byte-then-call",
+    "gDisableMusic_address": "0x03004AFC",
+    "gDisableMusic_value": 0,
+    "then_calls": "ResetMapMusic",
+    "reset_map_music_relative_offset": 268
+  },
+  "cross_reference": {
+    "init_main_callbacks_map": "analysis/axp-f-rev0-retail-init-main-callbacks-disassembly.json",
+    "init_main_callbacks_map_sha256": "95c77d6723578d29f11561fab3aefa385ed218c0a0e8530cf7ca40de2fb06b61"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/sound.c"
+  },
+  "raw_rom_bytes_included": false
+}
