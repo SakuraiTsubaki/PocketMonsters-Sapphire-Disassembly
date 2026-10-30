@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-en-rev1",
+    "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/reset_stubs.s",
+  "source_sha256": "b021ad0ef730b45a1b119ef54e0977cd742ee7839062257557e0fcf5539a7ae0",
+  "functions": {
+    "RegisterRamReset": {
+      "rom_offset": 1968044,
+      "address": "0x081E07AC",
+      "range_end_exclusive": "0x081E07B0",
+      "length": 4,
+      "code_sha256": "be83efc9175d398e437cd01b3943750ecc0700157e0f99aa356d8e56de2694bd",
+      "software_interrupt": 1,
+      "return": "bx lr"
+    },
+    "SoftReset": {
+      "rom_offset": 1968048,
+      "address": "0x081E07B0",
+      "range_end_exclusive": "0x081E07C8",
+      "length": 24,
+      "code_sha256": "13b9651ba27c9de04f893d61d57e71dc6a082222331b7b5fec029b8f7ce6e0d3",
+      "interrupt_master_enable_address": "0x04000208",
+      "reset_stack_pointer": "0x03007F00",
+      "register_ram_reset_swi": 1,
+      "soft_reset_swi": 0,
+      "nonreturning": true
+    }
+  },
+  "verified_layout": {
+    "adjacent": true,
+    "suite_length": 28,
+    "register_to_soft_reset_delta": 4
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "functions": [
+    "RegisterRamReset",
+    "SoftReset"
+  ],
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_reset_stubs.py",
+    "tool_sha256": "82440844efd64a739145ee009454885aab9a7b83892f194aa6bd8efec87e0ef6"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/reset_stubs.s",
+      "sha256": "b021ad0ef730b45a1b119ef54e0977cd742ee7839062257557e0fcf5539a7ae0"
+    },
+    {
+      "path": "analysis/reset-stubs-summary.json",
+      "sha256": "f38cc6fde0d93769a30647c10ce7e4b93a44d5bce839e844e5ec0c9498ad7894"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-reset-stubs.json",
+      "sha256": "f05a8bc47a2a4aa4a8298b1baa533c37ba62704c70febf6001cd5637499a84cd"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-reset-stubs.json",
+      "sha256": "340e9036cbabce6fb965f3d3455e0f1e8b19f696e7399a6ff7abade0116272a4"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-reset-stubs.json",
+      "sha256": "465c7755ca25b0e9fdff41188c70c04d46145eb975762de7738cafc95d005e72"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-reset-stubs.json",
+      "sha256": "959d3ef4d40185789471d4042fe7d23e847787c8971ede160807830444754045"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-reset-stubs.json",
+      "sha256": "a3d65afa6fd027531d9caaac1ab0989836db9ec3f72d674e31f9b663e612f538"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-reset-stubs.json",
+      "sha256": "2a21201dad8030abeaca4391855d42094f4b4898219d74b3e53fb4a6f3cce73f"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-reset-stubs.json",
+      "sha256": "2ae6a688640b867ccc2664c25f1683c77c1e758ceaf11a27ebeea9a5fbe74a30"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-reset-stubs.json",
+      "sha256": "ce045456e69ccd0fd12b5e5125e42441ed578c9055679bee18a144ff5c583be1"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-reset-stubs.json",
+      "sha256": "54de5448063f7b3ed1622ff5ce63e1433f4d2f8a0d13264d7cd79d64d7b9314f"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-reset-stubs.json",
+      "sha256": "39639e6206ea9e530fd03f559cb62b198ce429023ff30cbaba211a8177983c62"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-reset-stubs.json",
+      "sha256": "fc37d54ad522e30d5d0faa089fc760d557cbfd6f0848b1e8ad9302998c2f7b06"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-reset-stubs.json",
+      "sha256": "8b14c1fc9dfd0c7c8a7a634a5f0f63a90c3981bc8ff44217ca62df6b15a5af27"
+    },
+    {
+      "path": "research/reset-stubs-disassembly.md",
+      "sha256": "7d2cf3a975a153314cbdad8926fe74ef96d683cff645beb070fdf87e211d5d2e"
+    },
+    {
+      "path": "tests/test_reset_stubs_disassembly.py",
+      "sha256": "58e625abb6aaeecb28d311d6530b42e45f6e1a9d372b3fda36a0c2b5cb1bc0b6"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
