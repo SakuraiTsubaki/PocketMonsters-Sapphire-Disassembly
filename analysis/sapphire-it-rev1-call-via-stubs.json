@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-it-rev1",
+    "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/call_via_stubs.s",
+  "source_sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908",
+  "functions": {
+    "_call_via_r0": {
+      "rom_offset": 1975368,
+      "address": "0x081E2448",
+      "range_end_exclusive": "0x081E244C",
+      "length": 4,
+      "code_sha256": "8476eedbf3f929b0326c77be43623ab9c0490ac1a86b8764b2a1c44e78bc2b54",
+      "branch_exchange_register": "r0",
+      "register_number": 0,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r1": {
+      "rom_offset": 1975372,
+      "address": "0x081E244C",
+      "range_end_exclusive": "0x081E2450",
+      "length": 4,
+      "code_sha256": "c432c565f57e9ec434710edef8c1a20a1acfdfc7e21427a044287ee24db02408",
+      "branch_exchange_register": "r1",
+      "register_number": 1,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r2": {
+      "rom_offset": 1975376,
+      "address": "0x081E2450",
+      "range_end_exclusive": "0x081E2454",
+      "length": 4,
+      "code_sha256": "b6e741ccff336746fdcf62bc30c37deaa54afc60e5be6f8d1c33cfd2b8184ebc",
+      "branch_exchange_register": "r2",
+      "register_number": 2,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r3": {
+      "rom_offset": 1975380,
+      "address": "0x081E2454",
+      "range_end_exclusive": "0x081E2458",
+      "length": 4,
+      "code_sha256": "37621e9c1582594d06380bfb47f5e8e55f76186af57d8455c5cae1d89bfe7742",
+      "branch_exchange_register": "r3",
+      "register_number": 3,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r4": {
+      "rom_offset": 1975384,
+      "address": "0x081E2458",
+      "range_end_exclusive": "0x081E245C",
+      "length": 4,
+      "code_sha256": "8b3dc9b167633731ff159f97db499a53741812de435527313c7feaa61a2d4e95",
+      "branch_exchange_register": "r4",
+      "register_number": 4,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r5": {
+      "rom_offset": 1975388,
+      "address": "0x081E245C",
+      "range_end_exclusive": "0x081E2460",
+      "length": 4,
+      "code_sha256": "9cebcc153aa64575ced8a6c096f91ee62171cec618a62772b63a83d7216cfc01",
+      "branch_exchange_register": "r5",
+      "register_number": 5,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r6": {
+      "rom_offset": 1975392,
+      "address": "0x081E2460",
+      "range_end_exclusive": "0x081E2464",
+      "length": 4,
+      "code_sha256": "a69cde590b057639cb563cde0b036a97c071c364d199decf423fa3151d2c5ff9",
+      "branch_exchange_register": "r6",
+      "register_number": 6,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r7": {
+      "rom_offset": 1975396,
+      "address": "0x081E2464",
+      "range_end_exclusive": "0x081E2468",
+      "length": 4,
+      "code_sha256": "0f624c88e23912a3550edda387843c283858e2e5bd39af8f2cf55dbc8a5b1e78",
+      "branch_exchange_register": "r7",
+      "register_number": 7,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r8": {
+      "rom_offset": 1975400,
+      "address": "0x081E2468",
+      "range_end_exclusive": "0x081E246C",
+      "length": 4,
+      "code_sha256": "03100c7b35da755e258907b9ba2fa25838d5cf641c8c38bbd413fdede4657e63",
+      "branch_exchange_register": "r8",
+      "register_number": 8,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_r9": {
+      "rom_offset": 1975404,
+      "address": "0x081E246C",
+      "range_end_exclusive": "0x081E2470",
+      "length": 4,
+      "code_sha256": "e13c10cc5cc80bd1867057d3677e1c7c11998dbd55c55b337039e5ee24d46cd0",
+      "branch_exchange_register": "r9",
+      "register_number": 9,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_sl": {
+      "rom_offset": 1975408,
+      "address": "0x081E2470",
+      "range_end_exclusive": "0x081E2474",
+      "length": 4,
+      "code_sha256": "c9cbb408d0b9d84a638bd6aaf829f3e45bba8654c4aa3d37f97cce5fe80fba44",
+      "branch_exchange_register": "sl",
+      "register_number": 10,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_fp": {
+      "rom_offset": 1975412,
+      "address": "0x081E2474",
+      "range_end_exclusive": "0x081E2478",
+      "length": 4,
+      "code_sha256": "9d186a7b46bd6cda727f41c14185ecba9ea13e096a798244bf240e771315aed9",
+      "branch_exchange_register": "fp",
+      "register_number": 11,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_ip": {
+      "rom_offset": 1975416,
+      "address": "0x081E2478",
+      "range_end_exclusive": "0x081E247C",
+      "length": 4,
+      "code_sha256": "7d52b72fe1270167fada3cdfceefa6280ace0dd958bf8ca44b60771ed5600c25",
+      "branch_exchange_register": "ip",
+      "register_number": 12,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_sp": {
+      "rom_offset": 1975420,
+      "address": "0x081E247C",
+      "range_end_exclusive": "0x081E2480",
+      "length": 4,
+      "code_sha256": "d78820eaaef0581a26b5fd7cebf798d4aceb2171071734e89f6337eb0924a67d",
+      "branch_exchange_register": "sp",
+      "register_number": 13,
+      "trailing_instruction": "nop"
+    },
+    "_call_via_lr": {
+      "rom_offset": 1975424,
+      "address": "0x081E2480",
+      "range_end_exclusive": "0x081E2484",
+      "length": 4,
+      "code_sha256": "e287dff864f37f3c71cdb140d7eebe15385d894bc81c583e5b5194ce85aee76b",
+      "branch_exchange_register": "lr",
+      "register_number": 14,
+      "trailing_instruction": "nop"
+    }
+  },
+  "verified_layout": {
+    "function_count": 15,
+    "suite_length": 60,
+    "word_aligned": true,
+    "vblank_end_to_suite_delta": 2,
+    "alignment_padding_sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+    "suite_signature_match_count": 1,
+    "selected_by_verified_adjacency": true
+  },
+  "cross_reference": {
+    "sqrt_vblank_map": "analysis/sapphire-it-rev1-sqrt-vblank-stubs.json",
+    "sqrt_vblank_map_sha256": "bbe405670c0bdc87b8f706d8509eae449b58850a54e9fa5098cfc2e9598590a8"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "ld_script.txt",
+    "section_pattern": "libgcc.a:_call_via_rX.o(.text)"
+  },
+  "raw_rom_bytes_included": false
+}

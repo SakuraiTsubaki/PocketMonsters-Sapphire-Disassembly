@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_call_via_stubs.py",
+    "tool_sha256": "55f40cb2265a9ad4a6ff56ce228e331837b0d2b75936a973f03b0db0d326ea3b"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-stubs-summary.json",
+      "sha256": "64124bcbe59fe9881809183381814302c46a820baa57e61e6355e9df02f62641"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-call-via-stubs.json",
+      "sha256": "0b0e2eeee4ca480d193340bc8d298d5a492157aaca21f8360f91abc6cea485c5"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-call-via-stubs.json",
+      "sha256": "77472aaf4751e0f116380fdf302870fb029da7303ac134ebc9fafad587fc153b"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-call-via-stubs.json",
+      "sha256": "abcca907c2eb5794137bf4d2c95e505a5db7fd2b607119b133349df5b04b4878"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-call-via-stubs.json",
+      "sha256": "b684198126a6c47ef339b5603e1c2b4b947b9c1c85e39549d0818c0c8c205a1a"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-call-via-stubs.json",
+      "sha256": "e286feeab0c8d2ed637b4324c10bdb94a66fee185cdf61b8b01e0bca2dadacfd"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-call-via-stubs.json",
+      "sha256": "7dcbdefc3abfc6915071a8194660d153ed4ea8d627d57e57159118f5b079c262"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-call-via-stubs.json",
+      "sha256": "a6d1ff88b6306f0be1a4628926d8757a97f4cbc693ca9b8ff1dd6e59d5c69145"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-call-via-stubs.json",
+      "sha256": "1fd91038ac9ca93f9b1a026035ab6abe446b1d1bc2e58520ab59d8358aed0022"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-call-via-stubs.json",
+      "sha256": "e0455075126417c50e8ff8021be91cab503559f7225652405809ccec6d69d4eb"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-call-via-stubs.json",
+      "sha256": "29354c717dd34312eaba84ae56dc343829f839b119ef50d226de78863a21d867"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-call-via-stubs.json",
+      "sha256": "4a56457e838aa652cbafcd5b421c126cbc81fa0a033e965f4d5756bdda1287c3"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-call-via-stubs.json",
+      "sha256": "313744eff836ddbef6c8f1f2ecc9946c96c9c202c58a5b696b6072d835b2742b"
+    },
+    {
+      "path": "research/call-via-stubs-disassembly.md",
+      "sha256": "7d6b18ab72d3bdea8ef701ec611b69933dcaa478d90d6c2cdb07d0c0df9aa048"
+    },
+    {
+      "path": "tests/test_call_via_stubs_disassembly.py",
+      "sha256": "9a0a228865d87bf3ebbfdde59c19aefa0b71f37f91a0f366f0a8a28ee7d9b5ec"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
