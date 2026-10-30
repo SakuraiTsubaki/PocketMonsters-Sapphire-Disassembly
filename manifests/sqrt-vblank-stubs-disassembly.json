@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "functions": [
+    "Sqrt",
+    "VBlankIntrWait"
+  ],
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_sqrt_vblank_stubs.py",
+    "tool_sha256": "0db9d9d0414c978db443aafa77b5d3f0cf65d10e0c08bdd390a7bc507ff9cb8f"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/sqrt_vblank_stubs.s",
+      "sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b"
+    },
+    {
+      "path": "analysis/sqrt-vblank-stubs-summary.json",
+      "sha256": "c45a8488c34cb49603642f396096a39a05f004d2e55e9adeb252e4f142cce648"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-sqrt-vblank-stubs.json",
+      "sha256": "94cf1cecd3e73309930b84ccdd0edbcae87aa51ade3c11063433992d61dcc545"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-sqrt-vblank-stubs.json",
+      "sha256": "d458f6989d7d0274b6bfa7a2f1b3eaace961b22a3a7e56b31f95e084d55ee1ae"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-sqrt-vblank-stubs.json",
+      "sha256": "8d58d593e8a21d2b7fa1f3f4a3fc7fb9206bf825301e9653daf514d8fb0ad070"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-sqrt-vblank-stubs.json",
+      "sha256": "bcc41f275423101c600e6a6841e26af5498ef359c8f2deebf716f08b59f87a35"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-sqrt-vblank-stubs.json",
+      "sha256": "3e054c2d6debe09de2166d41b42db5e550968f1a3c8f46d41ab812952f367508"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-sqrt-vblank-stubs.json",
+      "sha256": "aeb9addee071642b34eda96911ea5fdecdb66705fc5641ea36fa6ee22e71a7e4"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-sqrt-vblank-stubs.json",
+      "sha256": "676091aad9decd8c86890802d24fbc7004ce22b4376199013c9bd94296836fbc"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-sqrt-vblank-stubs.json",
+      "sha256": "b3c9b27a09538218506dc9775086da795c130ce493deb8d4eb07e8989acd86fa"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-sqrt-vblank-stubs.json",
+      "sha256": "ffcaa4a6b31338f77c7be0f230a3351637b77948550f3499b58f9c703c78d80e"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-sqrt-vblank-stubs.json",
+      "sha256": "bbe405670c0bdc87b8f706d8509eae449b58850a54e9fa5098cfc2e9598590a8"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-sqrt-vblank-stubs.json",
+      "sha256": "d1facce726b4ed508ce57290553312e35daabc62a8f2665235867cd8db6b02e0"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-sqrt-vblank-stubs.json",
+      "sha256": "098d81559ab4f4cee36728a15c3b5524caa3169e9a949e2723a24438a190d5af"
+    },
+    {
+      "path": "research/sqrt-vblank-stubs-disassembly.md",
+      "sha256": "7ae93b5d56cbb6dd56feed1161d26ba4e819b9d0e417f6f26350d5db2ee36ca0"
+    },
+    {
+      "path": "tests/test_sqrt_vblank_stubs_disassembly.py",
+      "sha256": "b30b3fded45261a9f1e605226369c360c2f99ead7fdaa6d52d29c35ed93eaf65"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

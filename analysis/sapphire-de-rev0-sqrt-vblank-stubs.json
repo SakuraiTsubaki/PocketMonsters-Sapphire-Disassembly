@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-de-rev0",
+    "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/sqrt_vblank_stubs.s",
+  "source_sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b",
+  "functions": {
+    "Sqrt": {
+      "rom_offset": 2021152,
+      "address": "0x081ED720",
+      "range_end_exclusive": "0x081ED724",
+      "length": 4,
+      "code_sha256": "de4a71d0d630472b454682d19fb9bad740be092c8543ac383d1aab54f492cff4",
+      "software_interrupt": 8,
+      "return": "bx lr",
+      "argument_register": "r0",
+      "result_register": "r0"
+    },
+    "VBlankIntrWait": {
+      "rom_offset": 2021156,
+      "address": "0x081ED724",
+      "range_end_exclusive": "0x081ED72A",
+      "length": 6,
+      "code_sha256": "bf9fc420439437739d9c6b74b51fbe54a172af5a3d24fd499ba4acd0bc9c4050",
+      "temporary_register": "r2",
+      "temporary_value": 0,
+      "software_interrupt": 5,
+      "return": "bx lr"
+    }
+  },
+  "verified_layout": {
+    "adjacent": true,
+    "suite_length": 10,
+    "reset_suite_to_sqrt_delta": 28
+  },
+  "cross_reference": {
+    "reset_stubs_map": "analysis/sapphire-de-rev0-reset-stubs.json",
+    "reset_stubs_map_sha256": "a3d65afa6fd027531d9caaac1ab0989836db9ec3f72d674e31f9b663e612f538"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}
