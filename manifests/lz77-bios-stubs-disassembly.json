@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "LZ77UnCompVram",
+    "LZ77UnCompWram"
+  ],
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_lz77_bios_stubs.py",
+    "tool_sha256": "cf0084a4f60f1f1f71ae5803df9a80874a071bdbb00d12e6465a6d41f4e5cc06"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/lz77_bios_stubs.s",
+      "sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50"
+    },
+    {
+      "path": "analysis/lz77-bios-stubs-disassembly-summary.json",
+      "sha256": "df4b2261220d4f7660db3e0122bd1250d9613924f261fa42c19abd436cceed5c"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "47663e8c64abc396b980c9344e0b937f7ae7309485941cfd5a429a8e1d818556"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "69894d37716007873aa96b0629970f6d7bf5016acecbf7cba404f3e73f271e5b"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "adb9d3d22dfedcdd2488e437a587b5ac123a27e2266834e1994f8055fa844b10"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-lz77-bios-stubs-disassembly.json",
+      "sha256": "5f5a290bcd98e23a8717511218c32e863433c1c105191614cf9504d3675d10cf"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "a589ac684fe899cd5a73bbdc314c4602720520d18aa3565e625b55fef6fab4cf"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "63b838ece7635564e8f796170d173dd191f6c69a8d1d56ae7ffaad59acf517c4"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "f8d9f73c661e57ec17f10588d9b9b4bfb743aaf47befb4dce0f75933d1207c9b"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "b9c20ce5b4186f2df840332383567105d33f96523d3e888113f48fc320ab374e"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "edda6a5ed48fbaef4f1eb238538a7ba90fd14b143d63e82cc6ae813996784d27"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "5652ff75c3b15839a92e0081accabc00a042255a347e2641ef5ee1e12bc2075c"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "49b916c4d69b44a5a8e9fc3bc3405074fde59ca88b1fd92ae040605a0aa791f4"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "f4a6f6669b4d07eff944e178ced29d20d743160b0e452dd34b84593cfa532a9c"
+    },
+    {
+      "path": "research/lz77-bios-stubs-disassembly.md",
+      "sha256": "9b2f94a8b3f4b47f1a77a11e3936c29da459ccd2657f747834dd308ef0ed73cf"
+    },
+    {
+      "path": "tests/test_lz77_bios_stubs_disassembly.py",
+      "sha256": "85adba59888cb0497dca4a268b165603d7bb49199fb39d1ec4f4688b44f220ef"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

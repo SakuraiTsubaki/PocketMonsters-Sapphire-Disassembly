@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-fr-rev0",
+    "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/lz77_bios_stubs.s",
+  "source_sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50",
+  "functions": {
+    "LZ77UnCompVram": {
+      "rom_offset": 2001784,
+      "address": "0x081E8B78",
+      "range_end_exclusive": "0x081E8B7C",
+      "length": 4,
+      "code_sha256": "4f32a5a0727704ed8cc1e46af9875d484bb379b73cdd4ae15086deeb7426b8a0",
+      "software_interrupt": 18,
+      "source_register": "r0",
+      "destination_register": "r1",
+      "destination_memory": "VRAM",
+      "return": "bx lr"
+    },
+    "LZ77UnCompWram": {
+      "rom_offset": 2001788,
+      "address": "0x081E8B7C",
+      "range_end_exclusive": "0x081E8B80",
+      "length": 4,
+      "code_sha256": "ec6d14bbc6d782be7f74aa1a98008404ecc1d3324187a7989458b17708869e80",
+      "software_interrupt": 17,
+      "source_register": "r0",
+      "destination_register": "r1",
+      "destination_memory": "WRAM",
+      "return": "bx lr"
+    }
+  },
+  "verified_layout": {
+    "adjacent": true,
+    "suite_length": 8,
+    "vram_to_wram_delta": 4,
+    "suite_signature_match_count": 1
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/libs/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
