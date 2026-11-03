@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-fr-rev1",
+    "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/affine_copy_bios_stubs.s",
+  "source_sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7",
+  "functions": {
+    "BgAffineSet": {
+      "rom_offset": 2001772,
+      "address": "0x081E8B6C",
+      "range_end_exclusive": "0x081E8B70",
+      "length": 4,
+      "code_sha256": "7db5376a9255b6f3b335a2a0553165e6f8fb14695e62f9b3797fb876191ee72a",
+      "software_interrupt": 14,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -12
+    },
+    "CpuFastSet": {
+      "rom_offset": 2001776,
+      "address": "0x081E8B70",
+      "range_end_exclusive": "0x081E8B74",
+      "length": 4,
+      "code_sha256": "dedc152a89df8aadc9dc9526881c29e92f681504cf9bf438bbac1c6362fd9b42",
+      "software_interrupt": 12,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -8
+    },
+    "ObjAffineSet": {
+      "rom_offset": 2001792,
+      "address": "0x081E8B80",
+      "range_end_exclusive": "0x081E8B84",
+      "length": 4,
+      "code_sha256": "9f004ab9239029bc7e051e24763751da64c47109e542f1d19f241ac89ceccb39",
+      "software_interrupt": 15,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:count",
+        "r3:offset"
+      ],
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": 8
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E8B78",
+    "family_relative_offsets": {
+      "BgAffineSet": [
+        -12
+      ],
+      "CpuFastSet": [
+        -8
+      ],
+      "ObjAffineSet": [
+        8
+      ]
+    },
+    "all_signatures_globally_unique": true
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/sapphire-fr-rev1-lz77-bios-stubs-disassembly.json",
+    "sha256": "b9c20ce5b4186f2df840332383567105d33f96523d3e888113f48fc320ab374e"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/libs/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

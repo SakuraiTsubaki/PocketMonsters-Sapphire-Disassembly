@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_affine_copy_bios_stubs.py",
+    "tool_sha256": "68098fe54fac1eee1af36825818965e8b81c81d26fc916859265ee6e895095fb"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stubs-disassembly-summary.json",
+      "sha256": "f64848c3a712e2133bd25361fa14106c9d6215ff70bbec42127b560635bf97eb"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "5e6d68b506c7f1a37c6555b9e83c66d5e4d8eadabf5f89295ddb833cebc86e5e"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "88073bbb723017a689b67a6a0aca14fe79ecdec996157e3091bbbfad5a284b35"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "20a4c04cd327f3ae04aacc08792f26d1558b2cb617f702b022b89bdd9a6c2e75"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "f0cbc14053c4236367e6ad833789d0db671bee10f8d38bc596600218af50bc2b"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "ddfa1c7eb36f13c86ca37543b90c5c847fe8f40c21b444a17e7ee0f8ab375e07"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "6a6141d2b05ba308fc0ee353f8fee7baad1f9994273171284fecffa04df14057"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "a0a1b162ce7196a5af1f0d78f0bbaa82db00043cad9cb605fa01e3f112dc00bc"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "31ae1007460914e13613e0b2f56c2c65e79b7612ec9a669d92ae7d29abf0b2e5"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "fbea2b6fe43804ac9320227860eae47c585e952fa3c83089d3cb1cd91ea5a32b"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "9c589ee94813fc5725c50394ce8af651b64b66f7ea17d0b18a03eb940da4eb9b"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "06018aa5373a1fd1fae6f9a38d3c0c19134eafec5ecd1dfc06d260508b6d7641"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "dd02046658bd77d19187949cd106a50045e9700ac0a6941f9d59c3ec118fdf32"
+    },
+    {
+      "path": "research/affine-copy-bios-stubs-disassembly.md",
+      "sha256": "99c80b50a33de6364f7727b26d65e28e02de4357eb2af61213361b9ebd05edc9"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stubs_disassembly.py",
+      "sha256": "86576174c25120614d272f361d79a085e14710768ddf3d388ff539de09d76dda"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
