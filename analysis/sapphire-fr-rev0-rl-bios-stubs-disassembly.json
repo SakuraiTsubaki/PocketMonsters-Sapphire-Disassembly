@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-fr-rev0",
+    "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/rl_bios_stubs.s",
+  "source_sha256": "bf373181708d6a9eea10b8e04fe68026b65b57e9fd8d9a7cec78ec27922862af",
+  "functions": {
+    "RLUnCompVram": {
+      "rom_offset": 2001796,
+      "address": "0x081E8B84",
+      "range_end_exclusive": "0x081E8B88",
+      "length": 4,
+      "code_sha256": "92180fdd5a99d438bbf8c27c41c529abc571a5cd47d4e6d10311a84b4c44859c",
+      "software_interrupt": 21,
+      "source_register": "r0",
+      "destination_register": "r1",
+      "destination_memory": "VRAM",
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": 12,
+      "selected_by_verified_sdk_layout": true
+    },
+    "RLUnCompWram": {
+      "rom_offset": 2001800,
+      "address": "0x081E8B88",
+      "range_end_exclusive": "0x081E8B8C",
+      "length": 4,
+      "code_sha256": "f1048b99d6e37687865f22863a77e61648b8054a57ca380b03dad2594796b86d",
+      "software_interrupt": 20,
+      "source_register": "r0",
+      "destination_register": "r1",
+      "destination_memory": "WRAM",
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": 16,
+      "selected_by_verified_sdk_layout": true
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E8B78",
+    "family_relative_offsets": {
+      "RLUnCompVram": 12,
+      "RLUnCompWram": 16
+    }
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/sapphire-fr-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "f8d9f73c661e57ec17f10588d9b9b4bfb743aaf47befb4dce0f75933d1207c9b"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/libs/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
