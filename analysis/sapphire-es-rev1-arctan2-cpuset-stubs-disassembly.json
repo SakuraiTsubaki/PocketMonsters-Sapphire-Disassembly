@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "rs",
+  "target": {
+    "release": "sapphire-es-rev1",
+    "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/arctan2_cpuset_bios_stubs.s",
+  "source_sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814",
+  "functions": {
+    "ArcTan2": {
+      "rom_offset": 1987712,
+      "address": "0x081E5480",
+      "range_end_exclusive": "0x081E5484",
+      "length": 4,
+      "code_sha256": "d0c2ec82c5f5d65a013e773fd2f3eb012f5930f37efbf594d8e08b2afd3c3154",
+      "software_interrupt": 10,
+      "arguments": [
+        "r0:x",
+        "r1:y"
+      ],
+      "result_register": "r0",
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -16,
+      "selected_by_verified_sdk_layout": true
+    },
+    "CpuSet": {
+      "rom_offset": 1987724,
+      "address": "0x081E548C",
+      "range_end_exclusive": "0x081E5490",
+      "length": 4,
+      "code_sha256": "07967ebdc3979cd4fd4de37fd22b3e6de8965b00dae4ac5585577c9709839652",
+      "software_interrupt": 11,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "result_register": null,
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -4,
+      "selected_by_verified_sdk_layout": true
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E5490",
+    "allowed_family_relative_offsets": {
+      "ArcTan2": [
+        -16
+      ],
+      "CpuSet": [
+        -4
+      ]
+    }
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/sapphire-es-rev1-lz77-bios-stubs-disassembly.json",
+    "sha256": "f4a6f6669b4d07eff944e178ced29d20d743160b0e452dd34b84593cfa532a9c"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/libs/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

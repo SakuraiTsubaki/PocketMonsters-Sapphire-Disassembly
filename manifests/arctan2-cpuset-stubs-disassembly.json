@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "rs",
+  "origin_reference": "sapphire-jp-rev0",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_arctan2_cpuset_stubs.py",
+    "tool_sha256": "011082c36dc18fbaeb8325934d07ef4a0342cc270c75b331bf94a000263f2df9"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "e929098190f7aa818b2ed7dbed291230ac862f0d7685f2d5e939a2587628a691"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stubs-disassembly-summary.json",
+      "sha256": "9cd6ec8809473f5a53814b78d7b2c476a47b28db7164bb393a5c4b977ba99b25"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "f5247210148078dc56d49fdc7a69eedca24bfbf7954a787a8700ef8127a8d165"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "12e1f5680f8ff336137270b6ba544e321a2c4645819e913da51e5f11b30e1acf"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "2d7dc649bcadf3156cc2ac8864741ae8c020d7b570a0a2600cedd338d253abe1"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "9ba1400cbf147bc98acea81fa472a0af235a3a0666a0e46d4883eb7cc7f40281"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "a31239c44fe7ad45bc4292a0b59ed8b91277d3f9f84435bd1780840d11e88821"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "7033be6ee060fcf3bd673d551c23710ea9f3b2c97b09e13747594c714846168b"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "12bfdc3aeb0e23f772fca5cc0c8990804b43ff55989537e7ab37100d4c467cd9"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "cafac3e87234fb7e5b0d6e775f51725db574cbda62322d5033628acca1851e0a"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "295d038ddd14fe9132ddafc1d31138b93e742401e8dfe34b46b675383bbdb577"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "7ad85ca064422510feef16f8d1a172c6fad42b1d59fbff5be41cc18d1ad3bbcd"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "5b9d1cbffb49c8606cc2454048b9f254783469a2cd98bb77b0b60d747cc29881"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "dbeb2d7300b89a50bb8cd713f2b204480621b3e93541b235dfafed49fb1d57a0"
+    },
+    {
+      "path": "research/arctan2-cpuset-stubs-disassembly.md",
+      "sha256": "9911fcf7bb6293a114257fb48f6a94672b9b4e118348b52083af7c8e1a22786b"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stubs_disassembly.py",
+      "sha256": "15b618ab58a27f631a2e738afb5c0ba35f20f8dffd2cbe2c36e5a773226788a1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
