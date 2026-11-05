@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "species": {
+    "id": 1,
+    "name": "bulbasaur"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_rse_species_sprites.py",
+    "tool_sha256": "cdf9d235ab405da8d0b89574fe0c2e58997d6e2987b9e97f73d6b99749aeda24"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/bulbasaur_species_sprite_tables.asm",
+      "sha256": "0509c1b9a731fb6d3a87d9bcf6bd008057588e682cccf23725e8544e6ce4d432"
+    },
+    {
+      "path": "analysis/bulbasaur-sprite-set-summary.json",
+      "sha256": "c2970f86187a292358831162f5a85f60f0bb0657354b297f4697f079d25ca6ed"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-bulbasaur-sprite-set.json",
+      "sha256": "cf22b8a12e892eb6e09c8446f6c40b1ba91d1fe0e77bc9caf3000dd03b067cc6"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-bulbasaur-sprite-set.json",
+      "sha256": "09b28945dda50e378a4e09db0f602c8c6ac5a6e0d3031f71a4f043084cb854e3"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-bulbasaur-sprite-set.json",
+      "sha256": "4f86e64fa351294f9a074cd1f7730e9c7f51f66e25645f7748164697db8a8a7f"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-bulbasaur-sprite-set.json",
+      "sha256": "c9f96218a5445a05da25d91c32087194f815af296cf387a34bd3f469e592ce7e"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-bulbasaur-sprite-set.json",
+      "sha256": "d8930bd5b1640276c927a304d2188d6eb3f8de76bfba2d5fd3abb4a81ef619e8"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-bulbasaur-sprite-set.json",
+      "sha256": "b74b48631509d31f196179b04b1adf3d2dfbf0ff945266eaa219847e04520958"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-bulbasaur-sprite-set.json",
+      "sha256": "56457e7bf454f9795f43aa6e724bc55efbbea81b4ab3e7141a7bf161a8dff4f7"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-bulbasaur-sprite-set.json",
+      "sha256": "0353e9a813d685bdeb20beb2e2989621df9c72b455806f6cd90e63a7b1b8a824"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-bulbasaur-sprite-set.json",
+      "sha256": "d4bb8ddc13fb2f07b603223047859792e0826c586388cf90ce871b12e7ccff2a"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-bulbasaur-sprite-set.json",
+      "sha256": "3b96689c0ba140a4258ddb41d4ab23f020e72a0b0fe7ace97b33bb1a80c07c9b"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-bulbasaur-sprite-set.json",
+      "sha256": "4f5cdc2b8f47346a9d0ba1d23542291d2bfbd9223edb34c598da83951dd24d7f"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-bulbasaur-sprite-set.json",
+      "sha256": "6a4e112ceae9dca4669913dad186df8e5263b7da2bbbb7567ff0dc68af3602cf"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-jp.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-jp.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-jp.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev2-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev2-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev2-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-de.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-de.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-de.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-de.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-fr.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-fr.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-fr.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-fr.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-it.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-it.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-it.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-es.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-es.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-es.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-es.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-es.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "research/bulbasaur-sprite-set.md",
+      "sha256": "00cdb11ee8822ea17f91eee2fb5a0fd20644719b7bc0d27403fc0ea466488968"
+    },
+    {
+      "path": "tests/test_bulbasaur_sprite_set.py",
+      "sha256": "f5f42edf1f36623454fb6f689ce63c933c9f2fda4b332688b5b1fb80bbfafc18"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

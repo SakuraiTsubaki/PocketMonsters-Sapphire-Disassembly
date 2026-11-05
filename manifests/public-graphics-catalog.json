@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Sapphire",
-  "asset_count": 45,
+  "asset_count": 81,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -11,6 +11,18 @@
     {
       "path": "graphics/header/nintendo-logo-jp.png",
       "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-jp.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-jp.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-jp.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
@@ -23,6 +35,42 @@
     {
       "path": "graphics/pokemon/pikachu-rev0-jp.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev2-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev2-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev2-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-en.png",
@@ -61,6 +109,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-de.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-de.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-de.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-de.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-de.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -83,6 +155,30 @@
     {
       "path": "graphics/pokemon/pikachu-rev1-de.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-fr.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-fr.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-fr.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-fr.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
@@ -109,6 +205,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-it.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-it.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-it.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-it.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -131,6 +251,30 @@
     {
       "path": "graphics/pokemon/pikachu-rev1-it.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-es.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-es.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-es.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-es.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-es.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-es.png",
@@ -192,15 +336,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "575ac87518157127353be290618d743d62b2339644dcb679f6d5a45fe1f9e7a0"
+      "sha256": "77260f5e508b5646fdb718a2ce7a0f1ddb4d02f6ca2d1637ac36e7c42b909d79"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "9efaa5a47e5875d29481078155722549fb1a4149ea171b92a5da296773c5af67"
+      "sha256": "a94f5963b1c894f3e71482023b63cacb0c65681305023bfd0bbd92a128328ced"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "0a78e3d9c9e33da63adf2de924818c6734ecbd90a7faafc24f253d4c8a27e01e"
+      "sha256": "0b6ba4ff06a121622e09de052ac85d2bb4f9eddfdea8e2d62971229827d0fcef"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

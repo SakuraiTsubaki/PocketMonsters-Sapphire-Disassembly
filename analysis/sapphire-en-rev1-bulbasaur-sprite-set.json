@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev1-retail",
+    "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 1,
+    "name": "bulbasaur"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1999620,
+      "table_offset": 1999612,
+      "source_offset": 13827468,
+      "size": 2048,
+      "tag": 1
+    },
+    "back": {
+      "entry_offset": 2004900,
+      "table_offset": 2004892,
+      "source_offset": 13828172,
+      "size": 2048,
+      "tag": 1
+    },
+    "palette": {
+      "entry_offset": 2008420,
+      "table_offset": 2008412,
+      "source_offset": 13828132,
+      "tag": 1
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-en.png",
+      "sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+        "source_offset": 13827468,
+        "compressed_length": 661,
+        "compressed_sha256": "b0fec5ee63b1467b8f303b4c9f6fb63bc1e05eab397087e856d519b1d048c912",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "dff3cf588f6b52fc87d5efb7ac5cdffa52cc8661f3445c33d5c49830cd6976b3",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "8a325c6541282fa7af08651b4a7c51d83cd2b900cf655a495afe6e665f970b18",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-en.png",
+      "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+        "source_offset": 13828172,
+        "compressed_length": 688,
+        "compressed_sha256": "e33774c4e98c71c99804f990a18920e32ddfc6eb27594c1af56c084bd394be3e",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "e51b44bbe468243cef8189ac8ec7ab12fc5f964e0b0e35882044ddd7177a02d6",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
+      "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+        "source_offset": 13828132,
+        "compressed_length": 40,
+        "compressed_sha256": "26925339abe778282bef43156cf743f33593f7e32de5b7010292812089d2d338",
+        "decompressed_length": 32,
+        "decompressed_sha256": "fe121ed6cb1cac48842d5569b079403a5e14e6f65723aef28ba70d2c85f65c19",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
