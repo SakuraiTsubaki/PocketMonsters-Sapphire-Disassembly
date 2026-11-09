@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "species": {
+    "id": 5,
+    "name": "charmeleon"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_rse_species_sprites.py",
+    "tool_sha256": "cdf9d235ab405da8d0b89574fe0c2e58997d6e2987b9e97f73d6b99749aeda24"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Sapphire-Disassembly/analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/charmeleon_species_sprite_tables.asm",
+      "sha256": "4d73b19a70f87598b3e8878f2da02a2d332a6edc9073359fe6e5e69fe9e94c5e"
+    },
+    {
+      "path": "analysis/charmeleon-sprite-set-summary.json",
+      "sha256": "164304b4ced9689f33dee8782389b67e6547d75b3e96d1729e8470a56d907a85"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-charmeleon-sprite-set.json",
+      "sha256": "2003c02a3a6820c081dba3298854759403f4915142b985f5389d1eacbfdd3885"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-charmeleon-sprite-set.json",
+      "sha256": "da31fac0c9aca9d11fee8194c6acc752ca7219e2c1dd40506a43dd5d9009d239"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-charmeleon-sprite-set.json",
+      "sha256": "1951c4bcba0962dae385469a65ce81d9877257237ac3a557a6842b8a76420169"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-charmeleon-sprite-set.json",
+      "sha256": "9c98f865269395e3d23ea76a505faee0b865611893bb2d5925c5a09b1bba3058"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-charmeleon-sprite-set.json",
+      "sha256": "cf7942c05aa52ef7ab9401d3d7e55a6b2f71fa18e3be244afbece44295472cd4"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-charmeleon-sprite-set.json",
+      "sha256": "b9a8759b81a6e7c5d55eff6823e50025d7192cc3c20714eb06136f67d7626512"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-charmeleon-sprite-set.json",
+      "sha256": "d59109ce078714fdd609b66bd0d5a5dd67ae39e2529c2a09c6b62dc7bf761f4d"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-charmeleon-sprite-set.json",
+      "sha256": "6947bbe8dc509e656d21d2772d0bdb4338ee2237b47fc40eb441dac1bfbbf4ac"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-charmeleon-sprite-set.json",
+      "sha256": "255fbf10d2776f795c8b97be7ff110680296315e878d3ae5e88616cdc2611093"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-charmeleon-sprite-set.json",
+      "sha256": "e5fda924a846f0ee7f051b052ec2fcfeda90437fbc5d14cbba4d07dfe4979808"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-charmeleon-sprite-set.json",
+      "sha256": "a258b038ef776a9555fa57c5e88a71df8dac68cfe0dc68dd3fe0418691038818"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-charmeleon-sprite-set.json",
+      "sha256": "642511f52b6732e42e87ba61b45569de73fd16413a367cd40813a83220bb68bf"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-jp.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-jp.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-jp.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-en.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-en.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-en.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-en.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-en.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-en.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev2-en.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev2-en.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev2-en.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-de.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-de.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-de.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-de.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-de.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-de.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-fr.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-fr.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-fr.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-fr.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-fr.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-fr.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-it.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-it.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-it.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-it.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-it.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-it.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-es.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-es.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-es.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-es.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-es.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-es.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68"
+    },
+    {
+      "path": "research/charmeleon-sprite-set.md",
+      "sha256": "21924272b8a57d0dfe0e8373882373f375de7942f936b8ea1b18f805963581b3"
+    },
+    {
+      "path": "tests/test_charmeleon_sprite_set.py",
+      "sha256": "63a562734201c29055c6c8e7dc907011221ae833bcde0de20bf76126f3d4a016"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

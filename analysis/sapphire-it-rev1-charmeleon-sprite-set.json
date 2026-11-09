@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-i-rev1-retail",
+    "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 5,
+    "name": "charmeleon"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2006952,
+      "table_offset": 2006912,
+      "source_offset": 13839384,
+      "size": 2048,
+      "tag": 5
+    },
+    "back": {
+      "entry_offset": 2012232,
+      "table_offset": 2012192,
+      "source_offset": 13840360,
+      "size": 2048,
+      "tag": 5
+    },
+    "palette": {
+      "entry_offset": 2015752,
+      "table_offset": 2015712,
+      "source_offset": 13840320,
+      "tag": 5
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-it.png",
+      "sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13839384,
+        "compressed_length": 934,
+        "compressed_sha256": "dff1f9f9f3d6d83a4b4bd6b090432810c77874a8435843d9711424a6d9aa9326",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "3ed4ac46fa04fe2c3f4a4c9288292e7f09494a1d95304bec2368efd62c03a759",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "81a6fbf60b8bfd501cdd785adf85420f87bd2e70702c3364851d9b3095130ca4",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-it.png",
+      "sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13840360,
+        "compressed_length": 735,
+        "compressed_sha256": "4e2ba7d8843f2ceadc4fcb891e5699f265cf976ab6119f9f1e34866c1b962b87",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "a463f2c464eb7b42af87574e036071f9586760aee1f9db2ae6c0f0973e26814a",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "930bd0b4b2900d41b78c80b584a311073834335941f6e12a5801b2adce4e5f68",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-it.pal",
+      "sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13840320,
+        "compressed_length": 40,
+        "compressed_sha256": "75672ed4d252bdc0f34ad26d05250027b258807e1231ef6c2664466c1dec1c91",
+        "decompressed_length": 32,
+        "decompressed_sha256": "4704ecadc46fdcae2263ec64e025b471e22bfac68882258c22d17dadd360e0a7",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "fda56b497c54ea3e953031adc45f186b894a061df27ad547bbc14884ba2085d1",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

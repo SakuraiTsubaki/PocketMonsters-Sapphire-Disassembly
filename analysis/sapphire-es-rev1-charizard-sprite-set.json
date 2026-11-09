@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-s-rev1-retail",
+    "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 6,
+    "name": "charizard"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2019380,
+      "table_offset": 2019332,
+      "source_offset": 13842136,
+      "size": 2048,
+      "tag": 6
+    },
+    "back": {
+      "entry_offset": 2024660,
+      "table_offset": 2024612,
+      "source_offset": 13843536,
+      "size": 2048,
+      "tag": 6
+    },
+    "palette": {
+      "entry_offset": 2028180,
+      "table_offset": 2028132,
+      "source_offset": 13843496,
+      "tag": 6
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charizard-front-rev1-es.png",
+      "sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+        "source_offset": 13842136,
+        "compressed_length": 1359,
+        "compressed_sha256": "f4e431a39569e062b93ed3951afe92864d11287e661f25e212cf580c7b166c93",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "56fb3b0a1d3d3c93ac4ba768f3c3821b8015a011447ce23bf2ea84620235fcc1",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "797b28665827c19e70abb7b37110a1442d591e4fe375391a2f524c85c844583f",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev1-es.png",
+      "sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+        "source_offset": 13843536,
+        "compressed_length": 1051,
+        "compressed_sha256": "de459cb210eac30bfd131d8c59274ff84dcd1cc29b8ae3eeaed36b4ab7e4e2b0",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "d36e9933d511722673e032b5946d2c2b0662ed279f7ca27352ecf7cf413c2701",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "3d0a42b79e5f9b537c89d6f29b24d9460089ade1a06025339924c6e44541ba4c",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev1-es.pal",
+      "sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+        "source_offset": 13843496,
+        "compressed_length": 40,
+        "compressed_sha256": "4a094b8e44a35000302380f01d877f061e7789dcaff2929513445a3ef794de94",
+        "decompressed_length": 32,
+        "decompressed_sha256": "030896aa081b144e08f0b7b0676660f4f0b62f51db37d79bfc440abebe3520f4",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "7be8d061c501217a5ce12a72b8b41812d8c0e870d6a8d6250ccb76270f5f88a1",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
