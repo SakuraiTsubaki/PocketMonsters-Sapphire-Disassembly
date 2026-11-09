@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev2-retail",
+    "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 3,
+    "name": "venusaur"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1999636,
+      "table_offset": 1999612,
+      "source_offset": 13832884,
+      "size": 2048,
+      "tag": 3
+    },
+    "back": {
+      "entry_offset": 2004916,
+      "table_offset": 2004892,
+      "source_offset": 13834344,
+      "size": 2048,
+      "tag": 3
+    },
+    "palette": {
+      "entry_offset": 2008436,
+      "table_offset": 2008412,
+      "source_offset": 13834304,
+      "tag": 3
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/venusaur-front-rev2-en.png",
+      "sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13832884,
+        "compressed_length": 1420,
+        "compressed_sha256": "3b81ec295af0ac26a31a34dfe73b9f9384d758698c85dc9673cae7818fba2ea1",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "d8f61fe0cea734198539c4853c0c2be397d5ac2d7f2b8bbaf096d8df9712f047",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "9c6f9fdb302031aa70472bfe393c9d0874bd0980818c485389e82e7aea967edd",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev2-en.png",
+      "sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13834344,
+        "compressed_length": 1231,
+        "compressed_sha256": "1d97153d23e835100bb6027474d0c2764c1ff81342df9a6aaae78b40d02071b8",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "29d0d9a3659c25662cb2b1383c826fc64a896991cde24c8b226710d6a983adbf",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "8467656ef54308b2cbcb71455bd4806dacda27ae065c3ee682cb80217b144138",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab"
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev2-en.pal",
+      "sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13834304,
+        "compressed_length": 40,
+        "compressed_sha256": "9b449e34905632086cdb2ee4e954cd4e99f6b0e46469dad43e6a7b5c28f0fe64",
+        "decompressed_length": 32,
+        "decompressed_sha256": "23aa64d4fa2e65fdb822f0fc06efb5dd2f535deec6db540cc66e9caaeeb00fa3",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "11606f5afc78f891d820da8d24a1d51df53edb7f282fc8a55fd868bf6a551bab",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-i-rev1-retail",
+    "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 2,
+    "name": "ivysaur"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2006928,
+      "table_offset": 2006912,
+      "source_offset": 13830184,
+      "size": 2048,
+      "tag": 2
+    },
+    "back": {
+      "entry_offset": 2012208,
+      "table_offset": 2012192,
+      "source_offset": 13831108,
+      "size": 2048,
+      "tag": 2
+    },
+    "palette": {
+      "entry_offset": 2015728,
+      "table_offset": 2015712,
+      "source_offset": 13831068,
+      "tag": 2
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev1-it.png",
+      "sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13830184,
+        "compressed_length": 882,
+        "compressed_sha256": "b6c9a37a7873ec90b4312cffbde68b0d2ca8522dfcbf1eab7d0b47dbe2c32ba9",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "4420c5c62c559d9f1a2fb3646bbe9217285826ea4ee64485153935874d71cac6",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "317ca13389c4a268e2508de3cde057f27932317ed71e77dcfd29bd7897aa7dc4",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-rev1-it.png",
+      "sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13831108,
+        "compressed_length": 907,
+        "compressed_sha256": "8841aa0a105a440ce8f75a389fd4e45a6745c40afea7f66a90575d7c81b61576",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "0fec846effa7142361132e3d38c9468ed8c08d19f034b00671137dfbfd523238",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "57f839867dfb4f047f029014ca8491e0fe77f80d0d0dcb89de565e7e8547822b",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187"
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev1-it.pal",
+      "sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+        "source_offset": 13831068,
+        "compressed_length": 40,
+        "compressed_sha256": "e8439f6441dd3f6a123a504fdbfc9e4ad2e3feee12ea6a601b83addc5713c98d",
+        "decompressed_length": 32,
+        "decompressed_sha256": "53f67f5867c7c70bcfce1a01ad666f60bcb188a4dcfa76614cba650ea64d9eed",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "b33f61ed2e335591ee16bde58b6aebd9e0f8392bce8e8e578e3150d750da0187",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
