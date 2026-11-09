@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "Sapphire",
-  "asset_count": 81,
+  "asset_count": 153,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -25,6 +25,18 @@
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-jp.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-jp.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-jp.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -35,6 +47,18 @@
     {
       "path": "graphics/pokemon/pikachu-rev0-jp.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-jp.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-jp.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-jp.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
     },
     {
       "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
@@ -73,6 +97,42 @@
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-en.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-en.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev2-en.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-en.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-en.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev2-en.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-en.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-en.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev2-en.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-en.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -109,6 +169,42 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev2-en.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev2-en.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev2-en.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -131,6 +227,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev1-de.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-de.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-de.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-de.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-de.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-de.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-de.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-de.png",
@@ -157,6 +277,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-de.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-de.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-de.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -179,6 +323,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev1-fr.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-fr.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-fr.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-fr.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-fr.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-fr.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-fr.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
@@ -205,6 +373,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-fr.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-fr.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-fr.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-fr.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-fr.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-fr.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -227,6 +419,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev1-it.pal",
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-it.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-it.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-it.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-it.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-it.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-it.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
     },
     {
       "path": "graphics/pokemon/pikachu-back-rev0-it.png",
@@ -253,6 +469,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-it.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-it.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-it.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-it.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-it.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-it.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
       "sha256": "a56ef8e9a9b690fcdd46776e71cc7c049cae58c1a12cff515547b88a768b2bf6"
     },
@@ -277,6 +517,30 @@
       "sha256": "bb3a45b87ac47a260a5fd9c377e3822071583c0680f91f21d8e47d4869ef1bcc"
     },
     {
+      "path": "graphics/pokemon/charmander-back-rev0-es.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-es.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-es.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-es.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-es.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-es.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+    },
+    {
       "path": "graphics/pokemon/pikachu-back-rev0-es.png",
       "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
     },
@@ -299,6 +563,30 @@
     {
       "path": "graphics/pokemon/pikachu-rev1-es.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-es.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-es.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-es.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-es.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-es.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-es.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
     },
     {
       "path": "graphics/title/kyogre-dark-en.png",
@@ -336,15 +624,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "77260f5e508b5646fdb718a2ce7a0f1ddb4d02f6ca2d1637ac36e7c42b909d79"
+      "sha256": "aef97a26f4be73ca64d3c032b0b68b3daf77d3ee5ae4fb8240943186126e06e3"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "a94f5963b1c894f3e71482023b63cacb0c65681305023bfd0bbd92a128328ced"
+      "sha256": "a56134fbb1c26e5ae36fa484cf943559e4b9f6ac36d52942d39bfcadd3aea72e"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "0b6ba4ff06a121622e09de052ac85d2bb4f9eddfdea8e2d62971229827d0fcef"
+      "sha256": "44144141e03b39922ff6c6e54c70d52aa12f1e0417681dc7f04a35f80c9234f3"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

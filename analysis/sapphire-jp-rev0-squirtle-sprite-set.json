@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 7,
+    "name": "squirtle"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1821480,
+      "table_offset": 1821424,
+      "source_offset": 7016972,
+      "size": 2048,
+      "tag": 7
+    },
+    "back": {
+      "entry_offset": 1826760,
+      "table_offset": 1826704,
+      "source_offset": 7017744,
+      "size": 2048,
+      "tag": 7
+    },
+    "palette": {
+      "entry_offset": 1830280,
+      "table_offset": 1830224,
+      "source_offset": 7017704,
+      "tag": 7
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-jp.png",
+      "sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+      "extraction": {
+        "rom_size": 8388608,
+        "rom_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+        "source_offset": 7016972,
+        "compressed_length": 730,
+        "compressed_sha256": "d8829b7006833bf90a69e8901a036fa1a0f4c5a695759f976f0200f9bf660c9c",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "bc9073349a9c39a1f70ce4788a65407b4b3419f1e97f245b0447dd3696d07989",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "867c957520288232625495a150b0a1e842de10fccf5fe9a187c1c2a583c57497",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-jp.png",
+      "sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+      "extraction": {
+        "rom_size": 8388608,
+        "rom_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+        "source_offset": 7017744,
+        "compressed_length": 639,
+        "compressed_sha256": "483203e712b172e7c8f9803badf7269eb113dc2a0444c3732ae84bb9da33fe42",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "12fa86e5945c5d4284e02ece624b130bb709404942541726c927e54dabd2a724",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "c80710c9b72dc8c656d76a2a2c1fd4d1373034f164b9ab4cf22e9df680cca90e",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8"
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-jp.pal",
+      "sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 8388608,
+        "rom_sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+        "source_offset": 7017704,
+        "compressed_length": 40,
+        "compressed_sha256": "9ca76bb8b06ec801dea76c24795093b335f61f8ea3fcc0bf4aed8a5e95b1a7ea",
+        "decompressed_length": 32,
+        "decompressed_sha256": "22eb6118701eeac61c88dc4edf7187491aa213b26bda379ffe92597eb1b4574d",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "90702f2e5e66ce902fb623929ed58285d9505382c28ade79d2cc6144c7b8fcf8",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

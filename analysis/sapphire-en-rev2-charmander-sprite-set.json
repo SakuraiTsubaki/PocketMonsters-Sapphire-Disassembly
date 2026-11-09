@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev2-retail",
+    "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 4,
+    "name": "charmander"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1999644,
+      "table_offset": 1999612,
+      "source_offset": 13836672,
+      "size": 2048,
+      "tag": 4
+    },
+    "back": {
+      "entry_offset": 2004924,
+      "table_offset": 2004892,
+      "source_offset": 13837400,
+      "size": 2048,
+      "tag": 4
+    },
+    "palette": {
+      "entry_offset": 2008444,
+      "table_offset": 2008412,
+      "source_offset": 13837360,
+      "tag": 4
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmander-front-rev2-en.png",
+      "sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13836672,
+        "compressed_length": 685,
+        "compressed_sha256": "b0f85beda328bab5fc7e5e0218b07c77fb6e34cb68dffaee1d73a0960f4d84ad",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "58c04ce56d547dfe0f727f8d73647b675e0b8df18392b953a21c09e7a80bc766",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "c2521fd7f5d549448bfeae7092b9e637d6df98e4da2802d6e9b6fc6a28e585a5",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev2-en.png",
+      "sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13837400,
+        "compressed_length": 658,
+        "compressed_sha256": "3bb4a47e4f360731d415cc8f71502aa422037c43f423f8ef21895387a0274270",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "9aec873fee44f644b8b301ff191a17f705978ac8d394ceb76dce721fcc5522da",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "0521ce266d4c527f443a202a10ceed1d934eff37aa4f5a640f626c64e0ec6629",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev2-en.pal",
+      "sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13837360,
+        "compressed_length": 40,
+        "compressed_sha256": "a54b3d597a6805b2a25c632e69b1b7654113f3432710cc8e498308800d73195f",
+        "decompressed_length": 32,
+        "decompressed_sha256": "4637960b495f9d6e719bc7d4350f32d3832323d89274c70d803a6ee29beb4e21",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "8e0275de21f382090bbfff98dd7f86964aefd245e4ac906be5f692fac762959a",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
