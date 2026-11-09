@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-s-rev0-retail",
+    "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 9,
+    "name": "blastoise"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2019404,
+      "table_offset": 2019332,
+      "source_offset": 13851040,
+      "size": 2048,
+      "tag": 9
+    },
+    "back": {
+      "entry_offset": 2024684,
+      "table_offset": 2024612,
+      "source_offset": 13852364,
+      "size": 2048,
+      "tag": 9
+    },
+    "palette": {
+      "entry_offset": 2028204,
+      "table_offset": 2028132,
+      "source_offset": 13852324,
+      "tag": 9
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-es.png",
+      "sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+        "source_offset": 13851040,
+        "compressed_length": 1283,
+        "compressed_sha256": "93e23f3b67fa49ece746cbf4cbeacdfea15927700b0193d62f0a43ed380f011f",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "646f46be91d73ef9d22c290149cc90cda957030544fde6a64f38746200d0407b",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d42812517389bf5d7f8bf8f79bc67328df80667de6169990ada32326d8c75624",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+      }
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-es.png",
+      "sha256": "023258b041aca5b03655594c6ab0c170f822b1fb3fff64eb8b55db4d23924633",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+        "source_offset": 13852364,
+        "compressed_length": 1091,
+        "compressed_sha256": "6fcb6d85d31854b33199cfe7ce31e6272fef5260b9dd9eb4daced8bfd047f03a",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "01248796db65efdf342ee2654dbc21dc05493f28b36c1c9ae3176e1565a7cf74",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "023258b041aca5b03655594c6ab0c170f822b1fb3fff64eb8b55db4d23924633",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892"
+      }
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-es.pal",
+      "sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+        "source_offset": 13852324,
+        "compressed_length": 40,
+        "compressed_sha256": "ef22c89c92d2a3ee908e9e54b4d4678d1c5f6de79d4aedfe553993f814aa8fbc",
+        "decompressed_length": 32,
+        "decompressed_sha256": "2a97c2ee0fd5abf2a6421b18a65e15863f9686dcd241a73b5e8c71f406ff51e9",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "82620e8a8070e819d80e2e8b9292dbaabf8a8867046a9faaf2565f50e361c892",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

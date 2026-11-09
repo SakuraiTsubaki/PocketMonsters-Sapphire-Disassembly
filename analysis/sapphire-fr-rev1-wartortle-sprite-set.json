@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev1-retail",
+    "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 8,
+    "name": "wartortle"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2033452,
+      "table_offset": 2033388,
+      "source_offset": 13848200,
+      "size": 2048,
+      "tag": 8
+    },
+    "back": {
+      "entry_offset": 2038732,
+      "table_offset": 2038668,
+      "source_offset": 13849132,
+      "size": 2048,
+      "tag": 8
+    },
+    "palette": {
+      "entry_offset": 2042252,
+      "table_offset": 2042188,
+      "source_offset": 13849092,
+      "tag": 8
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/wartortle-front-rev1-fr.png",
+      "sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13848200,
+        "compressed_length": 892,
+        "compressed_sha256": "ff7f29138811495616667dd39bd8979794df66c29e7f28451e23615fe08b9620",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ac9492ae4761c5fa47353faff22325c270bf0a951364fe6cf4ef7193fe830494",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "b1cfdce661ac366e23fef236aaf9ec9aadb224f031e54f95b51bceba9d91537c",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev1-fr.png",
+      "sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13849132,
+        "compressed_length": 819,
+        "compressed_sha256": "0082e9e555f197185e67bae2f57d066b6dc826475282910da9af206f7689d1dd",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "e452735bc1cfabed14999937f72c24976a135dff917fec4667a761d1d1d7d8ca",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "8942792e813fb7420693665da11f7e7074502cf96171ac94d9f89cbf3ec84694",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e"
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev1-fr.pal",
+      "sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13849092,
+        "compressed_length": 40,
+        "compressed_sha256": "7c7459c71a294e5d7fd449ba9a0b99fd0507f96765e8ccc8e1ebfe188e091774",
+        "decompressed_length": 32,
+        "decompressed_sha256": "e4f01a9628da4231140aae286e9348581f348bb07521a31f9615ad190df0fe94",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "935efea83d01ca5c6d9082a80ed45105d6d7a6ce9fe362b76bad706b25b2326e",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
