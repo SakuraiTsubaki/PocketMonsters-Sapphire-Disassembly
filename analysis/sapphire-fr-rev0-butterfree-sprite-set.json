@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev0-retail",
+    "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 12,
+    "name": "butterfree"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2033484,
+      "table_offset": 2033388,
+      "source_offset": 13859224,
+      "size": 2048,
+      "tag": 12
+    },
+    "back": {
+      "entry_offset": 2038764,
+      "table_offset": 2038668,
+      "source_offset": 13860128,
+      "size": 2048,
+      "tag": 12
+    },
+    "palette": {
+      "entry_offset": 2042284,
+      "table_offset": 2042188,
+      "source_offset": 13860088,
+      "tag": 12
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/butterfree-front-rev0-fr.png",
+      "sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+        "source_offset": 13859224,
+        "compressed_length": 862,
+        "compressed_sha256": "5e6f5d2867c19fdd119afd0626dcb6062679d01c8a60ff7e0ef9b7737fab3771",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "65f62909d807dd4f9ad42e31d25057cd88055369b64fb371e74514a8a0d08485",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "b983f495975ce8902e5214569235d81964f467faf94437d39797ebd16955f26c",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-rev0-fr.png",
+      "sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+        "source_offset": 13860128,
+        "compressed_length": 971,
+        "compressed_sha256": "6828c7726b96ccdd5cc227d59806c403853626a4b9cdf220f9e6ca16aae812ad",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "969dc27a0255b7455ba4bcde538b6bd1d77466e64d3f9c44c096a5c1502e5f37",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "1b00ee385be0beef9dd00ecc6a290510bb35cd1df9d9391623d2fb3cb079edd6",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea"
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-rev0-fr.pal",
+      "sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+        "source_offset": 13860088,
+        "compressed_length": 40,
+        "compressed_sha256": "8cffec0f0df00aa777617c00585955e6d53d20f73462db7d7b3c073f0a2b17c6",
+        "decompressed_length": 32,
+        "decompressed_sha256": "35a1c44f61521a639654c7fa2c71c33d41c5cafea06e589ed98fb5e8c004c093",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "025d4f19380be8c049bd7ec5de570194462914d8fa678f8c5c5e14b6247be0ea",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

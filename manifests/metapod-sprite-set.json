@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "game": "Sapphire",
+  "species": {
+    "id": 11,
+    "name": "metapod"
+  },
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_rse_species_sprites.py",
+    "tool_sha256": "cdf9d235ab405da8d0b89574fe0c2e58997d6e2987b9e97f73d6b99749aeda24"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-Sapphire-Disassembly/analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/metapod_species_sprite_tables.asm",
+      "sha256": "6e812ab8527cb24802f5d35a769ea12b5b420c7648574f725603d66e97e63387"
+    },
+    {
+      "path": "analysis/metapod-sprite-set-summary.json",
+      "sha256": "f1f3a8cabce706761c52a20e525997499a9de7d375568e325d9263dfd96224c9"
+    },
+    {
+      "path": "analysis/sapphire-jp-rev0-metapod-sprite-set.json",
+      "sha256": "7266176212c4db3ad82d2485c5e619be04b0e609184f8adb36d1d85d5cf2e723"
+    },
+    {
+      "path": "analysis/sapphire-en-rev0-metapod-sprite-set.json",
+      "sha256": "4387f4dc010ff09d4cc8ccf0799fb8a0c906100a4fea0904aeda32086d3c0c5f"
+    },
+    {
+      "path": "analysis/sapphire-en-rev1-metapod-sprite-set.json",
+      "sha256": "cc171f829f3bf996944e87de07cc19e384c479f7f0a0506c3742217f1d806e27"
+    },
+    {
+      "path": "analysis/sapphire-en-rev2-metapod-sprite-set.json",
+      "sha256": "0acf3145e56937298a6c26245c6cce5b87558be4593d0418c8434a424dab739a"
+    },
+    {
+      "path": "analysis/sapphire-de-rev0-metapod-sprite-set.json",
+      "sha256": "1d842c974a7ca431ab5f880d757cb3912ee575421a8d6cfa23a7522da165e43d"
+    },
+    {
+      "path": "analysis/sapphire-de-rev1-metapod-sprite-set.json",
+      "sha256": "7b2f14bc9cb39651717d718e785f18c3946f6a52033311a9fb64592857d1f204"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev0-metapod-sprite-set.json",
+      "sha256": "36b29f35dbea5106618ce451409473e4cceca69f56723427f96f5c6d7a50f4d6"
+    },
+    {
+      "path": "analysis/sapphire-fr-rev1-metapod-sprite-set.json",
+      "sha256": "6a4435b3dd935b8dac7585a67b2c7df48ab4083a2e22b58d42b24c9940f3c973"
+    },
+    {
+      "path": "analysis/sapphire-it-rev0-metapod-sprite-set.json",
+      "sha256": "3e93d28cd57125b1c325b10fdbe0a2b075037d456afbd0cf0dacc12ea86657a9"
+    },
+    {
+      "path": "analysis/sapphire-it-rev1-metapod-sprite-set.json",
+      "sha256": "ffb1ed7a7f8f9f32e35800be3977ac4a25cf9b0c41af0a6f4ca8bbff33d93901"
+    },
+    {
+      "path": "analysis/sapphire-es-rev0-metapod-sprite-set.json",
+      "sha256": "c71dec03d67d7a057cefc6c4554155e0569a897b0d73f3a0eaddb10cf6de0ef9"
+    },
+    {
+      "path": "analysis/sapphire-es-rev1-metapod-sprite-set.json",
+      "sha256": "7d151c3b9fa240559295cd1fb10fd16e5c0e8e69966e9c5b10ae3eff0c45a45d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-jp.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-jp.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-jp.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-en.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-en.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-en.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-en.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-en.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-en.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev2-en.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev2-en.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev2-en.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-de.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-de.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-de.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-de.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-de.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-de.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-fr.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-fr.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-fr.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-fr.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-fr.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-fr.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-it.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-it.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-it.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-it.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-it.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-it.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-es.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-es.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-es.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-es.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+    },
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-es.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b"
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-es.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d"
+    },
+    {
+      "path": "research/metapod-sprite-set.md",
+      "sha256": "df66a886ce83b27eec397094cda9eeeecac76998debe597a9f212068d294928d"
+    },
+    {
+      "path": "tests/test_metapod_sprite_set.py",
+      "sha256": "ee526c45dfaafe715c7a119678e231af56f9d43944da4a248ffe5b083839464a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

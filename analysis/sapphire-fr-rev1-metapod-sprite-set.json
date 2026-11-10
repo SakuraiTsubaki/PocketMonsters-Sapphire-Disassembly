@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-f-rev1-retail",
+    "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 11,
+    "name": "metapod"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 2033476,
+      "table_offset": 2033388,
+      "source_offset": 13856992,
+      "size": 2048,
+      "tag": 11
+    },
+    "back": {
+      "entry_offset": 2038756,
+      "table_offset": 2038668,
+      "source_offset": 13857560,
+      "size": 2048,
+      "tag": 11
+    },
+    "palette": {
+      "entry_offset": 2042276,
+      "table_offset": 2042188,
+      "source_offset": 13857528,
+      "tag": 11
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/metapod-front-rev1-fr.png",
+      "sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13856992,
+        "compressed_length": 534,
+        "compressed_sha256": "2bc97c63a32b5675dd153570c0aba2a1023da8cea0280018796e4c3e170baf91",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "a2db8640f1b931854d2834d41da2908f1938db631d7908d6c139ae4ffe64e7cd",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d256a09933b47d5c7d85a7037e0d3ffbf57bdfdf767581664d5d51ff6143295b",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev1-fr.png",
+      "sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13857560,
+        "compressed_length": 575,
+        "compressed_sha256": "b2c091fbcff100e2518bf8990ae3dcd3272136b6e7bc6b52c9783a86144ab24b",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "bf798209dedf8cd24d50af633e6b2bc77c0ad09789050fc949a36bb7565d7dbf",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "8395dde11cc411d51210e4ba97924d2c74b857e9938ed7de88f7e1a1d6c19d1d",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev1-fr.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+        "source_offset": 13857528,
+        "compressed_length": 31,
+        "compressed_sha256": "df8287d6ea16cd1bb9d0c6b37d470268766a837e0355246e08aae951af527ea1",
+        "decompressed_length": 32,
+        "decompressed_sha256": "cf9ebbd202f5e8ab0d5f79d54295a4851813c71a53956fe5ed8bafeca4f68dbd",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}

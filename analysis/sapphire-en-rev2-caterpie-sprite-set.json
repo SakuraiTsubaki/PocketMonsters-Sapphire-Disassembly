@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "axp-e-rev2-retail",
+    "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 10,
+    "name": "caterpie"
+  },
+  "discovery": {
+    "front_to_back_table_delta": 5280,
+    "back_to_palette_table_delta": 3520,
+    "front": {
+      "entry_offset": 1999692,
+      "table_offset": 1999612,
+      "source_offset": 13854380,
+      "size": 2048,
+      "tag": 10
+    },
+    "back": {
+      "entry_offset": 2004972,
+      "table_offset": 2004892,
+      "source_offset": 13855028,
+      "size": 2048,
+      "tag": 10
+    },
+    "palette": {
+      "entry_offset": 2008492,
+      "table_offset": 2008412,
+      "source_offset": 13854988,
+      "tag": 10
+    }
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/caterpie-front-rev2-en.png",
+      "sha256": "41316760a707eea2af506826154c42a2fa634842b7c1038c7db57b5d9a3cd7f8",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13854380,
+        "compressed_length": 607,
+        "compressed_sha256": "4fdbe51d8b4f5cb21b54a84e4b409e95a113e50f6b908372618d4b40c58d6007",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "fb377f4df70efc138ea656aaf98c65051601f4ce063bfaea24d6215fa135ddde",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "41316760a707eea2af506826154c42a2fa634842b7c1038c7db57b5d9a3cd7f8",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "57bd01be978ab56046b3f54773fb047dcbbf112d6f3dd34ab0de145264980bbb"
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev2-en.png",
+      "sha256": "925ae814b8fed35b283cbab7dd5cdf52e8bbca7482ec1a742a7bc3e3a686ef88",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13855028,
+        "compressed_length": 688,
+        "compressed_sha256": "5a260d0d497f5243f1e5dbb83beacab51071ede0141f833be06b4e4448d16328",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "7ef61de1fb275622340275835599c10cbb2ddc01e3b9596fa543194f1b6e2753",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "925ae814b8fed35b283cbab7dd5cdf52e8bbca7482ec1a742a7bc3e3a686ef88",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "57bd01be978ab56046b3f54773fb047dcbbf112d6f3dd34ab0de145264980bbb"
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev2-en.pal",
+      "sha256": "57bd01be978ab56046b3f54773fb047dcbbf112d6f3dd34ab0de145264980bbb",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+        "source_offset": 13854988,
+        "compressed_length": 40,
+        "compressed_sha256": "8200a232b472fee3f5b21d8ce5f5dee061c7edb6cbe5eeea54d888f0e0feefc0",
+        "decompressed_length": 32,
+        "decompressed_sha256": "013dfa7251a949e9da468951c5ccbe874a253916c9ada716735851e5c2bad258",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "57bd01be978ab56046b3f54773fb047dcbbf112d6f3dd34ab0de145264980bbb",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "paths": [
+      "src/data/pokemon_graphics/front_pic_table.h",
+      "src/data/pokemon_graphics/back_pic_table.h",
+      "src/data/pokemon_graphics/palette_table.h"
+    ]
+  },
+  "raw_rom_bytes_included": false
+}
