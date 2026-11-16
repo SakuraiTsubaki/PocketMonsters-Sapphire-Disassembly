@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Sapphire",
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_Update",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "profile": "rs",
+  "storage_profile": "direct",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_play_time.py",
+    "tool_sha256": "55a2f1885042c0cd07838ff2f41e864cf776c9be5288be7e63ac23ddcb72acfe"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/play_time_counter.s",
+      "sha256": "658818d34b17c4ee1b6047e14c7901fc4302bbe91f7dec59b2c1986b50999530"
+    },
+    {
+      "path": "analysis/play-time-counter-disassembly-summary.json",
+      "sha256": "7d5d005849545bd0eec1df39e88355f3723e2226ca90c3b207dc529db1ba50d6"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "e283dcb8f6d11da989140c104247dfa944a0c3a89a211943580090ecfbfcc908"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "84b1e0fb6948f6e73947d3a6de259fa6a2f1c77d023dc33807f3e33301221b0b"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "2191e79d44ddea80327c5c6836cc44ac571dddfd61de5eb9b5fe4ee19e436d52"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-play-time-counter-disassembly.json",
+      "sha256": "dd18fe26d06807ad2c99f267d3279309912727b105d09bd2e51afa86d988d728"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "f863ba08d99f4eff9c1d74918538c09d4cdd8ead249ba89eef705b0e8fc8caa5"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "0dac051173bc5e94e7c07c196e16a157c437e5e09257b296f1bed4c3716f1c2f"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "d3694d2d3d0e662e9e8678c61aa4495c530503b59522f1f2cd3d6dd11b138694"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "066018dbd033cfab829fa022d448ce513ca0fe6beb434c85bf8594d20cd04022"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "5ba9bd56d94e2ed914f970f4214d669793a2c3736cd47e7986f1276d4a7b40d1"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "0b778d8b1f4d7f3227936db496c9f30fce1ec1dfb20a532db20bf1828cca9137"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "7d6dbf98b0a0c7e4f35d90471e02931235370ab9e2ddd03686b60ee161d579af"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "201b289a6cd7abd93a1f86deacabe21a0ba7568e30a056aeb33503d7dcca1987"
+    },
+    {
+      "path": "research/play-time-counter-disassembly.md",
+      "sha256": "1b9d7344a50f2792b4c4ae7532b213e05f399b7d2c0df778b9266762add514a6"
+    },
+    {
+      "path": "tests/test_play_time_counter_disassembly.py",
+      "sha256": "6c0f4a7a71003be0ae1a934d3f49bc8691be5855201eadf9c7b60a671bff9f87"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "profile": "rs",
+  "storage_profile": "direct",
+  "origin_reference": true,
+  "source": "src/play_time_counter.s",
+  "source_sha256": "658818d34b17c4ee1b6047e14c7901fc4302bbe91f7dec59b2c1986b50999530",
+  "cluster": {
+    "rom_offset": 327324,
+    "address": "0x0804FE9C",
+    "range_end_exclusive": "0x0804FF74"
+  },
+  "functions": [
+    {
+      "name": "PlayTimeCounter_Reset",
+      "address": "0x0804FE9C",
+      "range_end_exclusive": "0x0804FEB2",
+      "rom_code_range": {
+        "start_offset": 327324,
+        "end_offset_exclusive": 327346,
+        "length": 22,
+        "sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "e44a0ece72a9a69ff423028e141af0efb7d82d53044888da1ac471b1b5c53781",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PlayTimeCounter_Start",
+      "address": "0x0804FEBC",
+      "range_end_exclusive": "0x0804FED6",
+      "rom_code_range": {
+        "start_offset": 327356,
+        "end_offset_exclusive": 327382,
+        "length": 26,
+        "sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "source": "0x0804FECE",
+          "target": "0x0804FF50",
+          "name": "PlayTimeCounter_SetToMax"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 13,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 1,
+        "canonical_instruction_bytes_sha256": "202148e4d04e48f8ed95bffbdb66f2e77211e26651ece55fd2ff39db9ecb2ffe",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PlayTimeCounter_Stop",
+      "address": "0x0804FEE4",
+      "range_end_exclusive": "0x0804FEEC",
+      "rom_code_range": {
+        "start_offset": 327396,
+        "end_offset_exclusive": 327404,
+        "length": 8,
+        "sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 4,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "af63598031ab14af781d7cf7af24c648b7677228730b316da86ab311a3171699",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PlayTimeCounter_Update",
+      "address": "0x0804FEF0",
+      "range_end_exclusive": "0x0804FF44",
+      "rom_code_range": {
+        "start_offset": 327408,
+        "end_offset_exclusive": 327492,
+        "length": 84,
+        "sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "source": "0x0804FF3C",
+          "target": "0x0804FF50",
+          "name": "PlayTimeCounter_SetToMax"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 42,
+        "edge_count": 10,
+        "return_count": 1,
+        "call_count": 1,
+        "canonical_instruction_bytes_sha256": "d2123c06ebdd4894ff626eb8002e6f0fcd8dfd1412d4460ea920acdc7e5ca4cf",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "PlayTimeCounter_SetToMax",
+      "address": "0x0804FF50",
+      "range_end_exclusive": "0x0804FF66",
+      "rom_code_range": {
+        "start_offset": 327504,
+        "end_offset_exclusive": 327526,
+        "length": 22,
+        "sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 11,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "1ba2a1d5e4ca75ca422147c1d135dabd416a4defe35836cade303dd2d4248a33",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "sPlayTimeCounterState": "0x030004E4",
+    "gSaveBlock2": "0x02024C04"
+  },
+  "verified_behavior": {
+    "state_values": {
+      "stopped": 0,
+      "running": 1,
+      "maxed_out": 2
+    },
+    "save_field_offsets": {
+      "hours": 14,
+      "minutes": 16,
+      "seconds": 17,
+      "vblanks": 18
+    },
+    "thresholds": {
+      "vblanks": 60,
+      "seconds": 60,
+      "minutes": 60,
+      "maximum_hours": 999
+    }
+  },
+  "naming_basis": {
+    "storage": "direct",
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/play_time.c",
+    "match_kind": "independent cluster layout, CFGs, literals, thresholds and call targets"
+  },
+  "raw_rom_bytes_included": false
+}
