@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Sapphire",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "source": "src/display_serial_interrupts.s",
+  "releases": [
+    {
+      "id": "axp-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000604",
+          "code_sha256": "14a47e61c6a43b1d560b4ffe7b510ad23d3a837313fca45e10f69216c1e930cf"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000634",
+          "code_sha256": "d27eec91de4f741d8f8b10672e9d4e1e98e15946bd211b4dab5f6bcf5e3ba3b7"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000664",
+          "code_sha256": "2ff6df88378cb8e31b64098cfdeb32885210a62ca24f2d0e0dbb730aa41b27eb"
+        }
+      ],
+      "evidence": "analysis/axp-j-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c36c1b899503e8823ee7eb607eea583adcef7ea92ff804838b193c227f2c6657",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "8552d847cac940e516b1856a47aaa376cfb696debb72345570ae9a58cf2bdd9a"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "9819de7d77d312bdd2234d88f79cce4de8329505ab6774d1a4c69ce2bb159fdc"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "58cd994ec27a5926a21a6da1cf870a8c301d929eaebf963e5776f6c537197894"
+        }
+      ],
+      "evidence": "analysis/axp-e-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "6fc81659fe5e80a07d32649e1c2835c8f216be2d29d1382409bd03d84d9443cb"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "ddfb71862f9f4aed56343b75de4bdb1889897060c3c7ed56716e4e33371a5648"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "a5006d3de8858dd29fb645e0e76efb01c5e3767a2519fc4a8fda586f1f4004ec"
+        }
+      ],
+      "evidence": "analysis/axp-e-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-e-rev2-retail",
+      "language": "English",
+      "revision": 2,
+      "build_kind": "retail",
+      "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000600",
+          "code_sha256": "6fc81659fe5e80a07d32649e1c2835c8f216be2d29d1382409bd03d84d9443cb"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000630",
+          "code_sha256": "ddfb71862f9f4aed56343b75de4bdb1889897060c3c7ed56716e4e33371a5648"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000660",
+          "code_sha256": "a5006d3de8858dd29fb645e0e76efb01c5e3767a2519fc4a8fda586f1f4004ec"
+        }
+      ],
+      "evidence": "analysis/axp-e-rev2-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "93273046f4a89990bfb162ce1c3661982e3d9e6b8e677b6b31c44353207ea13d",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "092e71d59d0e1e86d75ea64f8ce9e8ec9985ab508450c2447f0c81113fda7714"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "0cfc5bbce4183b982d031db4ab96fc369108d61a9ce6f03f6bcabe1b13ba24bc"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "966a4e2052fd1cfc79b8a7171713b87ae8307d68e890e23af3c01edab0bef651"
+        }
+      ],
+      "evidence": "analysis/axp-d-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-d-rev1-retail",
+      "language": "German",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "c27271a60fdeadc6eed957e0392e7d878998ae1765487bf7567fa9331e432ead",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "092e71d59d0e1e86d75ea64f8ce9e8ec9985ab508450c2447f0c81113fda7714"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "0cfc5bbce4183b982d031db4ab96fc369108d61a9ce6f03f6bcabe1b13ba24bc"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "966a4e2052fd1cfc79b8a7171713b87ae8307d68e890e23af3c01edab0bef651"
+        }
+      ],
+      "evidence": "analysis/axp-d-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "687dcb560ad4ecec719c9ee94b5a58bde3185d5afbceaf8560b6b907a493f92e",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "331b822cf9c0cf579a81d4e4db161bcd4d09da82ba0b276041dae8bed21fa3a1"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "879c2143d75486fd76cc4c8c48c88aa82095fc3a7770246d322296530aabb667"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "07a707a016d67d7e15614f1e66b8aa979ff4b191d2652e9fbb47176d45442277"
+        }
+      ],
+      "evidence": "analysis/axp-f-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-f-rev1-retail",
+      "language": "French",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "476ef6e6534894d0646265a4db77fff84b10f04fde81f0730dd07b28f086fb04",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "331b822cf9c0cf579a81d4e4db161bcd4d09da82ba0b276041dae8bed21fa3a1"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "879c2143d75486fd76cc4c8c48c88aa82095fc3a7770246d322296530aabb667"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "07a707a016d67d7e15614f1e66b8aa979ff4b191d2652e9fbb47176d45442277"
+        }
+      ],
+      "evidence": "analysis/axp-f-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "74795c4301e02121d2687e0d1b89335534dae1a18af72e022725589f28c97fe0",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "c626d3d2da7fda20ad6f6e8f494f6d3be37273614b423c72ea355b836fb731a8"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "b00493c83a2fc8cf8bc36e135bc85e1561cf8870694946e2ed52a111a53b6ad4"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "1b383682821c870026c7ff4b1f6fda010cd47c8ce15a5fedf414d9eeab3b4d7b"
+        }
+      ],
+      "evidence": "analysis/axp-i-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-i-rev1-retail",
+      "language": "Italian",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "e2f75b0ce7c55d5cbe6ec23eee5f2806101a02a00a13b3c4fdfe7f7d3e8b6898",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "c626d3d2da7fda20ad6f6e8f494f6d3be37273614b423c72ea355b836fb731a8"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "b00493c83a2fc8cf8bc36e135bc85e1561cf8870694946e2ed52a111a53b6ad4"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "1b383682821c870026c7ff4b1f6fda010cd47c8ce15a5fedf414d9eeab3b4d7b"
+        }
+      ],
+      "evidence": "analysis/axp-i-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "1d787f5fe2e6a8c52f08fb789079aa0ead024d019da8c9ff6f866f9ffc2fd114"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "90a1b98cda69f5570836e64a8621fe54927347b506535fe11628725e730ce7da"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "d6d01b261a1bd8ccc1cd36e6e2ccf01a17f8544bf4d56d765294084899df3be4"
+        }
+      ],
+      "evidence": "analysis/axp-s-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "axp-s-rev1-retail",
+      "language": "Spanish",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6b91637f07b902cfe7401eeb237ea44e13354ab5f5b487c9cf24ce3708385f6a",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x08000734",
+          "code_sha256": "1d787f5fe2e6a8c52f08fb789079aa0ead024d019da8c9ff6f866f9ffc2fd114"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000764",
+          "code_sha256": "90a1b98cda69f5570836e64a8621fe54927347b506535fe11628725e730ce7da"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000794",
+          "code_sha256": "d6d01b261a1bd8ccc1cd36e6e2ccf01a17f8544bf4d56d765294084899df3be4"
+        }
+      ],
+      "evidence": "analysis/axp-s-rev1-retail-display-serial-interrupt-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

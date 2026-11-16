@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Sapphire",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_display_interrupts.py",
+    "tool_sha256": "8e570c5ad9c1c43d7d3da7198d1c7ce68e10a42ab7b9221fe78c319072ca00fc"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/display_serial_interrupts.s",
+      "sha256": "e49342c6e7b27cbc378b708875e08f601569c35af8619f4814c3a2c510c79697"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-disassembly-summary.json",
+      "sha256": "3390865ee62ff1fcae7088101e58365ff7d57c1939d033e079d70fe0b8b70b77"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "0fec450e24b4b1cf5f75af5811956790ec7af28448fe16df4198241fe1eecea8"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "e37ab6e8487ea3a683a08f6b8ad887c56582a93d1d6c41c771e23852b7b4d157"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "e5d105888bfa5324c2875d6129ddad29d50091d64e3b98abe8d852330c96878e"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "e3473792dea5fbc0f6bf2e14b83c04215eb66c63c604594357840e384efebffa"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "f89b63bcdab70d8538427ea2a7b51d2e200c00268cef0eb9f0fa79dc2d5f7570"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "d1a903a1b2aa8bab306d5f2dc9110ab882f02b47a276d2d3b9fe6e148cadbc41"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "14f341a3c74d06c947f7463c0fa30415a32a29f539f94c9e04f68bd96ffdde91"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "371da5d93ef1b111d5cec085bdba3d39dc1466496ba96738f1c111704883aa11"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "cc27be37653954c9d67c36024f8d8c21bc6b8b91903be5e5228d6c7e63e1748a"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "064c8f9fc352b24ccd71989cfdfd012d8cbf9d204b943a80e8a269f8baf4ea00"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "47073763c3004f8efea0782feeffc535840a735063ee2612b4a54b40b78ae1b6"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "486b2a8a4d64448de3766fcaa0719225ebeaae304959a7e0ae72a98b7dd31642"
+    },
+    {
+      "path": "research/display-serial-interrupt-disassembly.md",
+      "sha256": "7a7e6af528ed657c12a16ad3c44cda317f9b09cc94898d6e7764b7a3c2ae4aae"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts_disassembly.py",
+      "sha256": "1b01d53d321ffdd5fdf517815e9872bf32cb0cac336d22af723a2f17072f1574"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
