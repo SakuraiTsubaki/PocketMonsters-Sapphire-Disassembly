@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-e-rev2-retail",
+    "sha256": "02ca41513580a8b780989dee428df747b52a0b1a55bec617886b4059eb1152fb"
+  },
+  "origin_reference": false,
+  "family_profile": "rs",
+  "save_options_access": "direct",
+  "source": "src/key_input.s",
+  "source_sha256": "206abeb4b679256df72f6a32643236a2d4a7704bc303e36a3a2a29a3a9c75e80",
+  "functions": [
+    {
+      "name": "InitKeys",
+      "address": "0x08000400",
+      "range_end_exclusive": "0x0800041C",
+      "rom_code_range": {
+        "start_offset": 1024,
+        "end_offset_exclusive": 1052,
+        "length": 28,
+        "sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 14,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "ReadKeys",
+      "address": "0x08000428",
+      "range_end_exclusive": "0x080004BC",
+      "rom_code_range": {
+        "start_offset": 1064,
+        "end_offset_exclusive": 1212,
+        "length": 148,
+        "sha256": "5dd52118085530937dea436300feb52609225970011512794060035a5031bfe3",
+        "raw_bytes_published": false
+      },
+      "control_flow": {
+        "instruction_halfwords": 65,
+        "edge_count": 15,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "af5dfbf14c4cce4592ae1ad84651ab93ad25a7dc9a8c551c53ab212c130991bd",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "REG_KEYINPUT": "0x04000130",
+    "KEYS_MASK": "0x000003FF",
+    "gMain": "0x03001770",
+    "gKeyRepeatContinueDelay": "0x03001BB0",
+    "gKeyRepeatStartDelay": "0x03001760",
+    "gSaveBlock2": "0x02024EA4"
+  },
+  "verified_layout": {
+    "init_to_read_delta": 40,
+    "state_offsets": {
+      "heldKeysRaw": 40,
+      "newKeysRaw": 42,
+      "heldKeys": 44,
+      "newKeys": 46,
+      "newAndRepeatedKeys": 48,
+      "keyRepeatCounter": 50,
+      "watchedKeysPressed": 52,
+      "watchedKeysMask": 54,
+      "optionsButtonMode": 19
+    },
+    "constants": {
+      "repeat_continue_delay": 5,
+      "repeat_start_delay": 40,
+      "keys_mask": 1023,
+      "l_button": 512,
+      "a_button": 1
+    }
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb structure and literals"
+  },
+  "raw_rom_bytes_included": false
+}

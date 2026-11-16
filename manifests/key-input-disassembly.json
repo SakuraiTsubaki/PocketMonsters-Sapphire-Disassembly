@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon Sapphire",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_key_input.py",
+    "tool_sha256": "fda087b4e19eae4cef148639bffa19ae26d650316346bf8e67bc6b5e32b838bd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/key_input.s",
+      "sha256": "206abeb4b679256df72f6a32643236a2d4a7704bc303e36a3a2a29a3a9c75e80"
+    },
+    {
+      "path": "analysis/key-input-disassembly-summary.json",
+      "sha256": "582c7bf313d9d016308cfa167692156be8843ace1d08179be7f2c4eaf83c0744"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-key-input-disassembly.json",
+      "sha256": "a960c3cfc7cbbd9461b06ef166e4dd8a90510b0966cbe6e6eb613168e9ca16ba"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-key-input-disassembly.json",
+      "sha256": "a1ba5ce108e9a81726af1a80486430315c53af265d121f0a79c01252b2c16bfa"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-key-input-disassembly.json",
+      "sha256": "459281480ce188e87e9492ff48f5b3b3c502f58f1903215eaea592e7406fd4ae"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-key-input-disassembly.json",
+      "sha256": "f7d5fb1fc7edad218a0be577443e1d76646857b39cb13453734d2f6eb328eb21"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-key-input-disassembly.json",
+      "sha256": "2d89e0e77e052c504ddd96ae85f1e8b3be9cf044c7f61ce83a88350d13527eb3"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-key-input-disassembly.json",
+      "sha256": "c40774cf5e66b5250103eaa669fcb7525b7c65c57bd024e814c0c800d6bd95fb"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-key-input-disassembly.json",
+      "sha256": "fff7a319305ba8366a20587cc215af873c3b70b3cc3c50e8b41f63dd75567b74"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-key-input-disassembly.json",
+      "sha256": "9d1166863cbb609f41a051b22532e4d54d183d7c50c62da787e897a53ab45725"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-key-input-disassembly.json",
+      "sha256": "32c77e27e25cfa376630e807ef8f771b9e8034f5dba6de0226c5d2db21a134ae"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-key-input-disassembly.json",
+      "sha256": "e3804d80fdee627f8ff3d68b922c410c83f1768694ed74718baf61a6449826c8"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-key-input-disassembly.json",
+      "sha256": "44a104ef8ba56dfeace6bcf3c8a8b9702d2202bb5c0b6297cbdfcc7737f788d8"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-key-input-disassembly.json",
+      "sha256": "0eb09f7b7e4b7be2420ec5f078f960e6162a95c0d9ea068903028fcde04e5014"
+    },
+    {
+      "path": "research/key-input-disassembly.md",
+      "sha256": "c2e22eecf4e1411f62011493039d178719af2229fa229f834f1725d5a823438f"
+    },
+    {
+      "path": "tests/test_key_input_disassembly.py",
+      "sha256": "91ab3fcacd1ae7739997605a35f9f325b837b050a851a1440f777a8d5ad14195"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
