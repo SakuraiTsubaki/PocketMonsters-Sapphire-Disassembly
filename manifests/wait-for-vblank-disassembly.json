@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_wait_for_vblank.py",
+    "tool_sha256": "30ae62915ac8fdabfc126b45b1481246635cef334a9f1ba2af315487d1b05964"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/wait_for_vblank.s",
+      "sha256": "d2a0e4f32a9dbd398230f1690a29d64a4a3b6bbc151e79af426af3c9d0f7ee6b"
+    },
+    {
+      "path": "analysis/wait-for-vblank-disassembly-summary.json",
+      "sha256": "9e5beeff8ea4178f8d3fc645b89ce6742c2e7c0b898fe228641a26ba522e6ee0"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "b17e864eb35051789abfe311950f6811a6c4ca19f008b524cac793822a56d873"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "a26c3ed54d5141efba6fc13a8bdd19464ade163ea68fec5a5776438865c9f901"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "2638abba3077b00ee1f57d836c2d0dd8e00c0a410939f62a09384c01bd8be690"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-wait-for-vblank-disassembly.json",
+      "sha256": "6190949c17939a71a29dbaba709818ed42a9480bba80fc06ab40c0e67fcd4bdb"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "99e2504aee82d3894e5b8ddd8f634fbc06c592f6a09ccf942525aef219318e21"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "325a89a4f478307aa040491c4468fe762a6beb3677077ae3622fdd935601cd09"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "017292d6d18bd5f2a770e3628193733e2fbb032ecad7caa3d03e02dc00acf049"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "0c7eaa39649a79f7cbf43970dd7379226a96340bda0acf39a46ae6a4ac8f5ea8"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "eafe44fb1446c2e10f563b528db45b3b3c430f5760596e6c136ddd87ddec1a8f"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "aefc6b7e6417b998be20e7cc938e291e6c543feb1ca38c64a6376659ace408ce"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "e111a2b457dbbc5ea8b297d1b186059499b33bf0002834a4f9d3968a268a05bb"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "9f33c6c4a4aad4b57086fcb50a4f06a5eb206fc8f0267b4d4b0fbd7e841eb5b1"
+    },
+    {
+      "path": "research/wait-for-vblank-disassembly.md",
+      "sha256": "2f915d1ee93fe2dbcde28dbc429a2736383bc40b815196893757ff6ba30dfcef"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_disassembly.py",
+      "sha256": "f8a265d2c4a1190a2d4694cca533cbab3355a35279fcc4b63fec6d47e34c277a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

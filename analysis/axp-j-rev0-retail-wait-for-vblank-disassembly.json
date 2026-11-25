@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "profile": "rs",
+  "origin_reference": true,
+  "source": "src/wait_for_vblank.s",
+  "source_sha256": "d2a0e4f32a9dbd398230f1690a29d64a4a3b6bbc151e79af426af3c9d0f7ee6b",
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x08000698",
+    "range_end_exclusive": "0x080006AE",
+    "rom_code_range": {
+      "start_offset": 1688,
+      "end_offset_exclusive": 1710,
+      "length": 22,
+      "sha256": "076c65a08d6e9fa750583ef083463513054660ce8142cb32c461e4009aa6d1f9",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 11,
+      "edge_count": 0,
+      "return_count": 1,
+      "call_count": 1,
+      "canonical_instruction_bytes_sha256": "076c65a08d6e9fa750583ef083463513054660ce8142cb32c461e4009aa6d1f9",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "literal_addresses": {
+    "gMain": "0x030016E0",
+    "gMain_pointer": "0x080006B0",
+    "clear_mask": "0x080006B4"
+  },
+  "state": {
+    "intrCheck_offset": 28,
+    "cleared_mask": 1
+  },
+  "wait": {
+    "mode": "bios-call",
+    "call": {
+      "name": "VBlankIntrWait",
+      "target": "0x081B125C"
+    }
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb data access, CFG, literals and wait behavior"
+  },
+  "raw_rom_bytes_included": false
+}
