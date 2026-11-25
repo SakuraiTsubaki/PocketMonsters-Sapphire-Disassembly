@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "profile": "rs",
+  "origin_reference": true,
+  "source": "src/interrupt_init.s",
+  "source_sha256": "e156b71b6c859fa888588884af00a18cbfbf30e86f3ba8b22c0c1c65c74eda52",
+  "functions": [
+    {
+      "name": "InitIntrHandlers",
+      "address": "0x080004C8",
+      "range_end_exclusive": "0x0800051C",
+      "rom_code_range": {
+        "start_offset": 1224,
+        "end_offset_exclusive": 1308,
+        "length": 84,
+        "sha256": "9bf2e0598d830c0547c6a0362282bd14dbd7f529444f1277f83bff4019a5f3d1",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "SetVBlankCallback",
+          "source": "0x080004F0",
+          "target": "0x08000544"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "source": "0x080004F6",
+          "target": "0x08000550"
+        },
+        {
+          "name": "SetSerialCallback",
+          "source": "0x080004FC",
+          "target": "0x08000568"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 42,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 3,
+        "canonical_instruction_bytes_sha256": "9bf2e0598d830c0547c6a0362282bd14dbd7f529444f1277f83bff4019a5f3d1",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetVBlankCallback",
+      "address": "0x08000544",
+      "range_end_exclusive": "0x0800054A",
+      "rom_code_range": {
+        "start_offset": 1348,
+        "end_offset_exclusive": 1354,
+        "length": 6,
+        "sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 3,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetHBlankCallback",
+      "address": "0x08000550",
+      "range_end_exclusive": "0x08000556",
+      "rom_code_range": {
+        "start_offset": 1360,
+        "end_offset_exclusive": 1366,
+        "length": 6,
+        "sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 3,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetVCountCallback",
+      "address": "0x0800055C",
+      "range_end_exclusive": "0x08000562",
+      "rom_code_range": {
+        "start_offset": 1372,
+        "end_offset_exclusive": 1378,
+        "length": 6,
+        "sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 3,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SetSerialCallback",
+      "address": "0x08000568",
+      "range_end_exclusive": "0x0800056E",
+      "rom_code_range": {
+        "start_offset": 1384,
+        "end_offset_exclusive": 1390,
+        "length": 6,
+        "sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff",
+        "raw_bytes_published": false
+      },
+      "calls": [],
+      "control_flow": {
+        "instruction_halfwords": 3,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 0,
+        "canonical_instruction_bytes_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "dma": {
+    "channel": 3,
+    "byte_count": 2048,
+    "control": "0x84000200"
+  },
+  "literal_addresses": {
+    "IntrMain": "0x0800010C",
+    "IntrMain_Buffer": "0x03001B70",
+    "gIntrTableTemplate": "0x081B325C",
+    "gIntrTable": "0x03001B30",
+    "DMA3": "0x040000D4",
+    "INTR_VECTOR": "0x03007FFC",
+    "REG_IME": "0x04000208",
+    "REG_IE": "0x04000200",
+    "REG_DISPSTAT": "0x04000004",
+    "gMain": "0x030016E0"
+  },
+  "verified_layout": {
+    "interrupt_table_entries": 14,
+    "callback_offsets": {
+      "vblank": 12,
+      "hblank": 16,
+      "vcount": 20,
+      "serial": 24
+    },
+    "vblank_enable": "direct IE and DISPSTAT writes",
+    "serial_timer3_restore": false
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb CFG, table loop, DMA constants, literals, calls and callback stores"
+  },
+  "raw_rom_bytes_included": false
+}
