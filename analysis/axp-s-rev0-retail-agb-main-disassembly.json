@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-s-rev0-retail",
+    "sha256": "23f26d9858944b86bab00019f3aee3b50ba8c5d100dba650177025078208aea9"
+  },
+  "origin_reference": false,
+  "profile_variant": "global-no-link-postprocess",
+  "source": "src/agb_main.s",
+  "source_sha256": "ef671f1ad41ebc7dbdfaa6dd39fe4285770c3767204e95987ec7677640c0dd39",
+  "function": {
+    "name": "AgbMain",
+    "address": "0x08000380",
+    "range_end_exclusive": "0x0800046E",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 896,
+      "end_offset_exclusive": 1134,
+      "length": 238,
+      "sha256": "88e9b7ecdc0f3078b0172380f1a131cabd7e2ee6c83a03f98f8c3904ef3b48fe",
+      "raw_bytes_published": false
+    },
+    "loop_back_edge": {
+      "source": "0x0800046C",
+      "target": "0x080003D8"
+    }
+  },
+  "entry_chain": {
+    "arm_entry_target": "0x08000204",
+    "thumb_transition_target": "0x08000380"
+  },
+  "control_flow": {
+    "instruction_halfwords": 102,
+    "edge_count": 18,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 8,
+      "conditional-taken": 8
+    },
+    "direct_call_count": 20,
+    "unique_call_target_count": 18,
+    "return_observed": false,
+    "target_equivalence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      13,
+      14,
+      13,
+      15,
+      16,
+      17
+    ],
+    "raw_halfwords_omitted": true
+  },
+  "direct_calls": [
+    {
+      "name": "RegisterRamReset",
+      "source": "0x08000388",
+      "target": "0x081E54A4"
+    },
+    {
+      "name": "InitKeys",
+      "source": "0x08000394",
+      "target": "0x08000534"
+    },
+    {
+      "name": "InitIntrHandlers",
+      "source": "0x08000398",
+      "target": "0x080005F8"
+    },
+    {
+      "name": "m4aSoundInit",
+      "source": "0x0800039C",
+      "target": "0x081E2AD8"
+    },
+    {
+      "name": "RtcInit",
+      "source": "0x080003A0",
+      "target": "0x08009414"
+    },
+    {
+      "name": "CheckForFlashMemory",
+      "source": "0x080003A4",
+      "target": "0x08047DEC"
+    },
+    {
+      "name": "InitMainCallbacks",
+      "source": "0x080003A8",
+      "target": "0x080004BC"
+    },
+    {
+      "name": "InitMapMusic",
+      "source": "0x080003AC",
+      "target": "0x0807506C"
+    },
+    {
+      "name": "SeedRngWithRtc",
+      "source": "0x080003B0",
+      "target": "0x08000518"
+    },
+    {
+      "name": "SetMainCallback2",
+      "source": "0x080003C4",
+      "target": "0x08000500"
+    },
+    {
+      "name": "ReadKeys",
+      "source": "0x080003D8",
+      "target": "0x0800055C"
+    },
+    {
+      "name": "DoSoftReset",
+      "source": "0x080003F6",
+      "target": "0x080007E8"
+    },
+    {
+      "name": "LinkSendQueueReady",
+      "source": "0x08000400",
+      "target": "0x08055D50"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800040C",
+      "target": "0x08000474"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800043E",
+      "target": "0x08000474"
+    },
+    {
+      "name": "LinkRecvQueueReady",
+      "source": "0x0800044A",
+      "target": "0x08055CEC"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800045A",
+      "target": "0x08000474"
+    },
+    {
+      "name": "PlayTimeCounter_Update",
+      "source": "0x08000460",
+      "target": "0x080530B8"
+    },
+    {
+      "name": "MapMusicMain",
+      "source": "0x08000464",
+      "target": "0x08075080"
+    },
+    {
+      "name": "WaitForVBlank",
+      "source": "0x08000468",
+      "target": "0x080007C8"
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

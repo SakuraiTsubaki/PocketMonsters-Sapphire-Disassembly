@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-j-rev0-retail",
+    "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9"
+  },
+  "origin_reference": true,
+  "profile_variant": "jp-link-postprocess",
+  "source": "src/agb_main.s",
+  "source_sha256": "ef671f1ad41ebc7dbdfaa6dd39fe4285770c3767204e95987ec7677640c0dd39",
+  "function": {
+    "name": "AgbMain",
+    "address": "0x0800024C",
+    "range_end_exclusive": "0x08000344",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 588,
+      "end_offset_exclusive": 836,
+      "length": 248,
+      "sha256": "b9b76b988c659ff4497c4415f1b92316d143ea40a511ea505a725ccac6cba010",
+      "raw_bytes_published": false
+    },
+    "loop_back_edge": {
+      "source": "0x08000342",
+      "target": "0x080002A8"
+    }
+  },
+  "entry_chain": {
+    "arm_entry_target": "0x080000D0",
+    "thumb_transition_target": "0x0800024C"
+  },
+  "control_flow": {
+    "instruction_halfwords": 107,
+    "edge_count": 18,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 8,
+      "conditional-taken": 8
+    },
+    "direct_call_count": 21,
+    "unique_call_target_count": 19,
+    "return_observed": false,
+    "target_equivalence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      13,
+      14,
+      15,
+      13,
+      16,
+      17,
+      18
+    ],
+    "raw_halfwords_omitted": true
+  },
+  "direct_calls": [
+    {
+      "name": "RegisterRamReset",
+      "source": "0x08000256",
+      "target": "0x081B123C"
+    },
+    {
+      "name": "InitKeys",
+      "source": "0x08000262",
+      "target": "0x08000404"
+    },
+    {
+      "name": "InitIntrHandlers",
+      "source": "0x08000266",
+      "target": "0x080004C8"
+    },
+    {
+      "name": "m4aSoundInit",
+      "source": "0x0800026A",
+      "target": "0x081AE860"
+    },
+    {
+      "name": "RtcInit",
+      "source": "0x0800026E",
+      "target": "0x08006854"
+    },
+    {
+      "name": "CheckForFlashMemory",
+      "source": "0x08000272",
+      "target": "0x08044C9C"
+    },
+    {
+      "name": "InitMainCallbacks",
+      "source": "0x08000276",
+      "target": "0x08000390"
+    },
+    {
+      "name": "InitMapMusic",
+      "source": "0x0800027A",
+      "target": "0x08071BE8"
+    },
+    {
+      "name": "SeedRngWithRtc",
+      "source": "0x0800027E",
+      "target": "0x080003E8"
+    },
+    {
+      "name": "SetMainCallback2",
+      "source": "0x08000292",
+      "target": "0x080003D4"
+    },
+    {
+      "name": "ReadKeys",
+      "source": "0x080002A8",
+      "target": "0x0800042C"
+    },
+    {
+      "name": "DoSoftReset",
+      "source": "0x080002C6",
+      "target": "0x080006B8"
+    },
+    {
+      "name": "LinkSendQueueReady",
+      "source": "0x080002D0",
+      "target": "0x08052B64"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x080002DC",
+      "target": "0x08000348"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800030E",
+      "target": "0x08000348"
+    },
+    {
+      "name": "LinkRecvQueueReady",
+      "source": "0x0800031A",
+      "target": "0x08052B00"
+    },
+    {
+      "name": "LinkRecvPostprocess",
+      "source": "0x08000328",
+      "target": "0x08000F90"
+    },
+    {
+      "name": "UpdateLinkAndCallCallbacks",
+      "source": "0x0800032E",
+      "target": "0x08000348"
+    },
+    {
+      "name": "PlayTimeCounter_Update",
+      "source": "0x08000336",
+      "target": "0x0804FEF0"
+    },
+    {
+      "name": "MapMusicMain",
+      "source": "0x0800033A",
+      "target": "0x08071BFC"
+    },
+    {
+      "name": "WaitForVBlank",
+      "source": "0x0800033E",
+      "target": "0x08000698"
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

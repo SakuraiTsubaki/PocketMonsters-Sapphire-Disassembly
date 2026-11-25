@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "source": "src/agb_main.s",
+  "variants": [
+    {
+      "signature": {
+        "call_count": 21,
+        "range_length": 248,
+        "call_source_offsets": [
+          10,
+          22,
+          26,
+          30,
+          34,
+          38,
+          42,
+          46,
+          50,
+          70,
+          92,
+          122,
+          132,
+          144,
+          194,
+          206,
+          220,
+          226,
+          234,
+          238,
+          242
+        ],
+        "target_equivalence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          13,
+          14,
+          15,
+          13,
+          16,
+          17,
+          18
+        ],
+        "edge_kinds": {
+          "branch": 2,
+          "conditional-fallthrough": 8,
+          "conditional-taken": 8
+        }
+      },
+      "release_ids": [
+        "axp-j-rev0-retail"
+      ],
+      "id": "jp-link-postprocess",
+      "call_names": [
+        "RegisterRamReset",
+        "InitKeys",
+        "InitIntrHandlers",
+        "m4aSoundInit",
+        "RtcInit",
+        "CheckForFlashMemory",
+        "InitMainCallbacks",
+        "InitMapMusic",
+        "SeedRngWithRtc",
+        "SetMainCallback2",
+        "ReadKeys",
+        "DoSoftReset",
+        "LinkSendQueueReady",
+        "UpdateLinkAndCallCallbacks",
+        "UpdateLinkAndCallCallbacks",
+        "LinkRecvQueueReady",
+        "LinkRecvPostprocess",
+        "UpdateLinkAndCallCallbacks",
+        "PlayTimeCounter_Update",
+        "MapMusicMain",
+        "WaitForVBlank"
+      ]
+    },
+    {
+      "signature": {
+        "call_count": 20,
+        "range_length": 238,
+        "call_source_offsets": [
+          8,
+          20,
+          24,
+          28,
+          32,
+          36,
+          40,
+          44,
+          48,
+          68,
+          88,
+          118,
+          128,
+          140,
+          190,
+          202,
+          218,
+          224,
+          228,
+          232
+        ],
+        "target_equivalence": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          13,
+          14,
+          13,
+          15,
+          16,
+          17
+        ],
+        "edge_kinds": {
+          "branch": 2,
+          "conditional-fallthrough": 8,
+          "conditional-taken": 8
+        }
+      },
+      "release_ids": [
+        "axp-e-rev0-retail",
+        "axp-e-rev1-retail",
+        "axp-e-rev2-retail",
+        "axp-d-rev0-retail",
+        "axp-d-rev1-retail",
+        "axp-f-rev0-retail",
+        "axp-f-rev1-retail",
+        "axp-i-rev0-retail",
+        "axp-i-rev1-retail",
+        "axp-s-rev0-retail",
+        "axp-s-rev1-retail"
+      ],
+      "id": "global-no-link-postprocess",
+      "call_names": [
+        "RegisterRamReset",
+        "InitKeys",
+        "InitIntrHandlers",
+        "m4aSoundInit",
+        "RtcInit",
+        "CheckForFlashMemory",
+        "InitMainCallbacks",
+        "InitMapMusic",
+        "SeedRngWithRtc",
+        "SetMainCallback2",
+        "ReadKeys",
+        "DoSoftReset",
+        "LinkSendQueueReady",
+        "UpdateLinkAndCallCallbacks",
+        "UpdateLinkAndCallCallbacks",
+        "LinkRecvQueueReady",
+        "UpdateLinkAndCallCallbacks",
+        "PlayTimeCounter_Update",
+        "MapMusicMain",
+        "WaitForVBlank"
+      ]
+    }
+  ],
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "call order, branches, literals and state accesses",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}
+
+
