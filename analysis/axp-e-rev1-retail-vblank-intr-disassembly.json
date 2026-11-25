@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "axp-e-rev1-retail",
+    "sha256": "2f680a43e5c57aede4cb3b2cb04f7e15079efc122c88edaacfd6026db6e920ac"
+  },
+  "profile": "rs",
+  "origin_reference": false,
+  "source": "src/vblank_intr.s",
+  "source_sha256": "e648a2ab809c4a8a8f6eb408665475f1b711ac6f1e58ec0fc4a024010cf4572a",
+  "function": {
+    "name": "VBlankIntr",
+    "address": "0x08000570",
+    "range_end_exclusive": "0x080005D2",
+    "rom_code_range": {
+      "start_offset": 1392,
+      "end_offset_exclusive": 1490,
+      "length": 98,
+      "sha256": "008289be4647a5838302b1fca109ab367bdae2e70972e60fc2baf53c6096849e",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 49,
+      "edge_count": 4,
+      "return_count": 1,
+      "call_count": 6,
+      "canonical_instruction_bytes_sha256": "008289be4647a5838302b1fca109ab367bdae2e70972e60fc2baf53c6096849e",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "calls": [
+    {
+      "name": "LinkVSync",
+      "source": "0x0800057A",
+      "target": "0x08008BEC"
+    },
+    {
+      "name": "m4aSoundVSync",
+      "source": "0x08000586",
+      "target": "0x081DD780"
+    },
+    {
+      "name": "CallVBlankCallback",
+      "source": "0x0800059A",
+      "target": "0x081E07D4"
+    },
+    {
+      "name": "m4aSoundMain",
+      "source": "0x080005AC",
+      "target": "0x081DDE94"
+    },
+    {
+      "name": "sub_800C35C",
+      "source": "0x080005B0",
+      "target": "0x0800C35C"
+    },
+    {
+      "name": "Random",
+      "source": "0x080005B4",
+      "target": "0x08040EA4"
+    }
+  ],
+  "literal_addresses": {
+    "gLinkVSyncDisabled": "0x03001BF8",
+    "REG_IME": "0x04000208",
+    "gMain": "0x03001770",
+    "gPcmDmaCounter": "0x03002400",
+    "gSoundInfo": "0x03005FD0",
+    "INTR_CHECK": "0x03007FF8"
+  },
+  "behavior": {
+    "ime_guarded_sound_vsync": true
+  },
+  "interrupt_flag": "0x0001",
+  "evidence_dependency": {
+    "path": "analysis/axp-e-rev1-retail-interrupt-init-disassembly.json",
+    "sha256": "3862722eefa4d22c91530dbdb549c3878bfa0033ac6cf0fa2c829652131c2545"
+  },
+  "naming_basis": {
+    "repository": "pret/pokeruby",
+    "commit": "5784633ce4ef7ade1a7f2d2d0c288e3d5e6cdd7f",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb CFG, call order, literals and state offsets"
+  },
+  "raw_rom_bytes_included": false
+}

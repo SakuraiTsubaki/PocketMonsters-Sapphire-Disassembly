@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Sapphire",
+  "profile": "rs",
+  "origin_reference": "axp-j-rev0-retail",
+  "release_count": 12,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_vblank_intr.py",
+    "tool_sha256": "b53f1da576895069c055491a85c0179ceaebff921319b84d71782c1cd1365c2d"
+  },
+  "outputs": [
+    {
+      "path": "analysis/sapphire-global-release-catalog.json",
+      "sha256": "147447b6d6cf6094edb9b94d7ca8e9ba8c874f1db7fbea43897684ce712ec67a"
+    },
+    {
+      "path": "src/vblank_intr.s",
+      "sha256": "e648a2ab809c4a8a8f6eb408665475f1b711ac6f1e58ec0fc4a024010cf4572a"
+    },
+    {
+      "path": "analysis/vblank-intr-disassembly-summary.json",
+      "sha256": "86b67e1ce04aa8edab6cba5833fea336fd4fa199619dacbe20541eeeb0788cbc"
+    },
+    {
+      "path": "analysis/axp-j-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "5b64afed31f0edc9be9cf4f2ec3c3c86382bc084a94a2fada38b0d46149b739d"
+    },
+    {
+      "path": "analysis/axp-e-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "ff80ebc5f1209c4633771109ab3d2186b5365028c837296fe7b0a6fa4d8b4baf"
+    },
+    {
+      "path": "analysis/axp-e-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "bc94427d48d7a0584ea40a72802370b0c3cbc822caad89b05cb7785fc4566b05"
+    },
+    {
+      "path": "analysis/axp-e-rev2-retail-vblank-intr-disassembly.json",
+      "sha256": "6b760f0fbbe95522299895c289beacfde7e23d047eb2306dd95210e1d1180fa1"
+    },
+    {
+      "path": "analysis/axp-d-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "f40c76f208c9cb49d744d12ede636bd49ea138880ab6303d2b040c16280a74a8"
+    },
+    {
+      "path": "analysis/axp-d-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "621964cbb9c7d66f416c64df1a92ef493dd7e55636d839346558da56635192d9"
+    },
+    {
+      "path": "analysis/axp-f-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "5c7360ea088bf1ca532071290180a74c11534c3f4e7f044607b94b62dd9d7b41"
+    },
+    {
+      "path": "analysis/axp-f-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "8ac4664a30ee7e5f00090b60fa5e4973782df2127d34175dd966c952c05cc516"
+    },
+    {
+      "path": "analysis/axp-i-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "ed17aa7bc26275609d771410a00aa31e6846c24360392ef1a4597fe80c355a47"
+    },
+    {
+      "path": "analysis/axp-i-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "367b05a37ba4ec68075e4b204e0fdfe035087bfdcb26fb4964cab9ddd961681e"
+    },
+    {
+      "path": "analysis/axp-s-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "5c53653c19c8739212323244687c6db8bc7405d207abfaaca8a1169057fd27c5"
+    },
+    {
+      "path": "analysis/axp-s-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "f42b5dd11ff259877954e5d1ff872aa4b921a6e9c910e73ac338244fb1c81123"
+    },
+    {
+      "path": "research/vblank-intr-disassembly.md",
+      "sha256": "112cffc5f68e8c07ba1a7380b994090f10901f014fcaeda372f043b8f60f3dcf"
+    },
+    {
+      "path": "tests/test_vblank_intr_disassembly.py",
+      "sha256": "a1979e75e05dec86afda6ab4f41ac0b45dac230d9994b2347165fff207d95ab9"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
